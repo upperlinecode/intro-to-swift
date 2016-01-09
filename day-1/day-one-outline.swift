@@ -9,12 +9,13 @@ Students will complete an iPhone application
 SWBATs
 download Xcode
 understand the purpose of Xcode and the idea of a compiler
-understand the difference between Int, Double, String, and Boolean data types 
+understand the difference between Integer, Double, String, and Boolean data types 
 understand the difference between using a constant and a variable
 demonstrate type annotation, understand it is unneccesary because of type inference
 follow convention for naming variables
 print data to the Xcode console
 understand what a code comment is and how to write them
+execute mathmatical operations in swift: +, -, *, /, %
 
 
 
