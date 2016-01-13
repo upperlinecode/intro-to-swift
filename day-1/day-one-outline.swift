@@ -1,4 +1,10 @@
 /** 
+Itinerary:
+  i) xcode setup
+  ii) constants and variables walkthrough 
+  iii) arrays pair programming lab
+  iv) fun facts lab?
+
 General Goal: 
 Students will create their first swift program
 Students will learn about swift data types, constants and variables, and operations
@@ -15,15 +21,13 @@ demonstrate type annotation, understand it is unneccesary because of type infere
 follow convention for naming variables
 print data to the Xcode console
 understand what a code comment is and how to write them
-execute mathmatical operations in swift: +, -, *, /, %
-
-
-
+execute mathmatical operations in swift: +, -, *, /, %, also boolean operators
 
 
 
 LabIdeas
--Playlist App: hard-code a top ten list of songs and format it so that it looks cool. Use a different variable for each song.
+- Game Summary: Write a program that displays information about a players game summary (total playing time, high scores)
+- Playlist App: hard-code a top ten list of songs and format it so that it looks cool. Use a different variable for each song.
         -second level iteration: use array for songs, dictionary for songs and artists
         -third level iteration: include logic in the code for... something
 
