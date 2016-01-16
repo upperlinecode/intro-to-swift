@@ -50,7 +50,7 @@ var gameOver: Bool = false
  
 */
 
-let message = "Congratulations! You destroyed all of the pigs! Time to move to the next level"
+var message = "Congratulations! You destroyed all of the pigs! Time to move to the next level"
 
 /**
 
@@ -58,7 +58,7 @@ let message = "Congratulations! You destroyed all of the pigs! Time to move to t
  
 */
 
-let message = "Congratulations \(username)! You destroyed all of the pigs! Time to move to the next level"
+message = "Congratulations \(username)! You destroyed all of the pigs! Time to move to the next level"
 
 /**
 
@@ -67,7 +67,7 @@ let message = "Congratulations \(username)! You destroyed all of the pigs! Time 
 */
 
 let numberOfPigs = 8
-let message = "Congratulations \(username)! You destroyed all \(numberOfPigs) pigs and completed level \(level) with a final score of \(score)!"
+message = "Congratulations \(username)! You destroyed all \(numberOfPigs) pigs and completed level \(level) with a final score of \(score)!"
 
 /**
 
