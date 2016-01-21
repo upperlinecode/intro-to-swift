@@ -45,14 +45,14 @@ var gameOver: Bool = false
  
 
 
-let message = "Congratulations! You destroyed all of the pigs! Time to move to the next level"
+var message = "Congratulations! You destroyed all of the pigs! Time to move to the next level"
 
 
  - This works fine, but wouldn't it be so much better if we could include the username in there to make it a little more personal? We can do this using something called string interpolation. You can insert a constant or variable into a string by placing it inside parenthesis preceded by a '\'
  
 
 
-let message = "Congratulations \(username)! You destroyed all of the pigs! Time to move to the next level"
+message = "Congratulations \(username)! You destroyed all of the pigs! Time to move to the next level"
 
 
  - You can do this with as many variables as you would like. Have the students interpolate some more values into this message. Encourage them to make some more variables that might be needed into the game. 
@@ -60,7 +60,7 @@ let message = "Congratulations \(username)! You destroyed all of the pigs! Time 
 
 
 let numberOfPigs = 8
-let message = "Congratulations \(username)! You destroyed all \(numberOfPigs) pigs and completed level \(level) with a final score of \(score)!"
+message = "Congratulations \(username)! You destroyed all \(numberOfPigs) pigs and completed level \(level) with a final score of \(score)!"
 
 
  - Swift also allows us to execute mathematical operations on these variables. For instance, to add the score for one round to the total score you could execute the following code:
