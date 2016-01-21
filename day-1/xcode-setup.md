@@ -1,4 +1,4 @@
-       Walkthrough With Instructor
+Walkthrough With Instructor
 
 
 - The Swift language is one of many ways a human can give a computer a set of instructions. But a computer cannot 
