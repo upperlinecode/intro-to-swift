@@ -1,8 +1,8 @@
-| Time        					| Are             |
+| Time        					| Activity      |
 | ------------- 				|:-------------:|
-| col 3 is      				| PPT with big goals, objectives, agenda |
-| col 2 is      				| Improv, something with names (e.g. name/rhyme/motion)	     |
-| zebra stripes 				|  Command line walk through and mini-lab      |
+| 9:00 - 9:15:      				| PPT with big goals, objectives, agenda |
+| 9:15 - 9:30:    				| Improv, something with names (e.g. name/rhyme/motion)	     |
+| 9:30 - 10:00: 				| Command line walk through and mini-lab      |
 
 
 | Time                                  | Activities                                                                        |
