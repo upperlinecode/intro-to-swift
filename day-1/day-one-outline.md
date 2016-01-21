@@ -1,4 +1,5 @@
 Itinerary:
+__________________________________________
   i) xcode setup
   ii) constants and variables walkthrough 
   iii) arrays pair programming lab
