@@ -1,4 +1,3 @@
-/** 
 Itinerary:
   i) xcode setup
   ii) constants and variables walkthrough 
@@ -25,7 +24,7 @@ execute mathmatical operations in swift: +, -, *, /, %, also boolean operators
 
 
 
-LabIdeas
+Lab Ideas
 - Game Summary: Write a program that displays information about a players game summary (total playing time, high scores)
 - Playlist App: hard-code a top ten list of songs and format it so that it looks cool. Use a different variable for each song.
         -second level iteration: use array for songs, dictionary for songs and artists
@@ -35,6 +34,3 @@ LabIdeas
 
 
 -Calculator App: 
-
-*/
-
