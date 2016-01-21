@@ -15,7 +15,13 @@ Level One:
 
 Level Two:
 
-- 
+- Try to make a more complicated equation using Swift's * operator for multiplication and / operator for division. Does swift follow order of operations (PEMDAS)? Also, try out the modulus operator (%), which calculates the remainder when one number is divided by another.
 
 
 Level Three:
+
+- Swift can do much more than add, subtract, multiply, and divide. We can import, or include, new math functions in our playground by adding
+```swift
+import Darwin
+```
+to the top of your file. 
