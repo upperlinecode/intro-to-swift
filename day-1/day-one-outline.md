@@ -1,4 +1,4 @@
-Itinerary:
+| Time| Activities
 _____________________________________________________________________________________________________________________________
 Morning: 		9:00 - 9:15:    | PPT with big goals, objectives, agenda
 		      	9:15 - 9:30:    | Improv, something with names (e.g. name/rhyme/motion)
