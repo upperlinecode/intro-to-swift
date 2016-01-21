@@ -1,4 +1,4 @@
-/**       Walkthrough With Instructor
+       Walkthrough With Instructor
 
 
 - The Swift language is one of many ways a human can give a computer a set of instructions. But a computer cannot 
@@ -23,7 +23,6 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
         program to do so using the print command.
 
 - When you create a new playground, the code editor already has the following code in it:
-*/
 
 
 // Playground - noun: a place where people can play
@@ -32,18 +31,13 @@ import UIKit
 
 var str = "Hello, playground"
 
-/**
-
 - you can run this code by clicking the blue triangle in the upper-left corner of the console.
 - at this point, there is not output in the console because we have not explicitly told the computer to 
 output any messages. Go ahead and give it a try.
 - now replace all of the code with the following line:
 
-*/
 
 print("Hello, World!")
-
-/**
 
 - this time, you should see 'Hello World' appear in your console. if not, 
 - If we were using this code in an iPhone app, this message would not appear on the screen. However, we
@@ -51,7 +45,6 @@ would be able to use it to test our code during development.
 - this program, though simple, is a tradition amongst programmers. Congratulations! You just finished 
 your first swift program.
 
-*/
 
 
 
