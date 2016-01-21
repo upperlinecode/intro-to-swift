@@ -1,8 +1,8 @@
 | Time        					| Are             |
 | ------------- 				|:-------------:|
-| col 3 is      				| right-aligned |
-| col 2 is      				| centered      |
-| zebra stripes 				| are neat      |
+| col 3 is      				| PPT with big goals, objectives, agenda |
+| col 2 is      				| Improv, something with names (e.g. name/rhyme/motion)	     |
+| zebra stripes 				|  Command line walk through and mini-lab      |
 
 
 | Time                                  | Activities                                                                        |
