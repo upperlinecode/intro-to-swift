@@ -11,13 +11,15 @@ let username = "angrypig1673"
 - Besides your username, you a round of angrybirds would also have your score displayed on the screen. This is a value that will change throughout the game. We would start out by assigning a value of zero to the score variable. This command uses a different swift keyword, var:
 
 
-
+```swift
 var score = 0
+```
 
-//We can reassign a new value to score once a bird destroys a tower. We don't need to use the keyword var anytime after the initial assignment
+- We can reassign a new value to score once a bird destroys a tower. We don't need to use the keyword var anytime after the initial assignment
 
+```swift
 score = 100
-
+```
 
  - Notice that we put quotation marks around the username, but not around the score. This is because not all data is the same. There are many different data types in swift, but we can focus on just four: Integer, Double, String, and Boolean. 
       - integers are whole numbers
@@ -30,12 +32,12 @@ score = 100
 - Sometimes, you might see a variable or constant declared with an explicit declaration of data type.
 
 
-
+```swift
 let username: String = "angrypig1673"
 var score: Int = 3
 var level: Double = 4.3
 var gameOver: Bool = false
-
+```
 
  - This is not neccessary though. Swift is able to guess the type of the data from the first value that we give it. It's main purpose is to ensure that you don't pass the incorrect type of data to a variable by mistake. 
 
@@ -44,38 +46,38 @@ var gameOver: Bool = false
       - let's say you want a message to appear for the user at the end of every level. Giving the same message at the end of every level is called 'hard-coding'. 
  
 
-
+```swift
 var message = "Congratulations! You destroyed all of the pigs! Time to move to the next level"
-
+```
 
  - This works fine, but wouldn't it be so much better if we could include the username in there to make it a little more personal? We can do this using something called string interpolation. You can insert a constant or variable into a string by placing it inside parenthesis preceded by a '\'
  
 
-
+```swift
 message = "Congratulations \(username)! You destroyed all of the pigs! Time to move to the next level"
-
+```
 
  - You can do this with as many variables as you would like. Have the students interpolate some more values into this message. Encourage them to make some more variables that might be needed into the game. 
  
 
-
+```swift
 let numberOfPigs = 8
 message = "Congratulations \(username)! You destroyed all \(numberOfPigs) pigs and completed level \(level) with a final score of \(score)!"
-
+```
 
  - Swift also allows us to execute mathematical operations on these variables. For instance, to add the score for one round to the total score you could execute the following code:
  
 
-
+```swift
 var totalScore = 0
 var roundScore = 900
 totalScore = totalScore + score
-
+```
 
  - Let the students play around with +, -, *, and %. Discuss what operation each is doing. Have them mix integers and doubles in the same operations. Make sure all students are familiar with PEMDAS. Discuss what happens when you divide 4/3 vs 4/3.0 vs 4/"3". Show them how to convert data types
  
 
-
+```swift
 4/Double(3)
-
+```
 
