@@ -20,8 +20,9 @@ Level Two:
 
 Level Three:
 
-- Swift can do much more than add, subtract, multiply, and divide. We can import, or include, new math functions in our playground by adding
+- Swift can do much more than add, subtract, multiply, and divide. We can import, or include, new math functions in our playground by adding this to the top of your file.
 ```swift
 import Darwin
 ```
-to the top of your file. 
+
+- Take a look at this blog: http://excode.io/code/11/built-in-math/swift. There are lots of examples of mathmatical functions that Swift can now carry out, like sqrt(), log(), and sin(). 
