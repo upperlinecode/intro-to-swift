@@ -1,3 +1,30 @@
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 | Time                                  | Activities                                                                        |
 ____________    |    ________________________    |      _________________________________________________________
 Morning: 		9:00 - 9:15:    | PPT with big goals, objectives, agenda					    |
