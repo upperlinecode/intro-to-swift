@@ -6,9 +6,6 @@
  		|   10:00 - 10:15	| XCode walkthrough
 		|    			| https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/xcode-setup.swift
  		|   10:15 - 11:30	| Constants, variables, and data types
- 		|   10:00 - 10:15	| XCode walkthrough
-		|    			| https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/xcode-setup.swift
- 		|   10:15 - 11:30	| Constants, variables, and data types
 		|                       | constants, variables, data types walkthrough:
 	        |        		| calculator mini-lab: 
 	        |        		| string methods demo:
