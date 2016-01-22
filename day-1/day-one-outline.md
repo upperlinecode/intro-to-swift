@@ -1,18 +1,16 @@
- 	|	Time        		| Activity      |
-   -------------|-------------         |:-------------:|
-    Morning	|   9:00 - 9:15      	| PPT with big goals, objectives, agenda
-		|   9:15 - 9:30    	| Improv, something with names (e.g. name/rhyme/motion)	     
- 		|   9:30 - 10:00 	| Command line walk through and mini-lab      
- 		|   10:00 - 10:15	| [XCode walkthrough](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/xcode-setup.md)
- 		|   10:15 - 11:30	| [Constants, variables, and data types](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-constants-variables.md)
-		|                       | constants, variables, data types walkthrough:
-	        |        		| calculator mini-lab: 
-	        |        		| string methods demo:
-                |        		| silly strings mini-lab:
-
-Lunch 		|   11:30 - 12:30       |
-
-Afternoon       |                       |
+ 	|	Time        		| Activity       |
+   -------------|-------------       |:-------------:|
+    Morning	    |   9:00 - 9:15      | PPT with big goals, objectives, agenda
+		            |   9:15 - 9:30    	 | Improv, something with names (e.g. name/rhyme/motion)	     
+ 		            |   9:30 - 10:00 	   | Command line walk through and mini-lab      
+ 		            |   10:00 - 10:15	   | [XCode walkthrough](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/xcode-setup.md)
+ 		            |   10:15 - 11:30	   |  [Constants, variables, and data types](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-constants-variables.md)
+		            |                    | constants, variables, data types walkthrough:
+	              |             		   | calculator mini-lab: 
+	              |  		               | string methods demo:
+                |        		         | silly strings mini-lab:
+Lunch 		      |   11:30 - 12:30    |
+Afternoon       |                    |
 
 General Goal: 
 Students will create their first swift program
