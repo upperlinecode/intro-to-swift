@@ -1,11 +1,10 @@
-/**                Pair Programming with Instructors Circulating
+#H1 Pair Programming with Instructors Circulating
 
 A day at Yankee Stadium
 
 Practicing using let and var
 
-1. Open a new XCode playground and name it ConstantsAndVariables. Go ahead and delete all of the code that they prebuilt 
-for you. 
+1. Open a new XCode playground and name it ConstantsAndVariables. Go ahead and delete all of the code that they prebuilt for you. 
 
 2. Create two constants, awayTeam and homeTeam. Set the home team equal to "Yankees" and the away team equal to "Red Sox".
   -the value of both of these should appear on the righthand column. This is a good way to check code as you are working.
@@ -17,37 +16,35 @@ yankeesScore and redSoxScore.
 This kind of information is useful to teams and fans, and the league works hard to record statistics from games. 
 So let's store this event in a string on the next line in your xcode playground.
 
-*/
+
     let event1 = "Mookie Betts flies out to left fielder Chris Young."
 
-/**
+
 
 5. This is cool! We are making serious contributions to MLB history. Go ahead and add a few more events to your code. 
 
-*/
+
 
     let event2 = "Jackie Bradley called out on strikes."
     let event3 = "Xander Bogaerts walks."
     let event4 = "Travis Shaw strikes out swinging, catcher John Ryan Murphy to first baseman Greg Bird."
     let event5 = "Rusney Castillo flies out to right fielder Carlos Beltran."
 
-/**
+
 6. But wait! We have a problem. Take a look at the game events recorded in the MLB database just for this game: 
 http://gd2.mlb.com/components/game/mlb/year_2015/month_10/day_01/gid_2015_10_01_bosmlb_nyamlb_1/eventLog.xml
 There are a ton of events, and this only represents one of thousands of games that are played each year. It's 
 not good coding practice to create such a large number of similar variables. What if we want to retrieve all 
 of the events at once? What if we want to easily count the number of plays in the game? For this, we can use an array.
-  - an array is a list of similar types of data. Assigning an array of strings to a variable is very similar to
-  assigning a string to a variable. The array is surrounded by square brackets, and individual values are seperated 
-  by commas. 
-*/
+  - an array is a list of similar types of data. Assigning an array of strings to a variable is very similar to assigning a string to a variable. The array is surrounded by square brackets, and individual values are seperated by commas. 
+
     var shoppingList: [String] = ["Bread", "Peanut Butter", "Jelly"]
 
     //you can also do it without explicitly declaring the type
 
     var shoppingList = ["Bread", "Peanut Butter", "Jelly"]
 
-/**
+
 
 7. Go ahead and collect the first five plays of the game in a variable called events.
 
@@ -91,4 +88,4 @@ Bonus:
 Try and figure out what they do and try to use them with the events array.
 - Could we use arrays to keep score instead of using our yankeesScore and redSoxScore variables? 
 
-*/
+
