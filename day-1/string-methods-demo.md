@@ -16,6 +16,9 @@ uppercaseString     |     removeAtIndex(_:)
 
 - Open up a new sandbox and assign your name to a variable called myName. To use an instance property or mehtod on a string, just attach the property/method to the end of the string or variable with a "." Give it a try! What happens when you type in myName.uppercaseString on the next line?
 
+
+
+- More tools: 
 ```Swift 
 var greeting = "Hi! My name is Jim, what's yours?" 
 ```
