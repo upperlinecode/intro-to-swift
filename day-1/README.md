@@ -17,14 +17,14 @@ Lunch 		            |   11:30 - 12:30      |
 Afternoon       |                    |
 
 
-#H2 General Goals: 
+## General Goals: 
 Students will create their first swift program
 Students will learn about swift data types, constants and variables, and operations
 Students will learn to develop programs use TDD
 Students will complete an iPhone application
 
 
-#H2 SWBATs
+## SWBATs
 download Xcode
 understand the purpose of Xcode and the idea of a compiler
 understand the difference between Integer, Double, String, and Boolean data types 
@@ -37,7 +37,7 @@ execute mathmatical operations in swift: +, -, *, /, %, also boolean operators
 
 
 
-#H2 Lab Ideas
+## Lab Ideas
 - Game Summary: Write a program that displays information about a players game summary (total playing time, high scores)
 - Playlist App: hard-code a top ten list of songs and format it so that it looks cool. Use a different variable for each song.
         -second level iteration: use array for songs, dictionary for songs and artists
