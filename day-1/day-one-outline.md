@@ -37,9 +37,6 @@ Lab Ideas
 - Game Summary: Write a program that displays information about a players game summary (total playing time, high scores)
 - Playlist App: hard-code a top ten list of songs and format it so that it looks cool. Use a different variable for each song.
         -second level iteration: use array for songs, dictionary for songs and artists
-        -third level iteration: include logic in the code for... something
 
 -Bio App: Make a bio about your partner. Begins with a skeleton app, students need to fill in constants, variables, and arrays. Have a place in the file structure to use a picture? 
 
-
--Calculator App: 
