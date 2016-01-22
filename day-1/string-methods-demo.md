@@ -21,11 +21,11 @@ To retrieve, or return, a single character in a string, start by adding square b
 
 To get an index in the middle of a string, we can add the advancedBy(), successor(), or predecessor() methods after startIndex() or endIndex(). For instance, one way to return the "!" from this string would be like this:
 
-'''swift
+```Swift
 greeting[greeting.startIndex.successor().successor()]
 ```
 We could also do this:
-```swift
+```Swift
 greeting[greeting.startIndex.advanceBy(2)]
 ```
 
