@@ -1,6 +1,6 @@
 ##A Closer Look at Strings
 
-Strings are a special data type that come with their own properties and methods. This just means that a string is able to tell us information about itself(instance properties), and it also has a set of actions that it can perform on itself(instance methods). 
+Strings are a special data type that come with their own properties and methods. This just means that a string is able to tell us information about itself(instance properties), and it also has a set of actions that it can perform on itself (instance methods). 
 
 
 Instance Properties |     Instance Methods
