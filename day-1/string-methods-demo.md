@@ -3,7 +3,7 @@ Strings are a special data type that come with their own properties and methods.
 https://developer.apple.com/library/prerelease/mac/documentation/Swift/Reference/Swift_String_Structure/index.html
 
 Instance Properties |     Instance Methods
-------------------      ----------------------------
+------------------  |    ----------------------------
 characters          |     append(_: Character)
 endIndex            |     hasPrefix(_:)
 lowercaseString     |     hasSuffix(_:)
