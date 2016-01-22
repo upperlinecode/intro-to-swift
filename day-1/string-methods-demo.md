@@ -2,7 +2,7 @@ Strings are a special data type that come with their own properties and methods.
 
 
 Instance Properties |     Instance Methods
-------------------      --------------------------
+:----------------:  |    :------------------:
 characters          |     append(_: Character)
 endIndex            |     hasPrefix(_:)
 lowercaseString     |     hasSuffix(_:)
