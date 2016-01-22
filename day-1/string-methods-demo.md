@@ -9,7 +9,7 @@ lowercaseString     |     hasSuffix(_:)
 startIndex          |     insert(_:atIndex:)
 uppercaseString     |     removeAtIndex(_:)
 
-[Full list of String instance properties and instance methods in Swift](https://developer.apple.com/library/prerelease/mac/documentation/Swift/Reference/Swift_String_Structure/index.html)
+[Full list of String instance properties and instance methods in Swift](https://developer.apple.com/library/prerelease/mac/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_31)
 
 
 
