@@ -14,7 +14,7 @@ uppercaseString     |     removeAtIndex(_:)
 [Full list of String instance properties and instance methods in Swift](https://developer.apple.com/library/prerelease/mac/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_31)
 
 
-- Open up a new sandbox and assign your name to a variable called myName. To use an instance property or mehtod on a string, just attach the property/method to the end of the string or variable with a "." Give it a try! What happens when you type in myName.uppercaseString on the next line?
+- Open up a new sandbox and assign your name to a variable called myName. To use an instance property or method on a string, just attach the property/method to the end of the string or variable with a "." Give it a try! What happens when you type in myName.uppercaseString on the next line?
 
 
 
