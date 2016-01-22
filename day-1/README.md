@@ -1,6 +1,6 @@
-#H1 Day One
+# Day One
 
-#H2 Schedule
+## Schedule
  	|	Time        		| Activity       |
    -------------|-------------       |:-------------:|
     Morning	    |   9:00 - 9:15      | PPT with big goals, objectives, agenda
