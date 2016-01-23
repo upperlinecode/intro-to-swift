@@ -11,8 +11,7 @@
 	              	    |                      | [calculator mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/calculator-interactive-practice.md) 
 	                    |		           | [calculator mini-lab playground](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyCalculator.playground)		
 	                    |                      | [calculator mini-lab example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyPlaygroundExample.playground)
-	                    |  	10:45 - 11:30	   | string methods demo:
-                            |        		   | silly strings mini-lab:
+	                    |  	10:45 - 11:30	   | [strings demo and practice](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/string-methods-demo.md)
 Lunch 		            |   11:30 - 12:30      |
 Afternoon       |                    |
 
