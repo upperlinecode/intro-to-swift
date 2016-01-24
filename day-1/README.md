@@ -7,14 +7,19 @@
 		            |   9:15 - 9:30    	 | Improv, something with names (e.g. name/rhyme/motion)	     
  		            |   9:30 - 10:00 	   | Command line walk through and mini-lab      
  		            |   10:00 - 10:15	   | [XCode walkthrough](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/xcode-setup.md)
- 		            |   10:15 - 10:45	   | [Constants, variables, and data types](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-constants-variables.md)
-	              	    |                      | [calculator mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/calculator-interactive-practice.md) 
-	                    |		           | [calculator mini-lab playground](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyCalculator.playground)		
-	                    |                      | [calculator mini-lab example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyPlaygroundExample.playground)
-	                    |  	10:45 - 11:30	   | string methods demo:
-                            |        		   | silly strings mini-lab:
+ 		            |   10:15 - 10:45	   | [constants, variables, and data types](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-constants-variables.md)<br>[calculator mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/calculator-interactive-practice.md)<br>[calculator mini-lab playground](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyCalculator.playground)<br>[calculator mini-lab example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyPlaygroundExample.playground)
+	                    |  	10:45 - 11:30	   | [strings demo and practice](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/string-methods-demo.md)
 Lunch 		            |   11:30 - 12:30      |
-Afternoon       |                    |
+Afternoon                   |   12:30 - 1:30       | Arrays walkthrough
+		            |                      | Arrays mini-lab
+		            |   1:30 - 2:45        | Work on Labs
+		            |                      | Lab1
+		            |                      | Lab2
+		            |                      | Lab3
+		            |   2:45 - 3:00        | Debrief
+
+
+
 
 
 ## General Goals: 
