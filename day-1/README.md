@@ -15,6 +15,13 @@
 Lunch 		            |   11:30 - 12:30      |
 Afternoon                   |   12:30 - 1:30       | Arrays walkthrough
 		            |                      | Arrays mini-lab
+		            |   1:30 - 2:45        | Work on Labs
+		            |                      | Lab1
+		            |                      | Lab2
+		            |                      | Lab3
+		            |   2:45 - 3:00        | Debrief
+
+
 
 
 
