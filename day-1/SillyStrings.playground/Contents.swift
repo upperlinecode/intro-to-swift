@@ -13,3 +13,5 @@ str.lowercaseString
 str.insert(".", atIndex: str.endIndex)
 
 str[str.startIndex.advancedBy(5)]
+
+str.hasPrefix("I am")
