@@ -8,7 +8,7 @@
  		            |   9:30 - 10:00 	   | Command line walk through and mini-lab      
  		            |   10:00 - 10:15	   | [XCode walkthrough](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/xcode-setup.md)
  		            |   10:15 - 10:45	   | <p>[Constants, variables, and data types](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-constants-variables.md)</p>
- 		            			     [calculator mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/calculator-interactive-practice.md)
+ 		            			     <p>[calculator mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/calculator-interactive-practice.md)</p>
  		            			     <p>[calculator mini-lab playground](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyCalculator.playground)</p>
  		            			     <p>[calculator mini-lab example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyPlaygroundExample.playground)</p>
 	                    |  	10:45 - 11:30	   | [strings demo and practice](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/string-methods-demo.md)
