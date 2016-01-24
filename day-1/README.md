@@ -13,7 +13,9 @@
 	                    |                      | [calculator mini-lab example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyPlaygroundExample.playground)
 	                    |  	10:45 - 11:30	   | [strings demo and practice](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/string-methods-demo.md)
 Lunch 		            |   11:30 - 12:30      |
-Afternoon       |                    |
+Afternoon                   |   12:30 - 1:30       | Arrays walkthrough
+		            |                      | Arrays mini-lab
+
 
 
 ## General Goals: 
