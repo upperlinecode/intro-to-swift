@@ -11,7 +11,7 @@ Practicing using let and var
 4. Print out the user's timeline. Format it with the tweet in the last index position at the top of the timeline. Make it look something like this:
 
 User: billy1234
------------------
+ -----------------
 Programming is awesome!!!!!!
 Thinking about building a Swift app this week, anyone interested?
 I am loving the snow this weekend!
