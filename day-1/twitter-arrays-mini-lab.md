@@ -6,7 +6,7 @@ Practicing using let and var
 
 3. create five tweets and store them in a variable called tweets
 '''Swift
-    var tweets = ["fake tweet number one", "", "", "", ""]
+var tweets = ["fake tweet number one", "", "", "", ""]
 '''
 4. Print out the user's timeline. Format it with the tweet in the last index position at the top of the timeline. Make it look something like this:
 ```
