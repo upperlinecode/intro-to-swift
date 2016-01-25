@@ -1,5 +1,3 @@
-Practicing using let and var
-
 1. Open a new XCode playground and name it TwitterArrays.
 
 2. Pick a username for yourself and assign it to a variable called 'username'.
