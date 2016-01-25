@@ -10,8 +10,7 @@
  		            |   10:15 - 10:45	   | [constants, variables, and data types](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-constants-variables.md)<br>[calculator mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/lab-calculator.md)<br>[calculator mini-lab playground](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyCalculator.playground)<br>[calculator mini-lab example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/MyPlaygroundExample.playground)
 	                    |  	10:45 - 11:30	   | [strings demo and practice](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-string-methods.md)
 Lunch 		            |   11:30 - 12:30      |
-Afternoon                   |   12:30 - 1:30       | [arrays walkthrough](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-arrays.md)
-		            |                      | [twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/twitter-arrays-mini-lab.md)<br>[twitter arrays example](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/TwitterArrays.playground/Contents.swift)
+Afternoon                   |   12:30 - 1:30       | [arrays walkthrough](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-arrays.md)<br>[twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/twitter-arrays-mini-lab.md)<br>[twitter arrays example](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/TwitterArrays.playground/Contents.swift)
 		            |   1:30 - 2:45        | Work on Labs
 		            |                      | Lab1
 		            |                      | Lab2
