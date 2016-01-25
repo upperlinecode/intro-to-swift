@@ -5,3 +5,8 @@
 ```Swift
 var shoppingList = ["milk", "eggs", "bread", "turkey", "olive oil"]
 ```
+- What if we just want to access one of the items from this array? After the array, put the index of the target item inside of square brackets. This is how you might store the first two items in two different variables. Notice that the first item has an index of zero.
+```Swift
+var item1 = shoppingList[0]
+var item2 = shoppingList[1]
+```
