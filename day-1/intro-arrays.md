@@ -31,7 +31,7 @@ Break for [twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swif
   - shoppingList.insert("celery", atIndex: 0) inserts celery in the first position in the array and pushes all of the other elements back.
   - removeLast() vs. popLast(): both of these methods will delete the last element in the array. The difference is that popLast() also returns the value of the removed item. 
     - Use this as an opportunity to talk about what "returned" means. Compare the values of deletedItem after the following two lines of code.
-    ```Swift
-    var deletedItem = shoppingList.popLast()
-    var deletedItem = shoppingList.removeLast()
-    ```
+```Swift
+var deletedItem = shoppingList.popLast()
+var deletedItem = shoppingList.removeLast()
+```
