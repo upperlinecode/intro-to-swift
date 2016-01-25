@@ -22,3 +22,8 @@ shoppingList += ["mushrooms"]
 ```Swift
 shoppingList.append("mushrooms")
 ```
+- Another incredibly useful method that comes with Swift arrays is the count method. This tells us the number of elements in the array.
+```Swift
+shoppingList.count => 6
+```
+Break for [twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/twitter-arrays-mini-lab.md)
