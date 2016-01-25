@@ -1,0 +1,2 @@
+- Motivation: prompt students to think of things that they would organize in a list. Have them discuss drawbacks to having all of these items in a list stored in a different variable or constant. What sort of problems could that cause as the list gets really big?
+- Think of a column in an excel spreadsheet.  
