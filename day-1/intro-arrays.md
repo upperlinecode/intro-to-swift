@@ -28,4 +28,4 @@ shoppingList.count => 6
 ```
 Break for [twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/twitter-arrays-mini-lab.md)
 - Show the students the [swift documentation about arrays](https://developer.apple.com/library/ios/documentation/Swift/Reference/Swift_Array_Structure/index.html#//apple_ref/doc/uid/TP40015178-CH1-DontLinkElementID_16) and look at the instance properties and instance methods. Look at the descriptions for some of these while trying them out in the xcode playground.
-
+  - shoppingList.insert("celery", atIndex: 0) inserts celery in the first position in the array and pushes all of the other elements back.
