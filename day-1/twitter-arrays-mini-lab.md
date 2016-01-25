@@ -21,3 +21,8 @@ Practicing using let and var
       ```
 5. Use a method to add another tweet to the tweets array.
 
+6. Print the following statement without hardcoding the entire string. That is, use array methods and string interpolation to include the username, number of tweets, and number of followers.
+
+  ```
+  user: billy1234  |  tweets: 6  |  followers: 4
+  ```
