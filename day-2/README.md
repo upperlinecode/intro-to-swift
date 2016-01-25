@@ -1,4 +1,4 @@
-# Day One
+# Day Two
 
 ## Schedule
  	|	Time        		| Activity       |
