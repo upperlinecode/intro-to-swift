@@ -34,3 +34,7 @@ Break for [twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swif
 ```Swift
 var deletedItem = shoppingList.popLast()
 ```
+- You can access a range of values from an array. The syntax is similar to accessing a single value. 
+```Swift
+var firstThreeItems = shoppingList[0...2]
+```
