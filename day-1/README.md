@@ -12,7 +12,7 @@
 Lunch 		            |   11:30 - 12:30      |
 Afternoon                   |   12:30 - 1:30       | [arrays walkthrough](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/intro-arrays.md)<br>[twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/twitter-arrays-mini-lab.md)<br>[twitter arrays example](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/TwitterArrays.playground/Contents.swift)
 		            |   1:30 - 2:45        | Work on Labs
-		            |                      | about page lab<br>[about page example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/AboutPage)
+		            |                      | [about page lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/about-page-lab.md)<br>[about page example](https://github.com/jrectenwald/intro-to-swift/tree/master/day-1/AboutPage)
 		            |                      | Lab2
 		            |                      | Lab3
 		            |   2:45 - 3:00        | Debrief
