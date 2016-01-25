@@ -1,5 +1,3 @@
-Practicing using let and var
-
 1. Open a new XCode playground and name it TwitterArrays.
 
 2. Pick a username for yourself and assign it to a variable called 'username'.
@@ -24,9 +22,8 @@ Practicing using let and var
       Anyone wanna go eat some caramels later?
       Hey, this is my first tweet!
       ```
-7. 
 
-6. Print the following statement without hardcoding the entire string. That is, use array methods and string interpolation to include the username, number of tweets, and number of followers.
+7. Print the following statement without hardcoding the entire string. That is, use array methods and string interpolation to include the username, number of tweets, and number of followers.
 
   ```
   user: billy1234  |  tweets: 6  |  followers: 4

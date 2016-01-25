@@ -11,7 +11,7 @@
 	                    |  	10:45 - 11:30	   | [strings demo and practice](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/string-methods-demo.md)
 Lunch 		            |   11:30 - 12:30      |
 Afternoon                   |   12:30 - 1:30       | Arrays walkthrough
-		            |                      | Arrays mini-lab
+		            |                      | [twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/twitter-arrays-mini-lab.md)<br>[twitter arrays example](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/TwitterArrays.playground/Contents.swift)
 		            |   1:30 - 2:45        | Work on Labs
 		            |                      | Lab1
 		            |                      | Lab2
