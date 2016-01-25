@@ -12,9 +12,13 @@ var item2 = shoppingList[1]
 ```
 - There are a few different ways that we could add an item to our shopping list. First of all, we could simply use the + operator. But we need to store the sum of the addition back in the original variable if we want to change the original array.
 ```Swift
-var shoppingList = shoppingList + ["mushrooms"]
+shoppingList = shoppingList + ["mushrooms"]
 ```
 - This is kind of wordy though, and we can shorten it by using the += operator.
 ```Swift
-var shoppingList += ["mushrooms"]
+shoppingList += ["mushrooms"]
+```
+- To make it even easier, there is a method built into the Swift language.
+```Swift
+shoppingList.append("mushrooms")
 ```
