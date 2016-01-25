@@ -18,5 +18,5 @@ Practicing using let and var
   Anyone wanna go eat some caramels later?
   Hey, this is my first tweet!
   ```
- 5. Use a method to add another tweet to the tweets array.
+5. Use a method to add another tweet to the tweets array.
 
