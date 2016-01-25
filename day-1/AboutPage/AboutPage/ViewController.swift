@@ -10,15 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var Name: UILabel!
-    @IBOutlet weak var FavoriteWebsites: UILabel!
     @IBOutlet weak var Age: UILabel!
-    @IBOutlet weak var Biography: UILabel!
+    @IBOutlet weak var FavoriteMovies: UITextView!
+    @IBOutlet weak var Biography: UITextView!
+    @IBOutlet weak var ScrollView: UIScrollView!
     
     let about = About()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        ScrollView.contentSize.height = 1000
         addData()
         
     }
@@ -30,9 +31,11 @@ class ViewController: UIViewController {
     
     func addData() {
         Name.text = "Name: \(about.name)"
-        FavoriteWebsites.text = "Favorite Movies:\n1.\(about.favoriteWebsites[about.favoriteWebsites.startIndex])\n2.\(about.favoriteWebsites[about.favoriteWebsites.startIndex.advancedBy(1)])\n3.\(about.favoriteWebsites[about.favoriteWebsites.startIndex.advancedBy(2)])"
+        Age.text = "Age: \(about.age)"
+        FavoriteMovies.text = "Favorite Movies:\n1. \(about.favoriteWebsites[about.favoriteWebsites.startIndex])\n2. \(about.favoriteWebsites[about.favoriteWebsites.startIndex.advancedBy(1)])\n3. \(about.favoriteWebsites[about.favoriteWebsites.startIndex.advancedBy(2)])"
+        FavoriteMovies.sizeToFit()
+        Biography.text = "Biography: \(about.bio)"
     }
 
 
 }
-
