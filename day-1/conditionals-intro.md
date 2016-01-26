@@ -20,7 +20,7 @@ if cold {
   print("Don't forget to wear a coat when you go outside.")
 }
 //prints "Don't forget to wear a coat when you go outside."
-
+-----------------------------------------------------------
 var cold = false
 if cold {
   print("Don't forget to wear a coat when you go outside.")
