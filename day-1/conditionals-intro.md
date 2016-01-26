@@ -7,4 +7,8 @@
 
 ##Lesson
 - Up until this point, we have written our Swift code out in individual lines, each one seperate from the others.
-- It can be useful to seperate 
+- It can be useful to write code that will only execute if certain conditions are true. This kind of code is called conditional, and a well written conditional statement reads a lot like a normal sentence.
+```Swift
+if something is true {
+  then execute this code
+}
