@@ -28,3 +28,13 @@ if cold {
 }
 //nothing happens
 ```
+- We can even write code for both possibilities in the same block
+```Swift
+var cold = false
+if cold {
+  print("Don't forget to wear a coat when you go outside.")
+} else {
+  print("Wear a t-shirt! It's beautiful outside.")
+}
+//prints "Wear a t-shirt! It's beautiful outside."
+```
