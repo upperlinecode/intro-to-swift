@@ -40,6 +40,11 @@ if cold {
 ```
 - usually though, we want to make a comparison when deciding whether or not to execute a particular block of code. For that, we use comparison operators:
 
-symbol   |   description
-------  |  -----------
-this     |   is 
+symbol|description
+------ | -----------
+==|equal to 
+!=|not equal to
+>|greater than
+>=|greater than or equal to
+<|less than
+<=|less than or equal to
