@@ -13,10 +13,17 @@ if somethingIsTrue {
   then execute this code
 }
 ```
-- The "something is true" part of the statement is where booleans come in. Remember that booleans can have either a true or false value. If somethingIsTrue has a value of true, then the code inside that branch will execute. If it has a value of false, nothing will happen.
+- The "somethingIsTrue" part of the statement is where booleans come in. Remember that booleans can have either a true or false value. If somethingIsTrue has a value of true, then the code inside that branch will execute. If it has a value of false, nothing will happen.
 ```Swift
 var cold = true
 if cold {
   print("Don't forget to wear a coat when you go outside.")
 }
+//prints "Don't forget to wear a coat when you go outside."
+
+var cold = false
+if cold {
+  print("Don't forget to wear a coat when you go outside.")
+}
+//nothing happens
 ```
