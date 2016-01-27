@@ -82,4 +82,4 @@ symbol|description|example
 :------: | :------: | :-----:
 !|not|!false   //true
 &&|and|1 > 0 && 5 < 7   //true
-|||or|4.5 == 4.5 || 5.6 == 4.3   //true
+\|\||or|4.5 == 4.5 || 5.6 == 4.3   //true
