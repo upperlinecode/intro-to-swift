@@ -6,6 +6,7 @@
 - implement an if statement, and if/else statement, and an if/else if/ else statement in their code
 
 ##Lesson
+####Conditionals with Comparison Operators
 - Up until this point our code has executed line by line, from top to bottom. Every line of code always ran, no matter what.
 - It can be useful to write code that will only execute if certain conditions are true. This kind of code is called conditional, and a well written conditional statement reads a lot like a normal sentence.
 ```Swift
@@ -70,3 +71,7 @@ if temperature < 32 {
 }
 //prints "It's a little chilly, you should probably throw on a sweater." because temperature < 32 and temperature > 70 are both false
 ```
+<br>
+Break for conditionals-practice-1
+<br>
+####Conditionals with Comparison Operators
