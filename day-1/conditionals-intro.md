@@ -85,6 +85,19 @@ symbol|description|example
 \|\||or|4.5 == 4.5 || 5.6 == 4.3   //true
 - The not operator (!) changes the boolean value of the following statement. True becomes false, false becomes true.
 - The and operator (&&) connects two values, and both of these values must be true for the entire statement to be true. Otherwise, it evaluates to false. 
-- The or operator (||)
+- The or operator (||) connects two values as well, but only one of them needs to be true for the entire statement to be true. The statement is only false is both connected values are false.
 - Using these operators, we can make much more intricate branches in our code.
-- 
+```Swift
+var chanceOfPrecipitation = 5
+var temperature = 83
+if chanceOfPrecipitation == 0 && temperature > 70{
+  print("Perfect day for a ballgame!")
+} else if chanceOfPrecipitation > 50 && temperature > 70 {
+  print("Maybe we should bring an umbrella just in case.")
+} else if chanceOfPrecipitation > 90 || temperature < 50 {
+  print("We should definitely stay inside and work on our Swift today.")
+} else {
+  print("You can never believe the weatherman anyways.")
+}
+//prints "You can never believe the weatherman anyways."
+```
