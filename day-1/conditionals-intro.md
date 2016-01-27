@@ -6,7 +6,7 @@
 - implement an if statement, and if/else statement, and an if/else if/ else statement in their code
 
 ##Lesson
-####Conditionals with Comparison Operators
+####Conditional Statements with Comparison Operators
 - Up until this point our code has executed line by line, from top to bottom. Every line of code always ran, no matter what.
 - It can be useful to write code that will only execute if certain conditions are true. This kind of code is called conditional, and a well written conditional statement reads a lot like a normal sentence.
 ```Swift
@@ -41,6 +41,7 @@ if cold {
 ```
 - Usually though, we want to make a comparison when deciding whether or not to execute a particular block of code. For that, we use comparison operators:
 
+######Comparison Operators
 symbol|description|example
 :------: | :------: | :-----:
 ==|equal to|1 == 1   //true
@@ -74,4 +75,11 @@ if temperature < 32 {
 <br>
 Break for conditionals-practice-1
 <br>
-####Conditionals with Comparison Operators
+####Conditional Statements with Logical Operators
+When one branch of a conditional statement depends on more than one factore, we can use logical operators to find the truth value of the combined statement.
+######Logical Operators
+symbol|description|example
+:------: | :------: | :-----:
+!|not|!false   //true
+&&|and|1 > 0 && 5 < 7   //true
+|||or|4.5 == 4.5 || 5.6 == 4.3   //true
