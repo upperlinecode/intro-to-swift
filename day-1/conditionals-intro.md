@@ -83,3 +83,8 @@ symbol|description|example
 !|not|!(7 == 7)   //false
 &&|and|1 > 0 && 5 < 7   //true
 \|\||or|4.5 == 4.5 || 5.6 == 4.3   //true
+- The not operator (!) changes the boolean value of the following statement. True becomes false, false becomes true.
+- The and operator (&&) connects two values, and both of these values must be true for the entire statement to be true. Otherwise, it evaluates to false. 
+- The or operator (||)
+- Using these operators, we can make much more intricate branches in our code.
+- 
