@@ -48,3 +48,13 @@ symbol|description|example
 >=|greater than or equal to|6 >= 6   //true
 <|less than|1000000000 < 10   //false
 <=|less than or equal to|-34 <= 19   //true
+- We can incorporate these directly into the if statement
+```Swift
+var temperature
+if temperature < 32 {
+  print("Don't forget to wear a coat when you go outside.")
+} else {
+  print("Wear a t-shirt! It's beautiful outside.")
+}
+//prints "Wear a t-shirt! It's beautiful outside."
+```
