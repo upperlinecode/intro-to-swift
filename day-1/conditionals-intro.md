@@ -73,7 +73,7 @@ if temperature < 32 {
 //prints "It's a little chilly, you should probably throw on a sweater." because temperature < 32 and temperature > 70 are both false
 ```
 <br>
-Break for conditionals-practice-1
+######Break for conditionals-practice-1
 <br>
 ####Conditional Statements with Logical Operators
 When one branch of a conditional statement depends on more than one factore, we can use logical operators to find the truth value of the combined statement.
@@ -102,4 +102,4 @@ if chanceOfPrecipitation == 0 && temperature > 70{
 //prints "You can never believe the weatherman anyways."
 ```
 <br>
-Continue on to conditionals-practice-2
+######Continue on to conditionals-practice-2
