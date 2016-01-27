@@ -38,7 +38,7 @@ if cold {
 }
 //prints "Wear a t-shirt! It's beautiful outside."
 ```
-- usually though, we want to make a comparison when deciding whether or not to execute a particular block of code. For that, we use comparison operators:
+- Usually though, we want to make a comparison when deciding whether or not to execute a particular block of code. For that, we use comparison operators:
 
 symbol|description|example
 :------: | :------: | :-----:
@@ -50,11 +50,23 @@ symbol|description|example
 <=|less than or equal to|-34 <= 19   //true
 - We can incorporate these directly into the if statement
 ```Swift
-var temperature
+var temperature = 28
 if temperature < 32 {
   print("Don't forget to wear a coat when you go outside.")
 } else {
   print("Wear a t-shirt! It's beautiful outside.")
 }
-//prints "Wear a t-shirt! It's beautiful outside."
+//prints "Don't forget to wear a coat when you go outside." because temperature < 32 is true
+```
+- Sometimes we need to account for more than two possibilities. To account for this, we can add "else if" statements.
+```Swift
+var temperature = 58
+if temperature < 32 {
+  print("Don't forget to wear a coat when you go outside.")
+} else if temperature > 70 {
+  print("Wear a t-shirt! It's beautiful outside.")
+} else {
+  print("It's a little chilly, you should probably throw on a sweater.")
+}
+//prints "It's a little chilly, you should probably throw on a sweater." because temperature < 32 and temperature > 70 are both false
 ```
