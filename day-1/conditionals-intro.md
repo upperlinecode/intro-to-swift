@@ -101,3 +101,5 @@ if chanceOfPrecipitation == 0 && temperature > 70{
 }
 //prints "You can never believe the weatherman anyways."
 ```
+<br>
+Continue on to conditionals-practice-2
