@@ -24,7 +24,7 @@ Afternoon                   |   12:30 - 1:30       | [conditionals walkthrough](
 ## General Goals: 
 - Students will create their first swift program
 - Students will learn about swift data types, constants and variables, and operations
-- Students will learn to develop programs use TDD
+- Students will create conditional branches in their code.
 - Students will complete an iPhone application
 
 
