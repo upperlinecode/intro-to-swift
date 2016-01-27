@@ -10,7 +10,7 @@
  		            |   10:15 - 10:45	   | [constants, variables, and data types](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/intro-constants-variables.md)<br>[calculator mini-lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/lab-calculator.md)<br>[calculator mini-lab playground](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/CalculatorLab.playground)<br>[calculator mini-lab example](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/CalculatorLabExample.playground)
 	                    |  	10:45 - 11:30	   | [strings demo and practice](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/intro-string-methods.md)
 Lunch 		            |   11:30 - 12:30      |
-Afternoon                   |   12:30 - 1:30       | [if/else walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/if-else-intro)
+Afternoon                   |   12:30 - 1:30       | [conditionals walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/conditionals-intro.md)
 		            |   1:30 - 2:45        | Work on Labs
 		            |                      | [about page lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/about-page-lab.md)<br>[about page example](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/AboutPage)
 		            |                      | Lab2

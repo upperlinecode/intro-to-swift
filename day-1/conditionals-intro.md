@@ -6,6 +6,7 @@
 - implement an if statement, and if/else statement, and an if/else if/ else statement in their code
 
 ##Lesson
+####Conditional Statements with Comparison Operators
 - Up until this point our code has executed line by line, from top to bottom. Every line of code always ran, no matter what.
 - It can be useful to write code that will only execute if certain conditions are true. This kind of code is called conditional, and a well written conditional statement reads a lot like a normal sentence.
 ```Swift
@@ -40,6 +41,7 @@ if cold {
 ```
 - Usually though, we want to make a comparison when deciding whether or not to execute a particular block of code. For that, we use comparison operators:
 
+######Comparison Operators
 symbol|description|example
 :------: | :------: | :-----:
 ==|equal to|1 == 1   //true
@@ -70,3 +72,34 @@ if temperature < 32 {
 }
 //prints "It's a little chilly, you should probably throw on a sweater." because temperature < 32 and temperature > 70 are both false
 ```
+<br>
+######Break for conditionals-practice-1
+<br>
+####Conditional Statements with Logical Operators
+When one branch of a conditional statement depends on more than one factore, we can use logical operators to find the truth value of the combined statement.
+######Logical Operators
+symbol|description|example
+:------: | :------: | :-----:
+!|not|!(7 == 7)   //false
+&&|and|1 > 0 && 5 < 7   //true
+\|\||or|4.5 == 4.5 || 5.6 == 4.3   //true
+- The not operator (!) changes the boolean value of the following statement. True becomes false, false becomes true.
+- The and operator (&&) connects two values, and both of these values must be true for the entire statement to be true. Otherwise, it evaluates to false. 
+- The or operator (||) connects two values as well, but only one of them needs to be true for the entire statement to be true. The statement is only false is both connected values are false.
+- Using these operators, we can make much more intricate branches in our code.
+```Swift
+var chanceOfPrecipitation = 5
+var temperature = 83
+if chanceOfPrecipitation == 0 && temperature > 70{
+  print("Perfect day for a ballgame!")
+} else if chanceOfPrecipitation > 50 && temperature > 70 {
+  print("Maybe we should bring an umbrella just in case.")
+} else if chanceOfPrecipitation > 90 || temperature < 50 {
+  print("We should definitely stay inside and work on our Swift today.")
+} else {
+  print("You can never believe the weatherman anyways.")
+}
+//prints "You can never believe the weatherman anyways."
+```
+<br>
+######Continue on to conditionals-practice-2
