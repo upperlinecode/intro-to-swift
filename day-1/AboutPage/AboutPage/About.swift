@@ -9,13 +9,12 @@
 import Foundation
 
 struct About {
-    
-    let name: String = "Chad"
-    
-    let age: Int = 15
-    
-    let bio: String = "NYC Born and Bred"
-    
-    let favoriteWebsites: [String] = ["Die Hard", "Casino Royal", "The Return of the King"]
+    //Write your code here. Make sure to put all of your code in between the two curly braces that surround the About struct
+
+
+
+
+
+
 
 }
