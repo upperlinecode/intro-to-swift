@@ -3,7 +3,7 @@
 import UIKit
 import Darwin
 
-var mathProblem = "Welcome to Upperline Calculator! Follow the directions in the comments and fill in the missing values to complete the calculations"
+var mathProblem = "Welcome to Upperline Calculator! Follow the directions in the comments and fill in the missing values to complete the calculations. The 'user' will input two numbers into the variables num1 and num2, and you will complete the appropriate operation to the right of the answer variable."
 
 
 //-------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ var num2 = 1
 
 var answer = num1 + num2
 
-//interpolate so that it prints the string "1 + 1 = 2"
+// interpolate a string inside the print statement so that it prints the string "1 + 1 = 2"
 print("")
 
 //-------------------------------------------------------------------------------------------------
@@ -26,9 +26,9 @@ num1 = 55
 
 num2 = 40
 
-answer
+answer // caculate the new subtraction problem and store the answer in this variable
 
-//interpolate so that it prints the string "55 - 40 = 15"
+// interpolate so that it prints the string "55 - 40 = 15"
 print("")
 
 
@@ -41,7 +41,7 @@ num2 = 3
 
 answer
 
-//interpolate so that it prints the string "4 * 3 = 12"
+// interpolate so that it prints the string "4 * 3 = 12"
 print("")
 
 
@@ -54,7 +54,7 @@ num2
 
 answer
 
-//interpolate so that it prints the string "20 / 4 = 5"
+// interpolate so that it prints the string "20 / 4 = 5"
 print("")
 
 
@@ -68,7 +68,7 @@ num2
 
 answer
 
-//interpolate so that it prints the string, complete with the answer "453 % 7 = ___"
+// interpolate so that it prints the string, complete with the answer "453 % 7 = ___"
 print("")
 
 
@@ -82,13 +82,13 @@ num2
 
 answer
 
-//interpolate so that it prints the string "54^3 = ___"
+// interpolate so that it prints the string "54^3 = ___"
 print("")
 
 
 //-------------------------------------------------------------------------------------------------
 // 6
-// mixed bag
+// combining multiple operators
 num1
 
 num2
@@ -99,7 +99,7 @@ var num4: Int
 
 answer
 
-//interpolate so that it prints the string "(60 / 5) + (8 % 3)"
+// interpolate so that it prints the string "(60 / 5) + (8 % 3)"
 print("")
 
 
@@ -108,12 +108,18 @@ print("")
 // mathematical constants
 // use the Darwin library to get the value of pi
 
-//var pi = ___
+// var pi = ___
 
 answer
 
-//interpolate so that it prints the string "The value of pi is approximately 3.141592653589793"
+// interpolate so that it prints the string "The value of pi is approximately 3.141592653589793"
 print("")
+
+
+//-------------------------------------------------------------------------------------------------
+// 8 
+// Imani spent half of her weekly allowance playing mini-golf. To earn more money her parents let her wash the car for $4. What is her weekly allowance if she ended with $12?
+
 
 
 

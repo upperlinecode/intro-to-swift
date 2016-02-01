@@ -13,6 +13,17 @@ import UIKit
 //__(8 > 10) ____ 10 == 11
 
 
+//Replace the '__' with logical operators to make the following statements false
+//Try to use a different logical operator each time
+//after you type in the operator, delete the comment to test out the statement
+
+//2 == -4 ____ 100 == 100
+
+//-55 != -55 ____ 5 <= 3
+
+//15 > 10 ____ !(30 == 30)
+
+
 //-----------------------------------------------------------------------------------
 
 

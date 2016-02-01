@@ -5,8 +5,6 @@ import UIKit
 //Replace the '__' with comparison operators to make the following statements true
 //Try to use a different comparison operator each time
 
-//6 __ 4
-
 //45 __ 45
 
 //-9 __ 9
@@ -14,6 +12,20 @@ import UIKit
 //100 __ 100000
 
 //5.6 __ 5.5
+
+
+//Replace the '__' with comparison operators to make the following statements false
+//Try to use a different comparison operator each time
+
+//2 __ 10
+
+//22 __ 22
+
+//0 __ -5
+
+//3.3 __ 3.5
+
+
 
 
 //-----------------------------------------------------------------------------------
