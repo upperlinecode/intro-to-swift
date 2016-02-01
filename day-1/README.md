@@ -13,7 +13,7 @@ Lunch 		            |   11:30 - 12:30      |
 Afternoon                   |   12:30 - 1:30       | [conditionals walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/conditionals-intro.md)<br>[conditionals-practice-1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice1.playground)<br>[conditionals-practice-2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice2.playground)
 		            |   1:30 - 2:45        | Work on Labs
 		            |                      | [about page lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/about-page-lab.md)<br>[about page foundation](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/AboutPage)<br>[about page example](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/AboutPageExample)
-		            |                      | Lab2
+		            |                      | [calculator - level 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/CalculatorLevelTwo.playground)
 		            |                      | Lab3
 		            |   2:45 - 3:00        | Debrief
 
