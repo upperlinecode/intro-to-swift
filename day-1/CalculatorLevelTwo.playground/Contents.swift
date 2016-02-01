@@ -16,7 +16,7 @@ var num2: Double // = add some other number here
 
 var mathOperator: String // = put a +, -, *, or / here
 
-var answer: Double
+var answer: Double // this variable will hold your answer. The caculations will all go inside of the conditional statement that you build.
 
 //add conditional statement here
 
@@ -33,7 +33,7 @@ print(answer)
 
 
 
-//Bonus Round
+//Bonus Round: give the use the option of rounding their answer to the nearest whole number. Write a more complex conditional statement that can handle the extra decision.
 
 num1 // = add some number here
 
