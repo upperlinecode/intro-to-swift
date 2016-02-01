@@ -6,7 +6,9 @@ import Darwin
 
 var message = "This calculator will be a little bit more advanced than the last one we made. We are going to make our program a little bit smarter by adding conditionals."
 
-//Level One
+
+
+
 
 var num1: Double // = add some number here
 
@@ -20,12 +22,18 @@ var answer: Double
 
 
 
+
 print(answer)
 
 
 
 
-//Level 2
+
+
+
+
+
+//Bonus Round
 
 num1 // = add some number here
 
@@ -41,10 +49,18 @@ var isRounded: Bool // = add true if you want to round any decimal off the end o
 
 
 
+
 print(answer)
 
 
-//Level 3
+
+
+
+
+
+
+
+//Double Bonus Round
 //Add more math functions to your calculator. Start out with a power function and a square root function, and then move on to some more advanced tools like sine or log.
 
 num1 // =
