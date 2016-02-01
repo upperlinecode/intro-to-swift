@@ -44,6 +44,12 @@ totalCost // = ___
 
 
 
+
+
+
+
+
+
 //print a message to the customer telling them the total cost of their purchase
 message // = ___
 print(message)
@@ -70,8 +76,6 @@ totalCost // = ___
 
 
 
-
-
 //print a message to the customer telling them the total cost of their purchase
 message // = ___
 print(message)
@@ -79,5 +83,9 @@ print(message)
 
 
 
+
+
+//-------------------------------------------------------------------------------------------------
+//Final Challenge: add a variable so that the user can input the amount of money that they are paying, and print a message letting them know how much change they are getting back. Add in any other features that you think are missing!
 
 
