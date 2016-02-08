@@ -41,7 +41,7 @@ cakeInstructions()
 - We can also make methods that will return a value. For instance, what if we want to make a function that stores the number of seconds in a year, we could create a function called secondsInAYear:
 ```Swift
 func secondsInAYear() {
-    seconds = 365*24*60*60
+    var seconds = 365*24*60*60
     print("There are \(seconds) seconds in a year.")
 }
 ```
