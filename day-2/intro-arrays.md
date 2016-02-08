@@ -47,4 +47,12 @@ var deletedItem = shoppingList.popLast()
 ```Swift
 shoppingList.removeAtIndex(4)
 ```
+- If we need to check to see if an array contains a certain item, you can use the contains() method. This returns either true or false.
+```Swift
+if shoppingList.contains("pizza") {
+  print("Awesome! I love pizza.")
+} else {
+  print("Can we buy some pizza?")
+}
+```
 Break for [array methods practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/ArrayMethodsPractice.playground)
