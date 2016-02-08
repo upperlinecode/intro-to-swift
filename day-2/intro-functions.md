@@ -52,4 +52,7 @@ func secondsInAYear() {
 func secondsInAYear()->Int {
     return 365*24*60*60
 }
+var secondsInOneThousandYears = 1000 * secondsInAYear()
+
+print("There are \(secondsInOneThousandYears) seconds in one thousand years.")
 ```
