@@ -47,4 +47,4 @@ var deletedItem = shoppingList.popLast()
 ```Swift
 shoppingList.removeAtIndex(4)
 ```
-Break for [array methods practice]()
+Break for [array methods practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/ArrayMethodsPractice.playground)
