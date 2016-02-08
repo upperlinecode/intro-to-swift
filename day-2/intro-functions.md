@@ -28,3 +28,13 @@ func cakeInstructions() {
   print("7. Add eggs and milk to dry ingredients.")
   print("8. Bake for 45 minutes at 375 degrees.")
 }
+```
+- Now, every time we need to print the instructions, we can call the cakeInstructions function, and all of the print statements will run.
+```Swift
+print("Hey, how do I bake a cake?")
+cakeInstructions()
+print("Sorry, I wasn't listening could you say that again?")
+cakeInstructions()
+print("Oh that's great, can you explain that again to my friend here?")
+cakeInstructions()
+```
