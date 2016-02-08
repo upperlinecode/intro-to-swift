@@ -13,3 +13,18 @@ print("6. Combine two eggs and two cups of milk in a bowl and stir.")
 print("7. Add eggs and milk to dry ingredients.")
 print("8. Bake for 45 minutes at 375 degrees.")
 ```
+-Every time you want to give these instructions, it would be easier if you didn't have to type out every line. We can simplify the process by creating our own function. Functions in Swift must contain a few things:
+  - the func keyword
+  - the name of your function, which you will later use to invoke your function
+  - {} curly braces to signal the beginning and end of your function's code.
+```Swift
+func cakeInstructions() {
+  print("1. Take out a bowl and mixing spoon.")
+  print("2. Add 2 cups of sugar to the bowl.")
+  print("3. Mix in 1.5 cups of flour.")
+  print("4. Add 1 teaspoon of salt.")
+  print("5. Mix in 1 tablespoon of baking powder.")
+  print("6. Combine two eggs and two cups of milk in a bowl and stir.")
+  print("7. Add eggs and milk to dry ingredients.")
+  print("8. Bake for 45 minutes at 375 degrees.")
+}
