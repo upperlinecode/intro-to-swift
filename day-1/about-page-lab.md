@@ -28,3 +28,13 @@ Applications like Facebook, Airbnb, or Spotify use what is called a Model-View-C
 - Controller
   - The views need to access the models' data, and this communication is handled by the controllers.
   - The file where we will be writing our controller code is ViewController.swift
+
+####Adding our data to the project
+- This is going to be a one-page application that displays some facts about a user, like a simple profile page. In order to add your data to the page, you'll need to start by going to the About.swift file.
+- You should see this:
+```Swift
+struct About {
+    //Write your code here. Make sure to put all of your code in between the two curly braces that surround the About struct
+
+}
+```
