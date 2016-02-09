@@ -82,10 +82,21 @@ var roundScore = 900
 totalScore = totalScore + score
 ```
 
- - Let the students play around with +, -, *, and %. Discuss what operation each is doing. Have them mix integers and doubles in the same operations. Make sure all students are familiar with PEMDAS. Discuss what happens when you divide 4/3 vs 4/3.0 vs 4/"3". Show them how to convert data types
+ - Let the students play around with +, -, *, and %. Discuss what operation each is doing. Have them mix integers and doubles in the same operations. Make sure all students are familiar with PEMDAS. Discuss what happens when you divide 4/3 vs 4/3.0 vs 4/"3".
+- Show them how to cast one data type to another
  
-
 ```swift
+//casting an Int to a Double
 4/Double(3)
 ```
 
+###Conclusion
+- You can store immutable (unchangeable) data in constants. An example of this is
+```Swift
+let daysInWeek = 7
+```
+- You can store mutable (changeable) data in variables. An example of this is
+```Swift
+var temperature = 60
+```
+- You can use operators like +, -, *, and / to do math with Swift numeric data types like Int or Double
