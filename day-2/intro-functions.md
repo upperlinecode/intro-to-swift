@@ -40,8 +40,8 @@ cakeInstructions()
 - We can also make methods that will return a value. For instance, what if we want to make a function that stores the number of seconds in a year, we could create a function called secondsInAYear:
 ```Swift
 func secondsInAYear() {
-    let seconds = 365*24*60*60
-    print("There are \(seconds) seconds in a year.")
+  let seconds = 365*24*60*60
+  print("There are \(seconds) seconds in a year.")
 }
 ```
 - While this prints a value though, we can't actually do anything with the value that we calculate. If we want to return that number and use it outside the function, we need to add two things to our function:
@@ -58,10 +58,10 @@ print("There are \(secondsInOneThousandYears) seconds in one thousand years.")
 - We can make our function return any data type.
 ```Swift
 func myDescription()-> String {
-    var description = "Name: Bruce Whitaker\n"
-    description.append("Age: 17\n")
-    description.append("Favorite Song: The Boxer")
-    return description
+  var description = "Name: Bruce Whitaker\n"
+  description.append("Age: 17\n")
+  description.append("Favorite Song: The Boxer")
+  return description
 }
 
 print(description())
@@ -69,5 +69,11 @@ print(description())
 Name: Bruce Whitaker
 Age: 17
 Favorite Song: The Boxer
+```
+- There are methods for generating random numbers in swift. We could write our own that will return a random value in a specific range
+```Swift
+func randomNumberFromOneToTen() {
+  return Int(arc4random_uniform(10) + 1)
+}
 ```
 Break for [functions practice 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice1.playground)
