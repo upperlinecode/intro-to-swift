@@ -48,3 +48,15 @@ struct About {
 
 ####Connecting our model to our controller
 - Click on the ViewController.swift file.
+- There is a lot going on here, but it's not as complicated as it looks. A lot of this code gets written for us by Xcode. For now, we're just going to look at this statement (line 18)
+```Swift
+let about = About()
+```
+- We are storing our About struct from the model in a variable constant 'about'.
+- Now, look at the addData function. Focus on the first line:
+```Swift
+Name.text = "Name: \(about.name)"
+```
+- We are interpolating the name constant from the about struct into a string that will be displayed in our views.
+####Connecting our controller to our view
+- This
