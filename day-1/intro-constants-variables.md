@@ -1,5 +1,6 @@
 ##Introduction to Constants and Variables
 
+###Students Will be Able tO
 ###Why
 Every app that you use on your phone contains data. That data becomes useful when it is displayed in a meaningful way. Swift allows us to do this. Before we start manipulating and displaying data, we need to learn how to store it and access it later. Data in swift can either be stored as a constant or a variable.
 
