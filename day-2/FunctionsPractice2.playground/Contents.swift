@@ -56,3 +56,17 @@ import UIKit
 //Make a function called doesThisStartWithQ that accepts a string as a parameter and returns true if the first letter of the string is 'q' or 'Q' and returns false otherwise.
 //doesThisStartWithQ("Bottle Cap") --> false
 //doesThisStartWithQ("Quincy") --> true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
