@@ -44,4 +44,5 @@ struct About {
   -  store your age in a constant  called age.
   -  store a paragraph about yourself in a string constant called bio.
   -  make an array of your top three favorite movies in a constant called favoriteMovies.
--
+####Connecting our model to our controller
+- Click on the ViewController.swift file.
