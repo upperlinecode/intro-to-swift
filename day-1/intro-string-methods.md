@@ -5,7 +5,7 @@ Strings are common across programming languages, and knowing how to use them is 
 
 ###Anticipated Pain Points
 - It is very intimidating to look at documentation, so be clear that this is an important skill but it takes time to become comfortable with it. When you see a good opportunity to look something up as a class, look up a method in the documentation on the projector and talk through the process. Check out stack overflow with them and show them how to find a reliable answer.
-- Chaining methods, like greeting.startIndex.successor(). Experiment with this as a class, and encourage them to experiment as much as possible.
+- Chaining methods, like greeting.startIndex.successor() can be confusing. Experiment with this as a class, and encourage them to experiment as much as possible.
 - You cannot change a string unless it is stored as mutable data (a variable).
 
 ###Walkthrough
