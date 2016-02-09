@@ -58,5 +58,6 @@ let about = About()
 Name.text = "Name: \(about.name)"
 ```
 - We are interpolating the name constant from the about struct into a string that will be displayed in our views.
+
 ####Connecting our controller to our view
 - This
