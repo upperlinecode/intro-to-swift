@@ -67,6 +67,7 @@ Name.text = "Name: \(about.name)"
 - This is where the Name IBOutlet is created. An IBOutlet simply connects a property in our view to our controller. Click on the Main.storyboard file (If it doesn't show up as a picture of an iPhone and you just see code, right click on the file name and select open as -> interface builder - storyboard).
 - If you click on "Name", a box around it will appear. This box will fill up with the string from the controller when you run the application.
 - Test it out by clicking the play button in the upper left corner of Xcode. Select iPhone6 for the simulator.
+
 ####Bonus Items
 - Look up how to change the background color or the size of text
 - If you have an iPhone, you can actually put this onto your phone right now. See if you can look up how to do this.
