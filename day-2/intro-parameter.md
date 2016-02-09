@@ -2,7 +2,7 @@
 
 - Yesterday, we used the modulo operation (%, used to find the remainder of a division operation) to see if a number is even or odd. Packaging up this code into a method lets us reuse it whenever we want.
 ```Swift
-func even(num: Int) -> Bool {
+func isEven(num: Int) -> Bool {
     if num % 2 == 0 {
         return true
     }
