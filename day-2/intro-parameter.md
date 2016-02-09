@@ -15,4 +15,4 @@ func personalizedGreeting(name: String) -> String {
 
 print(personalizedGreeting("Joe"))
 ```
-Break for [functions practice - 2]()
+Break for [functions practice - 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice2.playground)
