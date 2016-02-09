@@ -99,4 +99,8 @@ let daysInWeek = 7
 ```Swift
 var temperature = 60
 ```
+- Data comes in different forms: Strings are sequences of characters surrounded by quotation marks. Booleans are true or false values. Integers are whole numbers, and Doubles are decimal numbers. There are more data types out there, but you can get very far with just these four.
 - You can use operators like +, -, *, and / to do math with Swift numeric data types like Int or Double
+```Swift
+3 + 4 * 2 = 11
+```
