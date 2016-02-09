@@ -28,5 +28,15 @@ func personalizedGreeting(name: String) -> String {
 print(personalizedGreeting("Joe")) //returns "Hello, Joe! How are you doing?"
 ```
 - We can even pass in an array as the argument.
+```Swift
+var stations: [String] = ["14 St-Uniun Sq", "Astor Pl", "Bleeker St", "Spring St", "Canal St", "Brooklyn Bridge-City Hall", "Fulton St", "Wall St", "Bowling Green"]
+
+func subwayDescription(stations: [String]) -> String {
+    return "The first stop on this line is \(stations[0]) and the last stop is \(stations[stations.endIndex.predecessor()])"
+}
+
+subwayDescription(stations)
+//returns "The first stop on this line is 14 St-Uniun Sq and the last stop is Bowling Green"
+```
 
 Break for [functions practice - 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice2.playground)
