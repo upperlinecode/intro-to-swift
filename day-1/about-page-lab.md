@@ -60,4 +60,8 @@ Name.text = "Name: \(about.name)"
 - We are interpolating the name constant from the about struct into a string that will be displayed in our views.
 
 ####Connecting our controller to our view
-- This
+- But where does Name.text come from? Well at the top of ViewController.swift, look at this statement:
+```Swift
+@IBOutlet weak var Name: UILabel!
+```
+This is where the Name IBOutlet is created. An IBOutlet simply connects a property in our view to our controller. Click on the Main.storyboard file (If it doesn't show up as a picture of an iPhone and you just see code, right click on the file name and select open as -> interface builder - storyboard).
