@@ -2,7 +2,9 @@ import UIKit
 
 
 //Functions without return values
-var message = "Max greets people differently depending on his mood. Make four methods: happyGreeting, angryGreeting, confusedGreeting, and tiredGreeting. Make each of them print a greeting matching their name. Do not give it a return value."
+//Max greets people differently depending on his mood. Make four methods: 
+//happyGreeting, angryGreeting, confusedGreeting, and tiredGreeting. 
+//Make each of them print a greeting matching their name. Do not give it a return value."
 
 
 //define happyGreeting here
