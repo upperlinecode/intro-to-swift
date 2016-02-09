@@ -56,4 +56,4 @@ var secondsInOneThousandYears = 1000 * secondsInAYear()
 
 print("There are \(secondsInOneThousandYears) seconds in one thousand years.")
 ```
-Break for [functions practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice.playground)
+Break for [functions practice 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice1.playground)
