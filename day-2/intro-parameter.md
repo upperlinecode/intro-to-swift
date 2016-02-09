@@ -6,6 +6,7 @@
 func greeting() -> String {
   return "Hello! How are you doing?"
 }
+print(greeting()) //returns "Hello! How are you doing?"
 ```
 - We can make this a little more personal by including a function parameter. A parameter is a variable that is used inside the function. The value of the variable assignment goes inside the parentheses after the function's name. We need to specify the name and type of the parameter in the function's definition.
 ```Swift
@@ -13,6 +14,6 @@ func personalizedGreeting(name: String) -> String {
   return "Hello, \(name)! How are you doing?"
 }
 
-print(personalizedGreeting("Joe"))
+print(personalizedGreeting("Joe")) //returns "Hello, Joe! How are you doing?"
 ```
 Break for [functions practice - 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice2.playground)
