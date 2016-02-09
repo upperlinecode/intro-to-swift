@@ -65,7 +65,8 @@ func myDescription()-> String {
     return description
 }
 
-print(description()) -> prints:
+print(description())
+//prints:
 Name: Bruce Whitaker
 Age: 17
 Favorite Song: The Boxer
