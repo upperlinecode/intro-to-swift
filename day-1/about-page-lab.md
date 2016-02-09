@@ -71,4 +71,4 @@ Name.text = "Name: \(about.name)"
 ####Bonus Items
 - Look up how to change the background color or the size of text
 - If you have an iPhone, you can actually put this onto your phone right now. See if you can look up how to do this.
-- Play around with it! You can always download the code again, so it really doesn't matter if you break anything.
+- Play around with it! What is it missing? Add your own touch to it. You can always download the code again, so it really doesn't matter if you break anything.
