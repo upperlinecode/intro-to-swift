@@ -64,4 +64,5 @@ Name.text = "Name: \(about.name)"
 ```Swift
 @IBOutlet weak var Name: UILabel!
 ```
-This is where the Name IBOutlet is created. An IBOutlet simply connects a property in our view to our controller. Click on the Main.storyboard file (If it doesn't show up as a picture of an iPhone and you just see code, right click on the file name and select open as -> interface builder - storyboard).
+- This is where the Name IBOutlet is created. An IBOutlet simply connects a property in our view to our controller. Click on the Main.storyboard file (If it doesn't show up as a picture of an iPhone and you just see code, right click on the file name and select open as -> interface builder - storyboard).
+- If you click on "Name", a box around it will appear. This box will fill up with the string from the controller when you run the application.
