@@ -1,5 +1,5 @@
 ####Why
-Every app that you use on your phone contains data. That data becomes useful when it is displayed in a meaningful way. Swift allows us to do this. Perhaps the most fundamental thing we can do to data is to store it. Data in swift can either be stored as a constant or a variable.
+Every app that you use on your phone contains data. That data becomes useful when it is displayed in a meaningful way. Swift allows us to do this. Before we start manipulating and displaying data, we need to learn how to store it and access it later. Data in swift can either be stored as a constant or a variable.
 
 ####Walkthrough
 - Have the students name an app that they use. Brainstorm about a piece of data that is going to stay the same the entire time you are using the app. eg. Angry Birds - when you create an account, the username that you enter is going to stay on the screen, unchanged. 
