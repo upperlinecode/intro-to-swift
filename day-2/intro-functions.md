@@ -49,11 +49,25 @@ func secondsInAYear() {
   - A return type in the first line of our function's definition. In this case, it will be returning an integer.
   - The return keyword preceding the value that we want to return.
 ```Swift
-func secondsInAYear()->Int {
+func secondsInAYear() -> Int {
     return 365*24*60*60
 }
 var secondsInOneThousandYears = 1000 * secondsInAYear()
 
 print("There are \(secondsInOneThousandYears) seconds in one thousand years.")
+```
+- We can make our function return any data type.
+```Swift
+func myDescription()-> String {
+    var description = "Name: Bruce Whitaker\n"
+    description.append("Age: 17\n")
+    description.append("Favorite Song: The Boxer")
+    return description
+}
+
+print(description()) -> prints:
+Name: Bruce Whitaker
+Age: 17
+Favorite Song: The Boxer
 ```
 Break for [functions practice 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice1.playground)
