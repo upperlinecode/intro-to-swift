@@ -38,3 +38,10 @@ struct About {
 
 }
 ```
+- A struct is simply a way that we can package together several variables. Later on, we are going to have to send this data from the model to the controller, and from the controller to the view. It will be easy to do this if it's all held together in this About struct.
+- Add four constants inside the curly braces of the struct:
+  -  store your name in a constant called name.
+  -  store your age in a constant  called age.
+  -  store a paragraph about yourself in a string constant called bio.
+  -  make an array of your top three favorite movies in a constant called favoriteMovies.
+-
