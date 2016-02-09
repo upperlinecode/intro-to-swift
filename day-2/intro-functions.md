@@ -1,7 +1,6 @@
 ##Functions
 ####Motivation
 Think about all of the built-in methods we've used for Strings and Arrays: count(), insert(), removeAtIndex(), ect. They took common tasks and packaged up the code for everyone to use. We can create our own methods, or functions, to organize our code and prevent repetition.
-
 - Imagine that we want to give somebody instructions. Let's say, to bake a cake.
 ```Swift
 print("1. Take out a bowl and mixing spoon.")
