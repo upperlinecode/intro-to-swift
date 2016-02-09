@@ -86,7 +86,7 @@ if mood == "happy" {
 
 
 
-//BONUS: Write a function that takes in a number of inches and returns the equivalent 
+//BONUS: Write a function called inchesToCentimeters that takes in a number of inches and returns the equivalent 
 //amount of centimeters (You'll have to look up how to use arguments...)
 
 
