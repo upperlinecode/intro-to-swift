@@ -27,13 +27,19 @@ uppercaseString     |     removeAtIndex(_:)
 
 
 
-###More tools: 
+#####More tools: 
 ```Swift 
 var greeting = "Hi! My name is Jim, what's yours?" 
 ```
-  - To retrieve, or return, a single character in a string, start by adding square brackets at the end of the string: greeting[]. Inside the brackets, we'll add the location, or index, of the first character in the string: greeting[greeting.startIndex]. This works the same way for the endIndex property.
-
-  - To get an index in the middle of a string, we can add the advancedBy(), successor(), or predecessor() methods after startIndex() or endIndex(). For instance, one way to return the "!" from this string would be like this:
+  - To retrieve, or return, a single character in a string, start by adding square brackets at the end of the string:
+```Swift
+greeting[]
+```
+- Inside the brackets, we'll add the location, or index, of the first character in the string:
+```Swift
+greeting[greeting.startIndex]. This works the same way for the endIndex property.
+```
+- To get an index in the middle of a string, we can add the advancedBy(), successor(), or predecessor() methods after startIndex() or endIndex(). For instance, one way to return the "!" from this string would be like this:
 
 ```Swift
 greeting[greeting.startIndex.successor().successor()]
