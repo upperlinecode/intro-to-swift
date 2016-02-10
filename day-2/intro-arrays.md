@@ -71,3 +71,6 @@ if shoppingList.contains("pizza") {
 }
 ```
 Break for [array methods practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/ArrayMethodsPractice.playground)
+
+###Conclusion
+Storing data in an array is similar to storing it in seperate variables. With an array though, we can refer to many pieces of data using the same name, and we get methods from Swift to let us add, access, edit, add delete data in the array. 
