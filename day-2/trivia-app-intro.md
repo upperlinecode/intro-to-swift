@@ -13,5 +13,8 @@
 ####Adding a Title
 - At the bottom of the utilities bar is a library where we can access pre-built tools to add to our app. Selecting the third icon at the top of this box will show you the Object Library (the icon for this is a circle with a square inside).
 - There is a search tool at the bottom. Search for the Label object and drag it on to the page.
+- We need to change the text and the size of this label. We could do it directly on the view but we have more control if we do it in the utilities bar.
+  - First, go to the attributes inspector. (select the downward-pointing arrow at the top of the utilities bar). While in the attributes inspector, click on the label. At the top of the bar, you will see options for changing the text, colors, allignment, and more. For the text, change it from 'label' to whatever you want to title your app. Then, take a minute and play with some of the other buttons. Change the color, select the highlighter; become familiar with your dev environment.
+  - Next, go to the size inspector. This icon is next to the attributes inspector's and is shaped like a ruler. Use the arrows next to the x values to adjust the width until your text fits inside of the label box.
 - We want to position this in the center of the page and against the top margin. Xcode has a feature for aligning elements of the view, so blue lines appear when you are aligned with a margin, at the horizontal or vertical center of the view, or when you line up with the edge of another object. Give it a try. Move your label to the top center.
  
