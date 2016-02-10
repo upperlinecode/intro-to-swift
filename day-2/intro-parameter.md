@@ -1,4 +1,20 @@
+##Functions with Parameters
+
+###Students Will Be Able To
+- Define a function with a return value and one parameter
+- Explain the difference between a parameter and an argument
+
+###Why
+Every app that you use on your phone contains data. That data becomes useful when it is displayed in a meaningful way. Swift allows us to do this. Before we start manipulating and displaying data, we need to learn how to store it and access it later. Data in swift can either be stored as a constant or a variable.
+
+###Anticipated Pain Points
+- 
+
+###Walkthrough
+
 - We've used lots of built-in Swift methods, and most of them were were more flexible than the functions we've been writing so far today. For instance, when we used the contains() method for arrays we were able to pass a value into the function. We can pass anything into the function.
+
+- To pass a value into a function, we add a parameter to the definition. This parameter defines the name that we will use to hold the value which we pass in. The actual value passed in is called the argument.
 
 - Yesterday, we used the modulo operation (%, used to find the remainder of a division operation) to see if a number is even or odd. Packaging up this code into a method lets us reuse it whenever we want.
 ```Swift
