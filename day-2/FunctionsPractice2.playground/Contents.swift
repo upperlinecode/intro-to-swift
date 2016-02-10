@@ -68,5 +68,8 @@ import UIKit
 
 
 
-
-
+//Bonus
+//More than one parameter
+//Make a function called pythagoreanTheorem that takes in two integer parameters for leg1 and leg2 of a right triangle. The function should return the length of the hypotenuse.
+//pythagoreanTheorem(3,4) --> 5
+//pythagoreanTheorem(6,8) --> 10
