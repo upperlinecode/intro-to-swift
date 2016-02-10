@@ -18,3 +18,9 @@
   - Next, go to the size inspector. This icon is next to the attributes inspector's and is shaped like a ruler. Use the arrows next to the x values to adjust the width until your text fits inside of the label box.
 - We want to position this in the center of the page and against the top margin. Xcode has a feature for aligning elements of the view, so blue lines appear when you are aligned with a margin, at the horizontal or vertical center of the view, or when you line up with the edge of another object. Give it a try. Move your label to the top center.
  
+####Try it Yourself
+We will pick up more of this tomorrow. But before that, try to do a few things on your own. If you're not sure how to do something, first look back and see if we did a similar task earlier. Make sure to talk out any problems with the person sitting next to you. If you both are still having trouble, go to the internet! Try to search with specific keywords, not long questions. Results from developer.apple.com are great, and high-voted answers on stack overflow can be very helpful.
+- Try to add a few more things to this app:
+  - Add another label. Give it the text 'this will be a fun fact tomorrow!'. Center it horizontally and vertically on the page. 
+  - Change the background color of the whole app.
+  - Add a picture to your app! (hint: you will need a different type of object from the Object Library for this)
