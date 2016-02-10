@@ -27,7 +27,7 @@ uppercaseString     |     removeAtIndex(_:)
 
 
 
-#####More tools: 
+####More tools: 
 ```Swift 
 var greeting = "Hi! My name is Jim, what's yours?" 
 ```
