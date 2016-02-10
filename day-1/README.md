@@ -3,7 +3,7 @@
 ## Schedule
  	|	Time        		| Activity       |
    -------------|-------------       |:-------------:|
-    Morning	    |   9:00 - 9:30      | PPT with big goals, objectives, agenda
+    Morning	            |   9:00 - 9:30        | [Day One Slides](https://docs.google.com/presentation/d/1jygKz5cmy_Qz4bxvpK3Pyl6RKmh8PrqFyDLCFrE_AW0/edit?usp=sharing)
 		            |   9:30 - 9:45    	   | Improv, something with names (e.g. name/rhyme/motion)	     
  		            |   9:45 - 10:00  	   | [XCode walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/xcode-setup.md)
  		            |   10:00 - 10:45	   | [constants, variables, and data types](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/intro-constants-variables.md)<br>[calculator mini-lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/lab-calculator.md)<br>[calculator mini-lab playground](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/CalculatorLab.playground)<br>[calculator mini-lab example](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/CalculatorLabExample.playground)
