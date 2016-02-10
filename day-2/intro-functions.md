@@ -1,6 +1,17 @@
 ##Functions
-####Motivation
+
+###Students Will Be Able To
+- Define a function with no parameters and no return value
+- Define a funciton with no parameters and a return value
+
+###Why
 Think about all of the built-in methods we've used for Strings and Arrays: count(), insert(), removeAtIndex(), ect. They took common tasks and packaged up the code for everyone to use. We can create our own methods, or functions, to organize our code and prevent repetition.
+
+###Anticipated Pain Points
+- what is the difference between returning and printing information from a function?
+- difficult syntax - a poster with the syntax could be helpful
+
+###Walkthrough
 - Imagine that we want to give somebody instructions. Let's say, to bake a cake.
 ```Swift
 print("1. Take out a bowl and mixing spoon.")
