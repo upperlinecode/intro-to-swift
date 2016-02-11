@@ -1,5 +1,19 @@
-- Every app that you use on your phone has data. That data becomes useful when it is displayed in a meaningful way. Swift allows us to do this.
-- Perhaps the most fundamental thing we can do to data is to store it. Data in swift can either be stored as a constant or a variable. 
+##Introduction to Constants and Variables
+
+###Students Will Be Able To
+- explain the difference between a constant and a variable
+- assign values to a variable or constant
+- provide type annotation to declare a variable or constant's type
+- Explain the differences between Strings, Booleans, Integers, and Doubles.
+
+###Why
+Every app that you use on your phone contains data. That data becomes useful when it is displayed in a meaningful way. Swift allows us to do this. Before we start manipulating and displaying data, we need to learn how to store it and access it later. Data in swift can either be stored as a constant or a variable.
+
+###Anticipated Pain Points
+- Difference between constant and variable use cases: only use a constant if you are positive this is a value that you never want to change.
+- We do not have to declare a type for a constant or variable. It just helps to make your code more clear. You will usually only see it done when there is no initial value assigned to the variable.
+
+###Walkthrough
 - Have the students name an app that they use. Brainstorm about a piece of data that is going to stay the same the entire time you are using the app. eg. Angry Birds - when you create an account, the username that you enter is going to stay on the screen, unchanged. 
 - In a case like this, it is convention to let swift know that this data will not change. we do so by assigning it to a constant. A constant is a word that refers to a piece of data and is immutable, meaning xcode will throw an error if we ever attempt to change it. Assigning this data looks pretty similar to a simple algebraic expression, with one addition. We begin the statement with 'let', which is a keyword in swift. Assigning your username to a constant might look something like this:
 
@@ -74,10 +88,26 @@ var roundScore = 900
 totalScore = totalScore + score
 ```
 
- - Let the students play around with +, -, *, and %. Discuss what operation each is doing. Have them mix integers and doubles in the same operations. Make sure all students are familiar with PEMDAS. Discuss what happens when you divide 4/3 vs 4/3.0 vs 4/"3". Show them how to convert data types
+ - Let the students play around with +, -, *, and %. Discuss what operation each is doing. Have them mix integers and doubles in the same operations. Make sure all students are familiar with PEMDAS. Discuss what happens when you divide 4/3 vs 4/3.0 vs 4/"3".
+- Show them how to cast one data type to another
  
-
 ```swift
+//casting an Int to a Double
 4/Double(3)
 ```
 
+###Conclusion
+- You can store immutable (unchangeable) data in constants. An example of this is
+```Swift
+let daysInWeek = 7
+```
+- You can store mutable (changeable) data in variables. An example of this is
+```Swift
+var temperature = 60
+```
+- Data comes in different forms: Strings are sequences of characters surrounded by quotation marks. Booleans are true or false values. Integers are whole numbers, and Doubles are decimal numbers. There are more data types out there, but you can get very far with just these four.
+- You can use operators like +, -, *, and / to do math with Swift numeric data types like Int or Double
+```Swift
+var number = 3 + 4 * 2
+//number = 11
+```

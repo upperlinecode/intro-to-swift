@@ -12,9 +12,9 @@ import UIKit
 
 
 
-//Make a function called repeat that takes in a string parameter and prints that string three times, seperated by spaces.
-//repeat("Banana") --> returns "Banana Banana Banana"
-//repeat("That kangaroo is Australian") --> returns "That kangaroo is Australian That kangaroo is Australian That kangaroo is Australian"
+//Make a function called repeat that takes in a string parameter and prints that string three times. The first two should be followed by a comma, and the final should be followed by an exclamation point.
+//repeat("Banana") --> returns "Banana, Banana, Banana!"
+//repeat("That kangaroo is Australian") --> returns "That kangaroo is Australian, That kangaroo is Australian, That kangaroo is Australian!"
 
 
 
@@ -68,5 +68,8 @@ import UIKit
 
 
 
-
-
+//Bonus
+//More than one parameter
+//Make a function called pythagoreanTheorem that takes in two integer parameters for leg1 and leg2 of a right triangle. The function should return the length of the hypotenuse.
+//pythagoreanTheorem(3,4) --> 5
+//pythagoreanTheorem(6,8) --> 10

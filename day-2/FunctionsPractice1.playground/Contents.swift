@@ -2,7 +2,9 @@ import UIKit
 
 
 //Functions without return values
-var message = "Max greets people differently depending on his mood. Make four methods: happyGreeting, angryGreeting, confusedGreeting, and tiredGreeting. Make each of them print a greeting matching their name. Do not give it a return value."
+//Max greets people differently depending on his mood. Make four methods: 
+//happyGreeting, angryGreeting, confusedGreeting, and tiredGreeting. 
+//Make each of them print a greeting matching their name. Do not give it a return value."
 
 
 //define happyGreeting here
@@ -78,6 +80,16 @@ if mood == "happy" {
 //print("Hi! My name is \(fullName()). I am \(myAge()) and I'm from \(homeTown()).")
 
 
+
+
+
+
+
+
+
+
+//BONUS: Write a function called inchesToCentimeters that takes in a number of inches and returns the equivalent 
+//amount of centimeters (You'll have to look up how to use arguments...)
 
 
 
