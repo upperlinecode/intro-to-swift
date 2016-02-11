@@ -16,6 +16,6 @@ struct About {
     
     let bio: String = "NYC Born and Bred"
     
-    let favoriteWebsites: [String] = ["Die Hard", "Casino Royal", "The Return of the King"]
+    let favoriteMovies: [String] = ["Die Hard", "Casino Royal", "The Return of the King"]
 
 }
