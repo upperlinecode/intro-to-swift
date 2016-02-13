@@ -6,9 +6,12 @@ We're going to finish the trivia app that we started at the end of the day yeste
   - The Model: this is where the data is kept. In our trivia app, this data will be an array of trivia facts.
   - The Controller: this takes the data from our model and feeds it into the view.
   - The View: this displays data to the user and let's the user input data into the application.
+
 <br>
+
 ![source: developer.apple.com](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png)
 <br>
+
 ####Setting up our model
 - Remember our AboutPage app that we built? Our model in that app held several pieces of data: a name, age, bio, and an array of favorite movies:
 ```Swift
