@@ -45,7 +45,7 @@ struct TriviaModel {
 let triviaModel = TriviaModel()
 ```
 - This will put our model inside of a constant and let us easily access the data later on.
-- We can test this and see if our model has been properly stored in this constant. Go into the viewDidLoad() method. This method runs right after the view finishes loading. From Xcode, we can click the play button to make the view load. In the viewDidLoad() method, print the facts array from our model. If we did everything correct, the array will appear in the console as soon as the view has loaded.
+- We can test this and see if our model has been properly stored in this constant. Go into the viewDidLoad() method. This method runs right after the view finishes loading. From Xcode, we can click the play button to make the view load. In the viewDidLoad() method, print the facts array from our model. If we did everything correct, the array will appear in the console as soon as the view has loaded. Go ahead and delete the print statement after you get it to work.
 ```Swift
 override func viewDidLoad() {
     super.viewDidLoad()
@@ -55,7 +55,30 @@ override func viewDidLoad() {
 ```
 ####Connecting the view to the model
 - It's great to make this appear in the console, but we want to make it appear in the view. Specifically, we want to replace the text in the label with the text from our facts array. 
+- Bring up Main.storyboard to the editor area. Also bring up the assistant editor (button with two overlapping circles)so that you can see the ViewController at the same time. 
+- If you hold Control, click the label in the center of the page, and drag it to the top of the ViewController class (right next to where we created the triviaModel constant) you will see the text "Insert Outlet or Outlet Collection" appear. Let go of the control button and a form will appear. It should be filled out as follows:
+  - Connection: Outlet
+  - Object: ViewController
+  - Name: Fact
+  - Type: UILabel
+  - Storage: Weak
+- Your new controller should look like this: 
+```Swift
+class ViewController: UIViewController {
 
+    @IBOutlet weak var Fact: UILabel!
+    let triviaModel = TriviaModel()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+    }
+}
+```
 
 
 
