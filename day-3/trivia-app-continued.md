@@ -18,3 +18,16 @@ struct About {
 }
 ```
 - We need to create a new file to hold our model. Look at the document tree in the Navigator. In the same folder with Main.storyboard and ViewController.swift, create a new file called TriviaModel.swift (when it asks you what kind of file you want to create, select swift file).
+- This time, we're going to hold our data in a struct called TriviaModel. We'll go over structs more later. For now, just remember that it's a way of holding similar data together:
+```Swift
+struct TriviaModel {
+
+
+}
+```
+- For our app, we need a list of interesting facts that we will present, one by one, in the view. We are going to store this list in an array of strings. Copy and paste this array into your struct:
+```Swift
+struct TriviaModel {
+    let facts: [String] = ["When hippos are upset, their sweat turns red.", "29th May is officially 'Put a Pillow on Your Fridge Day'.", "If you lift a kangaroo’s tail off the ground it can’t hop.", "A mantis shrimp can swing its claw so fast it boils the water around it and creates a flash of light.", "Honey does not spoil. You could feasibly eat 3000 year old honey.", "The state sport of Maryland is jousting.", "If you were to remove all of the empty space from the atoms that make up every human on earth, the entire world population could fit into an apple.", "The woolly mammoth was still around when the pyramids were being built.", "There are more possible iterations of a game of chess than there are atoms in the known universe.", "Written language was invented independently by the Egyptians, Sumerians, Chinese, and Mayans.", "It can take a photon 40,000 years to travel from the core of the sun to the surface, but only 8 minutes to travel the rest of the way to earth.", "A day on the planet Venus is longer than a year on Venus.", "The fingerprints of koala bears are virtually indistinguishable from those of humans.", "The time difference between when Stegosaurus and Tyrannosaurus lived is greater than the time difference between Tyrannosaurus and now.", "Russia is bigger than Pluto.", "Charlie Chaplin once entered a Charlie Chaplin look alike contest and lost.", "The bushes in Mario were just recolored clouds."]
+}
+```
