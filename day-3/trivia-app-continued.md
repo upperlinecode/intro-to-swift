@@ -40,13 +40,21 @@ struct TriviaModel {
 ####Connecting the model to the controller
 - It's important to continually think of our application in terms of these three layers: the model and the view, connected by the controller. We seperate these layers so that our code is more readable, easier to debug, and easier to scale (make bigger). Luckily, files in the same Xcode project can easily communicate with each other, so sending data from one layer to the other is relatively simple. 
 - In this next step, the model (TrivaModel.swift) is going to communicate with the controller (ViewController.swift) and send it our array of trivia facts.
-- In the navigator, select the ViewController.swift file. In more complicated applications, there might be many controller files, but this one-page application can make do with only one.
+- In the navigator, select the ViewController.swift file. In more complicated applications, there might be many controller files, but this one-page application can make do with only one. Above the viewDidLoad() method, add this line:
 ```Swift
-
+let triviaModel = TriviaModel()
+```
+- This will put our model inside of a constant and let us easily access the data later on.
+- We can test this and see if our model has been properly stored in this constant. Go into the viewDidLoad() method. This method runs right after the view finishes loading. From Xcode, we can click the play button to make the view load. In the viewDidLoad() method, print the facts array from our model. If we did everything correct, the array will appear in the console as soon as the view has loaded.
+```Swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    print(triviaModel.facts)
+}
 ```
 ####Connecting the view to the model
-- 
-
+- It's great to make this appear in the console, but we want to make it appear in the view. Specifically, we want to replace the text in the label with the text from our facts array. 
 
 
 
