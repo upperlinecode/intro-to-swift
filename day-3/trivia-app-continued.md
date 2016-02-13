@@ -79,10 +79,24 @@ class ViewController: UIViewController {
     }
 }
 ```
+- An IBOutlet is an Interface Builder object that creates an outlet from the view to the controller. We can test this outlet by assigning a new value to Fact's text when the view loads. The label has a method 'text' that we can use for this assignment.
+```Swift
+class ViewController: UIViewController {
 
+    @IBOutlet weak var Fact: UILabel!
+    let triviaModel = TriviaModel()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        Fact.text = "Whoa where did this come from!?"
+    }
 
-
-
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+    }
+}
+```
 
 
 
