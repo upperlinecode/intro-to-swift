@@ -11,6 +11,7 @@ We're going to finish the trivia app that we started at the end of the day yeste
 
 ![source: developer.apple.com](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png)
 <br>
+<br>
 
 ####Setting up our model
 - Remember our AboutPage app that we built? Our model in that app held several pieces of data: a name, age, bio, and an array of favorite movies:
