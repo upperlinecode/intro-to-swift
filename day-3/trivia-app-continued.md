@@ -9,7 +9,8 @@ We're going to finish the trivia app that we started at the end of the day yeste
 
 <br>
 
-![source: developer.apple.com](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png)
+![source: developer.apple.com](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png "Model-View-Controller Relationship")
+source: developer.apple.com
 <br>
 <br>
 
