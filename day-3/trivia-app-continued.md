@@ -99,7 +99,15 @@ class ViewController: UIViewController {
 ```
 
 ####Completing the chain: pass the data from the model into the view.
+- Instead of making Fact.text equal to an arbitrary string, we want to make it equal to the first element of the model's facts array. All we need to do is change our viewDidLoad() method in the viewController.
+```Swift
+override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        Fact.text = triviaModel.facts[0]
 
+    }
+```
 
 
 
