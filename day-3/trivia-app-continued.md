@@ -98,6 +98,8 @@ class ViewController: UIViewController {
 }
 ```
 
+####Completing the chain: pass the data from the model into the view.
+
 
 
 
