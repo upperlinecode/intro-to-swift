@@ -33,5 +33,10 @@ func squares() {
     }
 }
 ```
-- Another way of reading this in your head is "For each integer in the range from 1 to 10, print this: '\(integer)^2 = \(integer * integer)'"
+- Another way of reading this in your head is "For each integer in the range from 1 to 10, print this: 
+```Swift
+"\(integer)^2 = \(integer * integer)"
+```
+- 
+
 ###Conclusion
