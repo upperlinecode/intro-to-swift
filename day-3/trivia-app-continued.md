@@ -81,20 +81,10 @@ class ViewController: UIViewController {
 ```
 - An IBOutlet is an Interface Builder object that creates an outlet from the view to the controller. We can test this outlet by assigning a new value to Fact's text when the view loads. The label has a method 'text' that we can use for this assignment.
 ```Swift
-class ViewController: UIViewController {
 
-    @IBOutlet weak var Fact: UILabel!
-    let triviaModel = TriviaModel()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        Fact.text = "Whoa where did this come from!?"
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-    }
+override func viewDidLoad() {
+    super.viewDidLoad()
+    Fact.text = "Whoa where did this come from!?"
 }
 ```
 
@@ -102,11 +92,9 @@ class ViewController: UIViewController {
 - Instead of making Fact.text equal to an arbitrary string, we want to make it equal to the first element of the model's facts array. All we need to do is change our viewDidLoad() method in the viewController. Add this code and run the simulator to test it out.
 ```Swift
 override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        Fact.text = triviaModel.facts[0]
-
-    }
+    super.viewDidLoad()
+    Fact.text = triviaModel.facts[0]
+}
 ```
 ####Getting to the Minimum Viable Product (MVP)
 - When you are developing an application, you may have a list of product features that you want to include. However, it is time-consuming and expensive to develop your project completely before putting it on the market. Instead, you can first work towards an MVP, which is an application that has just enough features that is meets the minimum standards for your goal. In this trivia app, our MVP needs to display a trivia fact and there needs to be a button that changes the fact when clicked.
