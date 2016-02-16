@@ -99,7 +99,7 @@ class ViewController: UIViewController {
 ```
 
 ####Completing the chain: pass the data from the model into the view.
-- Instead of making Fact.text equal to an arbitrary string, we want to make it equal to the first element of the model's facts array. All we need to do is change our viewDidLoad() method in the viewController.
+- Instead of making Fact.text equal to an arbitrary string, we want to make it equal to the first element of the model's facts array. All we need to do is change our viewDidLoad() method in the viewController. Add this code and run the simulator to test it out.
 ```Swift
 override func viewDidLoad() {
         super.viewDidLoad()
@@ -108,10 +108,31 @@ override func viewDidLoad() {
 
     }
 ```
-
-
-
-
-
-
-
+####Getting to the Minimum Viable Product (MVP)
+- When you are developing an application, you may have a list of product features that you want to include. However, it is time-consuming and expensive to develop your project completely before putting it on the market. Instead, you can first work towards an MVP, which is an application that has just enough features that is meets the minimum standards for your goal. In this trivia app, our MVP needs to display a trivia fact and there needs to be a button that changes the fact when clicked.
+- To do this, we are going to write a new method in our model that returns a random fact.
+- We'll use a Swift method arc4random_uniform to generate the random index number. This method takes in one parameter of type UInt32. Our constant arrayLength is an Int but we can cast it to UInt32. It doesn't return an integer like we need for our index, so we also need to cast the return value back to an Int. 
+```Swift
+ func randomFact()->String {
+        let arrayLength = facts.count
+        let randomIndex = rand(4)
+        return facts[randomIndex]
+    }
+```
+- And now let's change the viewDidLoad method so that we randomize the initial fact that appears when the app loads
+```Swift
+override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        Fact.text = triviaModel.randomFact()
+    }
+```
+- Last on our list of tasks towards the MVP is a button that will change the displayed fact. The button will be connected to the viewController in a similar way as the label's we've added already.
+- Go to the object library and add a button to the bottom of your storyboard. Change the text to 'New Fact' using the attributes inspector.
+- Right click on the button and drag it into the bottom of the ViewController, just like we did when adding the IBOutlet for the label. This time, it will give you the option of adding an action in addtion to an outlet or an outlet collect. When the form pops up, change the connection to action and name it newFact. The type should be UIButton and it will be triggered by a Touch-Up-Inside event. We don't need to pass in any arguments from the view to our method, so change arguments to none.
+- This will generate an empty method in our ViewController. Any code inside this method will execute whenever the button is pushed. All we need to do is add the same line of code that we used in the viewDidLoad method to set the original value of the label. This is what it should look like when it's done.
+```Swift
+@IBAction func newFact() {
+        Fact.text = triviaModel.randomFact()
+    }
+```
