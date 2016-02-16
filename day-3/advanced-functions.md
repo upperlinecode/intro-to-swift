@@ -2,15 +2,17 @@
 
 ###Students Will Be Able To
 - Define a function with multiple parameters
-- Define a function with multiple return values
 - Assign a default value to a parameter
+- Define a function with multiple return values
+
 
 ###Why
 There is no way that we could properly master all of the intricacies of writing functions in one day. And the more we learn about them, the more powerful they become. More advanced function techniques allow our code to be more readable and more concise. As a developer you will also read a lot of functions written by other developers. The more familiar with functions you become, the easier it will be to understand other people's code.  
 
 ###Anticipated Pain Points
-- Adding multiple return values requires using tuples, which is a new data type for the students.
 - Make sure students know to add default parameters to the end of the list of parameters. This ensures that non-default parameters will always be called in the correct order.
+- Adding multiple return values requires using tuples, which is a new data type for the students.
+
 
 ###Walkthrough
 ####Multiple Parameters
