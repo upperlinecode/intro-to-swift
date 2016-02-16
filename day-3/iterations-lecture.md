@@ -66,4 +66,39 @@ FavoriteMovies.text = "Favorite Movies:\n1. \(about.favoriteMovies[about.favorit
 \(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(1)])\n3.
 \(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(2)])"
 ```
+- We could clean this up using a for in loop. We can iterate through a range of index values from 0 to 1 less than the length of the favoriteMovies array.
+```Swift
+var movieList = ""
+for index in 0..<favoriteMovies.count {
+  movieList += "\(index + 1). \(favoriteMovies[index])\n"
+}
+FavoriteMovies.text = movieList
+```
+- This looks a little sloppy though. Having to iterate through index values and then use those index values to access items in the array works, but you may prefer to do it this way:
+```Swift
+var movieList = ""
+for (index, movie) in favoriteMovies.enumerate() {
+  movieList += "\(index + 1). \(movie)\n"
+}
+FavoriteMovies.text = movieList
+```
+- The enumerate method lets us access the index value of each element as we iterate through the array.
+- Finally, it is often useful to be able to iterate through all of the characters of a string. We can't iterate over a string directly, but we can use String's characters method to get an array of a string's characters.
+```Swift
+let name = "Tim Cook"
+for letter in name {
+  print("\(letter)!")
+}
+//prints
+T!
+i!
+m!
+ !
+C!
+o!
+o!
+k!
+```
+Break for [iteration practice]
 ###Conclusion
+The for loop is only one of many iteration methods available in Ruby. We'll keep introducing more, but if you want to look at some more, a good place to start is the Swift documentation on [while loops](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html#//apple_ref/doc/uid/TP40014097-CH9-ID120).
