@@ -37,6 +37,27 @@ func squares() {
 ```Swift
 "\(integer)^2 = \(integer * integer)"
 ```
-- 
-
+- Anything inside of the { } will be applied to each element in the range.
+- We could make this function even more versatile by giving it a parameter for the range's upper bound (This would be very difficult without iterations).
+```Swift
+func squares(upperBound: Int) {
+    for integer in 1...upperBound {
+        print("\(integer)^2 = \(integer * integer)")
+    }
+}
+```
+- You can also use a for loop to iterate through an array. Where we used a range before, insert the name of an array.
+```Swift
+func jediGoodbye(jediCouncil: [String]) {
+    for jediMaster in jediCouncil {
+        print("Goodbye \(jediMaster), may The Force be with you.")
+    }
+}
+jediGoodbye(["Qui Gon", "Obi Wan", "Yoda", "Mace Windu"])
+//prints
+//Goodbye Qui Gon, may The Force be with you.
+//Goodbye Obi Wan, may The Force be with you.
+//Goodbye Yoda, may The Force be with you.
+//Goodbye Mace Windu, may The Force be with you.
+```
 ###Conclusion
