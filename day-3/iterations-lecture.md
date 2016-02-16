@@ -62,6 +62,8 @@ jediGoodbye(["Qui Gon", "Obi Wan", "Yoda", "Mace Windu"])
 ```
 - On Monday we looked at a one-page application that displayed a user's information, including a list of his or her favorite movies. In order to pass the list of favorite movies to the view, the following string was interpolated:
 ```Swift
-FavoriteMovies.text = "Favorite Movies:\n1. \(about.favoriteMovies[about.favoriteMovies.startIndex])\n2. \(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(1)])\n3. \(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(2)])"
+FavoriteMovies.text = "Favorite Movies:\n1. \(about.favoriteMovies[about.favoriteMovies.startIndex])\n2.
+\(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(1)])\n3.
+\(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(2)])"
 ```
 ###Conclusion
