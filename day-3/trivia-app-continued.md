@@ -124,3 +124,25 @@ override func viewDidLoad() {
         Fact.text = triviaModel.randomFact()
     }
 ```
+- And that's it! We have our minimum viable product. Give it a test and see how it works.
+
+####Cleaning up the View
+- One problem with our current app is that the labels are too small, and some of our facts won't fit. To fix this, click on the label and go to the attributes inspector. You can increase the number of lines that the label takes up, and increase the vertical size of the label using the size inspector so that three lines of text can fit in the box.
+  - While testing the size of the label and the increased number of lines, add a longer string to the default label so you can immediately see how your changes affect the content's fit.
+- By right-clicking on an element in your view and dragging the mouse to nearby objects in the view, you can also add constraints to control the positioning of the view's elements. We'll talk more about this tomorrow, but for now take a look at [this page](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html) in the documentation.
+####Keep building
+- Keep building this project out. When you aren't sure how to do something, work through the problem with a partner. Go to google for help. Consult the Swift documentation, Stack Overflow, blogs, or any resource you can find. 
+  - Refactor the newFact method so that it never repeats the same fact twice
+
+
+
+
+
+
+
+
+
+
+
+
+
