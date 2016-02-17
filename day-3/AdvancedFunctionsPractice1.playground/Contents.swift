@@ -7,7 +7,7 @@ import UIKit
 
 //1. Bio
 //Create a function called bio that accepts three parameters: a string called name, a string called homeTown, and an integer called age.
-//print(bio("Dave", "Pittsburgh", 18))
+//print(bio("Dave", name: "Pittsburgh", age: 18))
 //   prints:
 //   Name: Dave
 //   Home Town: Pittsburgh
@@ -20,8 +20,8 @@ import UIKit
 //-------------------------------------------------------------------------------------------------------------------------------
 //2. Pythagorean Theorem
 //Write a function called hypotenuse that takes in two double values representing the legs of a right triangle. It should return a double value, the length of the triangle's hypotenuse
-//print(hypotenuse(3.0, 4.0)) // prints 5.0
-//print(hypotenuse(8.0, 6.0)) // prints 10.0
+//print(hypotenuse(3.0, leg2: 4.0)) // prints 5.0
+//print(hypotenuse(8.0, leg2: 6.0)) // prints 10.0
 
 
 
