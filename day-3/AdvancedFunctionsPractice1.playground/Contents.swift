@@ -51,3 +51,13 @@ import UIKit
 
 
 //Bonus: Add to the cash register function so that it takes in any number of item prices and corresponding counts, not just one item price and count.
+
+
+
+
+
+
+
+
+
+
