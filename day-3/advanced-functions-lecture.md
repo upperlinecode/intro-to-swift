@@ -52,7 +52,7 @@ pets(3) //prints "I love animals. I just 3 new parakeets!"
 ```
 - Make sure that you list your default parameters last. This won't neccessarily lead to errors, but it's considered good style.
 
-Break for [advanced functions - practice 1]()
+Break for [advanced functions - practice 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3/AdvancedFunctionsPractice1.playground)
 
 ####Multiple Return Values
 - So far we've only returned single values, like this:
@@ -83,5 +83,7 @@ let foodPreferences = favoriteFoods["pizza", "salads", "sweet potatoes", "chicke
 print("I like a lot of different foods. My favorite is \(foodPreferences.favoriteFood) and my least favorite is \(foodPreferences.leastFavoriteFood).")
 ```
 
-Break for [advanced functions - practice 1]()
+Break for [advanced functions - practice 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3/AdvancedFunctionsPractice2.playground)
 ###Conclusion
+We just saw that we can make our functions more versatile and complex with multiple parameters, default parameters, and multiple return values. The fundamentals of what a parameter or return value is has not changed, but we're gaining an appreciation for Swift and the many things we can do with it.
+There are many more topics in function writing to explore: external parameter names, variadic parameters, function types, and more. For now, what's important is to practice what you know, look up things that you come across and don't understand, and keep writing cool programs.
