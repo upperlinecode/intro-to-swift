@@ -8,7 +8,8 @@ let landArea = [71, 109, 23, 42, 58]
 
 //Level 1
 //Write a function called nycBoroughs that satisfies the following requirements:
-//prints:
+//i) it prints the following string:
+//
 //NYC - population: 8491079 people
 //Brooklyn - population: 2621793 people
 //Queens - population: 2321580 people
@@ -16,8 +17,9 @@ let landArea = [71, 109, 23, 42, 58]
 //The Bronx - population: 1438159 people
 //Staten Island - population: 473279 people
 
-
-
+func nycBoroughs(boroughNames: [String], boroughPopulations: [Int]) {
+    
+}
 
 
 
@@ -28,17 +30,41 @@ let landArea = [71, 109, 23, 42, 58]
 
 //----------------------------------------------------------------------------------------------------------------------------------
 //Level 2
-//Write a function called nycBoroughs that satisfies the following requirements:
-//i) prints the following message:
-//NYC - population: 8491079 people - land area: 303 sq miles
-//Brooklyn - population: 2621793 people - land area: 71 sq miles
-//Queens - population: 2321580 people - land area: 109 sq miles
-//Manhattan - population: 1636268 people - land area: 23 sq miles
-//The Bronx - population: 1438159 people - land area: 42 sq miles
-//Staten Island - population: 473279 people - land area: 58 sq miles
+//Write a function called nycBoroughsWithPopulationDensity that satisfies the following requirements:
+//population density has the units people/(sq mile)
+//i) it prints the following string:
+
+//NYC - population: 8491079 people - land area: 303 sq miles - population density: 28023
+//Brooklyn - population: 2621793 people - land area: 71 sq miles - population density: 36926
+//Queens - population: 2321580 people - land area: 109 sq miles - population density: 21298
+//Manhattan - population: 1636268 people - land area: 23 sq miles - population density: 71142
+//The Bronx - population: 1438159 people - land area: 42 sq miles - population density: 34241
+//Staten Island - population: 473279 people - land area: 58 sq miles - population density: 8159
+
+
+func nycBoroughsWithPopulationDensity(boroughNames: [String], boroughPopulations: [Int], landArea: [Int]) {
+    
+}
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------------------------------
+//Level 3
+//Write a function called nycBoroughsWithReturn that satisfies the following requirements:
+//i) it prints the following string:
+
+//NYC - population: 8491079 people - land area: 303 sq miles - population density: 28023
+//Brooklyn - population: 2621793 people - land area: 71 sq miles - population density: 36926
+//Queens - population: 2321580 people - land area: 109 sq miles - population density: 21298
+//Manhattan - population: 1636268 people - land area: 23 sq miles - population density: 71142
+//The Bronx - population: 1438159 people - land area: 42 sq miles - population density: 34241
+//Staten Island - population: 473279 people - land area: 58 sq miles - population density: 8159
 //
 //
 //ii) returns six values: averagePopulation, largestBoroughPopulation, smallestBoroughPopulation, averageLandArea, largestBoroughLandArea, smallestBoroughLandArea
+//
 //let boroughs = nycBoroughs()
 //boroughs.averagePopulation //returns 1698215
 //boroughs.largestBoroughPopulation //returns 2621793
@@ -49,6 +75,9 @@ let landArea = [71, 109, 23, 42, 58]
 
 
 
+//func nycBoroughsWithReturn(boroughNames: [String], boroughPopulations: [Int], landArea: [Int])->(averagePopulation: Int, largestBoroughPopulation: Int, smallestBoroughPopulation: Int, averageBoroughLandArea: Double, largestBoroughLandArea: Int, smallestBoroughLandArea: Int) {
+//    
+//}
 
 
 
@@ -59,14 +88,15 @@ let landArea = [71, 109, 23, 42, 58]
 
 //----------------------------------------------------------------------------------------------------------------------------------
 //Level 3
-//Write a function called nycBoroughs that satisfies the following requirements:
+//Write a function called nycBoroughsAdvanced that satisfies the following requirements:
 //i) prints the following message:
-//NYC - population: 8,491,079 people - land area: 303 sq miles
-//Brooklyn - population: 2,621,793 people - land area: 71 sq miles
-//Queens - population: 2,321,580 people - land area: 109 sq miles
-//Manhattan - population: 1,636,268 people - land area: 23 sq miles
-//The Bronx - population: 1,438,159 people - land area: 42 sq miles
-//Staten Island - population: 473,279 people - land area: 58 sq miles
+//
+//NYC - population: 8491079 people - land area: 303 sq miles - population density: 28023
+//Brooklyn - population: 2621793 people - land area: 71 sq miles - population density: 36926
+//Queens - population: 2321580 people - land area: 109 sq miles - population density: 21298
+//Manhattan - population: 1636268 people - land area: 23 sq miles - population density: 71142
+//The Bronx - population: 1438159 people - land area: 42 sq miles - population density: 34241
+//Staten Island - population: 473279 people - land area: 58 sq miles - population density: 8159
 //
 //
 //ii) returns three values: averagePopulation, largestBoroughPopulation, and smallestBoroughPopulation
@@ -88,8 +118,9 @@ let landArea = [71, 109, 23, 42, 58]
 
 
 
-
-
+//func nycBoroughsAdvanced(boroughNames: [String], boroughPopulations: [Int], landArea: [Int])->(averagePopulation: Int, largestBoroughPopulation: Int, smallestBoroughPopulation: Int, averageBoroughLandArea: Double, largestBoroughLandArea: Int, smallestBoroughLandArea: Int) {
+//    
+//}
 
 
 
