@@ -99,6 +99,6 @@ o!
 o!
 k!
 ```
-Break for [iteration practice]
+Break for [iteration practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3/IterationPractice.playground)
 ###Conclusion
 The for loop is only one of many iteration methods available in Ruby. We'll keep introducing more, but if you want to look at some more, a good place to start is the Swift documentation on [while loops](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html#//apple_ref/doc/uid/TP40014097-CH9-ID120).
