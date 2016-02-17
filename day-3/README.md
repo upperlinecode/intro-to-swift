@@ -9,6 +9,6 @@
        	     |  10:45 - 11:30 | [NYC Borough Lab](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3/NYBoroughs.playground)<br>[Lab 2]()
  Lunch       |  11:30 - 12:30 |
        	     |  12:30 - 1:30  | [Complete Trivia App Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-3/trivia-app-continued.md)
-       	     |  1:30 - 1:45   | [Independent Project Ideation]()
+       	     |  1:30 - 1:45   | [Independent Project Ideation](https://github.com/upperlinecode/intro-to-swift/blob/master/day-3/independent-project-ideation.md)
        	     |  1:45 - 2:50   | Independent Project Work Time
        	     |  2:50 - 3:00   | Debrief
