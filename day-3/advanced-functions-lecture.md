@@ -87,3 +87,20 @@ Break for [advanced functions - practice 2](https://github.com/upperlinecode/int
 ###Conclusion
 We just saw that we can make our functions more versatile and complex with multiple parameters, default parameters, and multiple return values. The fundamentals of what a parameter or return value is has not changed, but we're gaining an appreciation for Swift and the many things we can do with it.
 There are many more topics in function writing to explore: external parameter names, variadic parameters, function types, and more. For now, what's important is to practice what you know, look up things that you come across and don't understand, and keep writing cool programs.
+<br>
+<br>
+###Optional Add-On: Variadic Parameters
+- Swift has a type of parameter called a variadic parameter. It's used to pass in a variable number of arguments into a function. This is what the syntax looks like:
+```Swift
+func average(numbers: Double...) -> Double {
+    var total = 0.0
+    for number in numbers {
+        total += number
+    }
+    return total / Double(numbers.count)
+}
+average(2.5, 7.5, 4.2, 9.8, 4.1) //returns 5.62
+```
+- A function can have no more than one variadic parameter
+- The arguments are passed into the function as an array with the name specified in the parameter list.
+- A variadic parameter is desclared by adding three period characters after the parameter type.
