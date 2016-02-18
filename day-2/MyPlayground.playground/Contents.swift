@@ -3,5 +3,8 @@
 import UIKit
 
 
-
+let name = "Tim Cook"
+for letter in name.characters {
+    print("\(letter)!")
+}
 
