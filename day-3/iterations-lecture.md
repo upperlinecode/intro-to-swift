@@ -3,6 +3,8 @@
 - Use a for-in loop to:
   - iterate through an array
   - iterate through a range of integers
+
+
 ###Why
 Iterations are very useful because they let you write small bits of code and execute it over and over again. You can iterate through an array and interpolate each element into a string. You could iterate through a range of numbers and perform an operation on each one. The possibilites are endless, and there are a lot of tools available for us. But we're going to start with the For Loop.
 
