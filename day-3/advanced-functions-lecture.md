@@ -99,6 +99,8 @@ func average(numbers: Double...) -> Double {
     }
     return total / Double(numbers.count)
 }
+average(4.2, 4.6) //returns 4.4
+average(2.5) //returns 2.5
 average(2.5, 7.5, 4.2, 9.8, 4.1) //returns 5.62
 ```
 - A function can have no more than one variadic parameter
