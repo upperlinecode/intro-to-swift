@@ -89,7 +89,7 @@ We just saw that we can make our functions more versatile and complex with multi
 There are many more topics in function writing to explore: external parameter names, variadic parameters, function types, and more. For now, what's important is to practice what you know, look up things that you come across and don't understand, and keep writing cool programs.
 <br>
 <br>
-####Optional Add-On: Variadic Parameters
+###Optional Add-On: Variadic Parameters
 - Swift has a type of parameter called a variadic parameter. It's used to pass in a variable number of arguments into a function. This is what the syntax looks like:
 ```Swift
 func average(numbers: Double...) -> Double {
