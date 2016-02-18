@@ -14,4 +14,4 @@ Starting a project from scratch is a difficult task, and can lead to lots of tim
   - one or more buttons that are connected to the controller through IBActions
   - something on the screen will be updated when a button is pushed
   - a model that contains the data for your app.
-- 
+
