@@ -6,7 +6,8 @@
 
 
 ###Why
-Iterations are very useful because they let you write small bits of code and execute it over and over again. You can iterate through an array and interpolate each element into a string. You could iterate through a range of numbers and perform an operation on each one. The possibilites are endless, and there are a lot of tools available for us. But we're going to start with the For Loop.
+Some of the data structures that we've used so far have been made up of clearly defined pieces. For instance, an array has discrete indexes and a string is made up of various characters and symbols. Iteration lets us look at these structures not as a whole, but at each individual piece, one at a time. 
+Iterations are very useful because they shorten what would otherwise be very long tasks. You can iterate through an array and interpolate each element into a string. You could iterate through a range of numbers and perform an operation on each one. The possibilites are endless, and there are a lot of tools available for us. But we're going to start with one: the For-in Loop.
 
 ###Anticipated Pain Points
 - Students are often confused about the variable that holds each value of the iteration. It is never declared with let or var, and they may have trouble understanding where it originates. This is a case where a constant is declared implicitly by adding it to the for loop's declaration. 
