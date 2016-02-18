@@ -103,6 +103,7 @@ average(4.2, 4.6) //returns 4.4
 average(2.5) //returns 2.5
 average(2.5, 7.5, 4.2, 9.8, 4.1) //returns 5.62
 ```
-- A function can have no more than one variadic parameter
-- The arguments are passed into the function as an array with the name specified in the parameter list.
 - A variadic parameter is desclared by adding three period characters after the parameter type.
+- The arguments are passed into the function as an array with the name specified in the parameter list.
+- In this case, the variadic parameter is numbers
+- A function can have no more than one variadic parameter
