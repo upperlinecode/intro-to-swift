@@ -86,8 +86,8 @@ FavoriteMovies.text = movieList
 - Finally, it is often useful to be able to iterate through all of the characters of a string. We can't iterate over a string directly, but we can use String's characters method to get an array of a string's characters.
 ```Swift
 let name = "Tim Cook"
-for letter in name {
-  print("\(letter)!")
+for letter in name.characters {
+    print("\(letter)!")
 }
 //prints
 T!
