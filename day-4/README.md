@@ -3,10 +3,10 @@
 ## Schedule
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
- Morning	    |  9:00 - 9:15   | [Day 4 Slides]()
-       	     |  9:15 - 10:15  | 
-       	     |  10:15 - 10:45 | 
-       	     |  10:45 - 11:30 | 
+ Morning	    |  9:00 - 9:30   | [Day 4 Slides]()[Methods Practice]()
+       	     |  9:30 - 10:30  | First Introduction to Object Oriented Programming
+       	     |  10:30 - 11:00 | [OO Lab 1]()<br>[OO Lab 2]()
+       	     |  11:00 - 11:30 |  
  Lunch       |  11:30 - 12:30 |
  Afternoon   |  12:30 - 1:30  | 
        	     |  1:30 - 1:45   | 
