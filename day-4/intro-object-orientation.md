@@ -17,6 +17,14 @@ Object Orientation is a way to organize, manipulate and store data. It lets you 
 
 ###Walkthrough
 ####Programming Without Object Orientation
-- Create an instance of a Facebook user
-
+- Create an instance of a Facebook user with a dictionary.
+```Swift
+var user1: [String:String] = [
+    "name" : "Kevan",
+    "email" : "kevan@upperlinecode.com",
+    "password" : "hopscotch",
+    "friends" : []
+]
+```
+- It would be unrealistic to create one of these dictionaries for every user on Facebook
 ###Conclusion
