@@ -16,6 +16,7 @@ Object Orientation is a way to organize, manipulate and store data. It lets you 
 - Understanding the differences between classes and structures will be hard to understand at first, and the students do not need an immediate grasp of this. In Swift, classes and structures are very similar and often either option will work very well. If they are confused reiterate that most custom data constructs will be classes, so a class is a good default choice. 
 
 ###Walkthrough
-
+####Programming Without Object Orientation
+- Create an instance of a Facebook user
 
 ###Conclusion
