@@ -27,4 +27,16 @@ var user1: [String:String] = [
 ]
 ```
 - It would be unrealistic to create one of these dictionaries for every user on Facebook
+- Instead, we can create a blueprint for each new user by defining a User class.
+```Swift
+class User {
+
+}
+
+let william = User()
+```
+- Define class and instance of a class - we created our class (blueprint) and an instance of a class above (actual user)
+- One example of a class that we've already used is a String. When we make a string, we do more than just connect a bunch of characters. We create an object that has *properties* and *methods*.
+
+
 ###Conclusion
