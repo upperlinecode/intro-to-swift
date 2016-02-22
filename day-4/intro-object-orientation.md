@@ -33,10 +33,40 @@ class User {
 
 }
 
-let william = User()
+let user1 = User()
 ```
 - Define class and instance of a class - we created our class (blueprint) and an instance of a class above (actual user)
 - One example of a class that we've already used is a String. When we make a string, we do more than just connect a bunch of characters. We create an object that has [*properties*](https://developer.apple.com/library/tvos/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_31) and [*methods*](https://developer.apple.com/library/tvos/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_32).
+    - Follow the links to the Swift docs and take a look at a String's instance properties and instance methods. Have students think about the difference between the two groups.
+    - List possible properties and methods that a Facebook User might have.
+    - Name, hometown, school, birthday
+    - post on wall, add friend, like post, comment on picture
+- When we create our new User object, we want to be able to set certain properties for his profile: name, birthday, hometown, etc. To give the object these properties whenever it is created, we can add an initialization method.
+    - To distinguish between the name argument and the name instance property, we can precede the property with "self". Self 
+```Swift
+class User {
+    var name: String
+    var birthday: String
+    var hometown: String
+    
+    init(name: String, birthday: String, hometown: String) {
+        self.name = name
+        self.birthday = birthday
+        self.hometown = hometown
+    }
+}
+let user1 = User(name: "William", birthday: "July 10", hometown: "Pittsburgh")
 
+user1.name // returns "William"
+user1.birthday // returns "July 10"
+user1.hometown // returns "Pittsburgh"
+```
+- You can access Swift properties with dot syntax (user1.hometown)
+- You can also set the value of a property with dot syntax
+```Swift
+user1.name // returns "William"
+user1.name = "Will"
+user1.name // returns "Will"
+```
 
 ###Conclusion
