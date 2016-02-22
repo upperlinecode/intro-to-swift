@@ -16,7 +16,7 @@ Object Orientation is a way to organize, manipulate and store data. It lets you 
 - Understanding the differences between classes and structures will be hard to understand at first, and the students do not need an immediate grasp of this. In Swift, classes and structures are very similar and often either option will work very well. If they are confused reiterate that most custom data constructs will be classes, so a class is a good default choice. 
 
 ###Walkthrough
-####Programming Without Object Orientation
+####Object Orientation with Classes
 - Create an instance of a Facebook user with a dictionary.
 ```Swift
 var user1: [String:String] = [
@@ -68,6 +68,32 @@ user1.name // returns "William"
 user1.name = "Will"
 user1.name // returns "Will"
 ```
+
+- A method is a function that belongs to an instance of a class. The init() method is a special method that is only called once when the instance is created. We can give our user additional methods that it can use after initialization.
+```Swift
+class User {
+    var name: String
+    var birthday: String
+    var hometown: String
+    
+    init(name: String, birthday: String, hometown: String) {
+        self.name = name
+        self.birthday = birthday
+        self.hometown = hometown
+    }
+    
+    func greeting() {
+        print("Hi, my name is \(name).")
+    }
+}
+let user1 = User(name: "William", birthday: "July 10", hometown: "Pittsburgh")
+
+
+user1.greeting() //prints "Hi, my name is William."
+```
+
 Break for Object Oriented Practice - 1
+
+####Object Orientation with Structures
 
 ###Conclusion
