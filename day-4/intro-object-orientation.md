@@ -120,7 +120,7 @@ var point1 = Point(x: 5.5, y: 6.2)
 point1.x // returns 5.5
 point1.y // returns 6.2
 ```
-- We could go a little farther and make a line struct. If you think back to math class, a straight line is just the shortest distance between two points. We could make a struct that has two properties, its two endpoints, and one method that calculates its length. The equation for the length of a line is just:
-![equation](http://latex.codecogs.com/svg.latex?1+sin(x))
+- We could go a little farther and make a line struct. If you think back to math class, a straight line is just the shortest distance between two points. We could make a struct that has two properties, its two endpoints, and one method that calculates its length. The equation for the length of a line is just: 
+![equation](http://latex.codecogs.com/svg.latex?d = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}})
 
 ###Conclusion
