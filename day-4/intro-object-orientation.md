@@ -125,6 +125,9 @@ point1.y // returns 6.2
 ```Swift
 import Darwin
 
+var point1 = Point(x: 5.0, y: 0.0)
+var point2 = Point(x: 2.0, y: 4.0)
+
 struct Line {
     var endPoint1: Point = Point(x: 0.0, y: 0.0)
     var endPoint2: Point = Point(x: 0.0, y: 0.0)
