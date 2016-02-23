@@ -122,5 +122,20 @@ point1.y // returns 6.2
 ```
 - We could go a little farther and make a line struct. If you think back to math class, a straight line is just the shortest distance between two points. We could make a struct that has two properties, its two endpoints, and one method that calculates its length. The equation for the length of a line is just: 
 ![equation](http://latex.codecogs.com/svg.latex?d = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}})
+```Swift
+import Darwin
 
+struct Line {
+    var endPoint1: Point = Point(x: 0.0, y: 0.0)
+    var endPoint2: Point = Point(x: 0.0, y: 0.0)
+    
+    func length()->Double {
+        return sqrt(pow((endPoint2.y - endPoint1.y), 2.0) + pow((endPoint2.x - endPoint1.x), 2.0))
+    }
+}
+
+var line = Line(endPoint1: point1, endPoint2: point2)
+
+line.length() // returns 5.0
+```
 ###Conclusion
