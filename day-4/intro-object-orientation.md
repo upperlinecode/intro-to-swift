@@ -110,4 +110,17 @@ struct TriviaModel {
     
 }
 ```
+- Anytime there are only two or three properties that you want to relate, a struct is a great option to organize that data. For instance, a point on a plane has two important pieces of data: its x and y coordinates.
+```Swift
+struct Point {
+    var x: Double = 0.0, y: Double = 0.0
+}
+
+var point1 = Point(x: 5.5, y: 6.2)
+point1.x // returns 5.5
+point1.y // returns 6.2
+```
+- We could go a little farther and make a line struct. If you think back to math class, a straight line is just the shortest distance between two points. We could make a struct that has two properties, its two endpoints, and one method that calculates its length. The equation for the length of a line is just:
+![equation](http://latex.codecogs.com/svg.latex?1+sin(x))
+
 ###Conclusion
