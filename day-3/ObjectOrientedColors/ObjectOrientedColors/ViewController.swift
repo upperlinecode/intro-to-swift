@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var Background: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Background.backgroundColor = UIColor(red: 1, green: 165/255, blue: 0, alpha: 1)
+;
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func changeColor(sender: AnyObject) {
+        let red = CGFloat(arc4random_uniform(255))
+        let blue = CGFloat(arc4random_uniform(255))
+        let green = CGFloat(arc4random_uniform(255))
+        Background.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: 0.9)
     }
-
 
 }
 
