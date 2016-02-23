@@ -92,7 +92,7 @@ let user1 = User(name: "William", birthday: "July 10", hometown: "Pittsburgh")
 user1.greeting() //prints "Hi, my name is William."
 ```
 
-Break for Object Oriented Practice - 1
+Break for [Object Oriented Practice - 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/OOPractice1.playground)
 
 ####Object Orientation with Structures
 - Sometimes, the data that we want to group together is much simpler than the properties of a User. For instance, in our trivia app we wanted out model to include an array of trivia facts and a method that returns a random fact. With such a focused group of data, we didn't need to create a new Class. Classes include a lot of abilities (which we haven't talked about yet) that our TriviaModel would never use. For situations like this, we could create a Structure, or struct.
@@ -141,7 +141,7 @@ var line = Line(endPoint1: point1, endPoint2: point2)
 
 line.length() // returns 5.0
 ```
-
+Break for [Object Oriented Practice - 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/OOPractice2.playground)
 ###Conclusion
 - Classes and Structures allow us to create the building blocks of our code. They organize our programs and make it easier to increase in scale.
 - Since structs are only used for very simple cases of data encapsulation, in practice most custom data constructs should be classes, not structures.
