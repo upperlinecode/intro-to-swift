@@ -60,6 +60,12 @@ landAreas[0] //returns 23
 for (borough, population) in boroughPopulations {
     print("\(borough): \(population)")
 }
+//prints:
+//Manhattan: 1636268
+//Staten Island: 473279
+//Brooklyn: 2621793
+//Queens: 2321580
+//The Bronx: 1438159
 ```
 
 ###Conclusion
