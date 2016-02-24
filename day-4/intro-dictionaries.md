@@ -68,5 +68,7 @@ for (borough, population) in boroughPopulations {
 //The Bronx: 1438159
 ```
 
-###Conclusion
+Break for [dictionaries practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/DictionariesPractice.playground)
 
+###Conclusion
+Like arrays, dictionaries are common in both Swift and in other languages as well. You will use them frequently, and soon will be able to quickly discern whether a situation calls for an array or a dictionary.
