@@ -45,17 +45,21 @@ boroughLandArea["Queens"] //returns 109
 ```Swift
 boroughLandArea.count //returns 5
 ```
-- Count: returns the number of key-value pairs in a dictionary.
+- Keys: returns an array of the keys in a dictionary.
 ```Swift
-boroughLandArea.count //returns 5
+var boroughs = [String](boroughLandArea.keys)
+boroughs[0] //returns "Manhattan"
 ```
-- Count: returns the number of key-value pairs in a dictionary.
+- Values: returns an array of the keys in a dictionary.
 ```Swift
-boroughLandArea.count //returns 5
+var landAreas = [Int](boroughLandArea.values)
+landAreas[0] //returns 23
 ```
-- Count: returns the number of key-value pairs in a dictionary.
+- Iterating through a dictionary is similar to iterating through an array. Simply include a name for the key and the value between 'for' and 'in':
 ```Swift
-boroughLandArea.count //returns 5
+for (borough, population) in boroughPopulations {
+    print("\(borough): \(population)")
+}
 ```
 
 ###Conclusion
