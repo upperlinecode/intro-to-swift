@@ -75,7 +75,7 @@ func random()->UIColor {
     return UIColor(red: red, green: green, blue: blue, alpha: alpha)
 }
 ```
-- This will give us an error, saying that these four values are of type Double, while UIColor was expecting type CGFloat. We can easily cast these doubles to CGFloat.
+- This will give us an error saying that these four values are of type Double, while UIColor was expecting type CGFloat. We can easily cast these doubles to CGFloat.
 ```Swift
 func random()->UIColor {
     let red = CGFloat(drand48())
@@ -83,6 +83,16 @@ func random()->UIColor {
     let blue = CGFloat(drand48())
     let alpha = CGFloat(drand48())
     return UIColor(red: red, green: green, blue: blue, alpha: alpha)
+}
+```
+- You may remember that we can take this struct to the view controller and store it in a constant
+```Swift
+let color = Color()
+```
+- Finally, the instance of Color can use the random method to assign random UIColors to the view's background color.
+```Swift
+@IBAction func changeColor(sender: UIButton) {
+  view.backgroundColor = color.random()
 }
 ```
 ###Conclusion
