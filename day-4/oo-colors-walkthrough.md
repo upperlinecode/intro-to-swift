@@ -28,7 +28,7 @@ init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)
 ```
 - The RGB color model combines the three primary colors to create any color we want. The CGFloat value for each color represents how much that color will be added to the final color, from 0.0 (not at all) to 1.0 (maximum amount). The alpha argument determines how opaque the color will be, from 0.0 (completely transparent) to 1.0 (completely opaque). The following RGB combination results in a dark maroon color. Take a minute and play around with different combinations of these values.
 ```Swift
- override func viewDidLoad() {
+override func viewDidLoad() {
   super.viewDidLoad()
   
   view.backgroundColor = UIColor(red: 0.9, green: 0.5, blue: 0.5, alpha: 0.3)
@@ -46,4 +46,43 @@ init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)
 }
 ```
 - We can add a line of code here so that the view's background color changes when the button is pressed.
+```Swift
+@IBAction func changeColor(sender: UIButton) {
+  view.backgroundColor = UIColor(red: 0.0, green: 0.8, blue: 0.5, alpha: 0.8)
+}
+```
+- This only will work once though. We could generate four random CGFloat values in the changeColor method and use those to create a new UIColor, but this adds too much logic to the controller. We want to keep that kind of work in the model, so let's create a new model that will handle generation of random colors. Start by creating a new file called Color.swift (in the same folder as ViewController.swift).
+- In Color.swift, define a new struct called Color and import UIKit so that we will have access to UIColor and CGFloat
+```Swift
+struct Color {
+  import UIKit
+}
+```
+- This struct will need one method: random. This method will return a UIColor object.
+```Swift
+struct Color {
+    func random()->UIColor {
+    }
+}
+```
+- The function drand48() generates a random decimal number between 0 and 1.0. We will use this to generate the RGBA values.
+```Swift
+func random()->UIColor {
+    let red = drand48()
+    let green = drand48()
+    let blue = drand48()
+    let alpha = drand48()
+    return UIColor(red: red, green: green, blue: blue, alpha: alpha)
+}
+```
+- This will give us an error, saying that these four values are of type Double, while UIColor was expecting type CGFloat. We can easily cast these doubles to CGFloat.
+```Swift
+func random()->UIColor {
+    let red = CGFloat(drand48())
+    let green = CGFloat(drand48())
+    let blue = CGFloat(drand48())
+    let alpha = CGFloat(drand48())
+    return UIColor(red: red, green: green, blue: blue, alpha: alpha)
+}
+```
 ###Conclusion
