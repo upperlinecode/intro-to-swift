@@ -8,8 +8,8 @@
 Changing the background color of our app can easily be accomplished without creating our own structures. However, this exercise is a good demonstration of how code can be organized in an object-oriented fashion.
 
 ###Anticipated Pain Points
-
-
+- This lab uses a data type, CGFloat, which students haven't seen yet.
+- We're using a struct instead of a class because it is such a simple data structure.
 
 ###Walkthrough
 - Create a new one-page appliction in Xcode and call it ObjectOrientedColors
@@ -95,4 +95,8 @@ let color = Color()
   view.backgroundColor = color.random()
 }
 ```
+###Bonus
+Add labels in your view that display the current values for Red, Green, Blue, and Alpha. Make it update whenever the background color changes.
+
 ###Conclusion
+It should be coming clear that the creators of Swift designed it around object orientation. The more you embrace it, the more powerful your applications will become.
