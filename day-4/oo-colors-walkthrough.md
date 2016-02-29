@@ -7,13 +7,19 @@
 ###Why
 Changing the background color of our app can easily be accomplished without creating our own structures. However, this exercise is a good demonstration of how code can be organized in an object-oriented fashion.
 
-
 ###Anticipated Pain Points
 
 
 
 ###Walkthrough
-
-
+- Create a new one-page appliction in Xcode and call it ObjectOrientedColors
+- We
+```Swift
+ override func viewDidLoad() {
+  super.viewDidLoad()
+  
+  view.backgroundColor = UIColor.blueColor()
+}
+```
 
 ###Conclusion
