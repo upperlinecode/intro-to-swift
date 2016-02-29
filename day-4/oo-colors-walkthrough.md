@@ -34,5 +34,16 @@ init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)
   view.backgroundColor = UIColor(red: 0.9, green: 0.5, blue: 0.5, alpha: 0.3)
 }
 ```
-
+- Our goal for this project is to add a button that will generate random background colors when pressed.
+- Let's add the button first. Just go to the object library, search for button, and drag the button onto the center of your page. Change the text in the button to read "New Random Color".
+- Click on the button, hold control, and drag the mouse into the ViewController. A form will appear. Fill it out as follows:
+ - Connection: Action
+ - Name: changeColor
+ - Type: UIButton
+- It should generate the following method in your ViewController:
+```Swift
+@IBAction func changeColor(sender: UIButton) {
+}
+```
+- We can add a line of code here so that the view's background color changes when the button is pressed.
 ###Conclusion
