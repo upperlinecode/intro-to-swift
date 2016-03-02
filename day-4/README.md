@@ -9,5 +9,5 @@
  Lunch       |  11:30 - 12:30 | 
  Afternoon   |  12:30 - 1:15  | [Object Oriented RGB](https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/oo-colors-walkthrough.md)<br>[Object Oriented Colors](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/ObjectOrientedColors)
        	     |  1:15 - 2:00   | [Constraints Introduction](https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/intro-constraints.md)<br>[Constraints Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/ConstraintsIntroduction)
-       	     |  2:00 - 2:50   | []()
+       	     |  2:00 - 2:50   | Labs if there is remaining time<br>[Line Struct]()<br>[Constraints: Photo Gallery]()
        	     |  2:50 - 3:00   | Debrief
