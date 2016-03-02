@@ -77,7 +77,7 @@ You may have already noticed that when you preview your app, the view doesn't al
 - The last element we need to get in line is the text view. Add a vertical spacing constraint between the image and the text veiw, just like we did with the label and image above. Unfortunately, this doesn't make our text view appear.
 
 
-####Set Height and Width for Text View
+####5) Set Height and Width for Text View
 - At this point, it's hard to guess exactly why our text view isn't showing up. Luckily, Xcode has a feature that displays issues with constraints. Click this red button in the top right corner of your document outline and it will bring up a list of constraint issues.
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues-button.png?raw=true" height="200px" hspace="20">
@@ -89,11 +89,15 @@ You may have already noticed that when you preview your app, the view doesn't al
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-6.png?raw=true" height="500px" hspace="20">
 </p>
 
-####Step Seven
+####6) Small Adjustments
+- Let's say we want to shift everything up to add extra space underneath the text view. Since the image and the text view both depend on the position of the label, shifting the label up will also shift the other two elements up. Click on the label and go into the size inspector (in the right panel). You'll see the constraints listed, and you can click on edit to change them. Change the Top Space to Top Layout Guide value to 70, and watch everything shift up.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/size-inspector.png?raw=true" height="100px" hspace="20">
+</p>
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-7.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-7.png?raw=true" height="500px" hspace="20">
 </p>
+
 ###Conclusion
-
-
+Constraints are very important because they have such a direct effect on user experience. If your app doesn't transition well to different devices, people won't enjoy using it. Constraints can be difficult to figure out. A great way to practice is to pick out an app on your phone and try to replicate the view in Xcode. See if you can make it look good when simulating on different devices. 
