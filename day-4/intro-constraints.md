@@ -15,7 +15,7 @@ You may have already noticed that when you preview your app, the view doesn't al
 
 
 ###Walkthrough
-####Step One
+####Initial State
 - Have students download this [xcode project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/ConstraintsIntroduction). They should follow along with you as you add constraints to the project.
 - Take a look at this Xcode project. From looking at the editor, you might think that the view is going to look nice and aligned when you run the app.
 <p align="center">
