@@ -3,25 +3,19 @@
 import UIKit
 import Darwin
 
-struct Point {
-    var x: Double = 0.0, y: Double = 0.0
-}
-
-var point1 = Point(x: 5.0, y: 0.0)
-
-var point2 = Point(x: 2.0, y: 4.0)
+let boroughNames = ["Brooklyn", "Queens", "Manhattan", "The Bronx", "Staten Island"] //five boroughs of NYC
+//let boroughPopulations = [2621793, 2321580, 1636268, 1438159, 473279] //listed in same order as the names
+let landArea = [71, 109, 23, 42, 58]
 
 
-struct Line {
-    var endPoint1: Point = Point(x: 0.0, y: 0.0)
-    var endPoint2: Point = Point(x: 0.0, y: 0.0)
-    
-    func length()->Double {
-        return sqrt(pow((endPoint2.y - endPoint1.y), 2.0) + pow((endPoint2.x - endPoint1.x), 2.0))
-    }
-}
+var boroughPopulations: [String : Int] = ["Brooklyn": 2621793, "Queens": 2321580, "Manhattan": 1636268, "The Bronx": 1438159, "Staten Island": 473279]
+
+var boroughLandArea: [String : Int] = ["Brooklyn": 71, "Queens": 109, "Manhattan": 23, "The Bronx": 42, "Staten Island": 58]
 
 
-var line = Line(endPoint1: point1, endPoint2: point2)
 
-line.length()
+CGFloat(drand48())
+
+CGFloat(drand48())
+
+CGFloat(drand48())
