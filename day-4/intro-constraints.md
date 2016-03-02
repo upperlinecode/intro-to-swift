@@ -13,26 +13,12 @@
 ###Walkthrough
 ####Step One
 <p align="center">
-  <table class="image">
-    <tr>
-      <td>
-        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-1.png?raw=true" height="500px" hspace="20">
-      </td>
-      <td>
-        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
-        </td>
-      </tr>
-    <tr>
-      <td class="caption">iPad Retina</td>
-      <td class="caption">iPhone 6s</td>
-    </tr>
-</table>
-  
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-1.png?raw=true" height="500px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
 </p>
-
+iPad
 ####Step Two
 <p align="center">
-                caption 1
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-2.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-2.png?raw=true" height="500px" hspace="20">
 </p>
