@@ -15,7 +15,6 @@
 - 
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-1.png?raw=true" height="500px" hspace="20">
-  <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
 </p>
 
