@@ -29,13 +29,14 @@ var landArea = [71, 109, 23, 42, 58]
   - In the student grades example, the student names would be the keys, and each would be associated with a value equal to their test score.
   - Retrieving a value from a dictionary is similar to doing so in an array. Add square brackets after the name of the dictionary, and put the key of the desired value inside of the brackets.
 
- Borough	    |	 Population    |
---------------|----------------|
-Brooklyn      |  2621793       |
-Queens        |  2321580       |
-Manhattan     |  1636268       |
-The Bronx     |  1438159       |
-Staten Island |  473279        |
+- We're creating 
+ Borough (Key)|	 Population (Value)|
+--------------|--------------------|
+Brooklyn      |  2621793           |
+Queens        |  2321580           |
+Manhattan     |  1636268           |
+The Bronx     |  1438159           |
+Staten Island |  473279            |
 
 - Rewriting the arrays above as dictionaries could look something like this:
 ```Swift
