@@ -45,18 +45,33 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rof-q5-MeA">
                                 <rect key="frame" x="180" y="404" width="240" height="128"/>
                                 <color key="backgroundColor" red="0.51407254749999998" green="0.67398087600000001" blue="0.82410037879999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="5rw-bi-22h"/>
+                                    <constraint firstAttribute="height" constant="209" id="h0E-fr-x0D"/>
+                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="180" y="396" width="240" height="209"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5rw-bi-22h"/>
+                                        <exclude reference="h0E-fr-x0D"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="5rw-bi-22h"/>
+                                        <include reference="h0E-fr-x0D"/>
+                                    </mask>
                                 </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.51407254749999998" green="0.67398087600000001" blue="0.82410037879999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Rof-q5-MeA" firstAttribute="top" secondItem="fSo-Wi-Swl" secondAttribute="bottom" constant="8" id="6tX-lm-swb"/>
-                            <constraint firstItem="NrA-4W-l5C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="Qu8-5s-d9X"/>
+                            <constraint firstItem="NrA-4W-l5C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="Qu8-5s-d9X">
+                                <variation key="heightClass=regular" constant="70"/>
+                            </constraint>
                             <constraint firstItem="fSo-Wi-Swl" firstAttribute="top" secondItem="NrA-4W-l5C" secondAttribute="bottom" constant="8" id="d2q-nU-ivI"/>
                             <constraint firstItem="NrA-4W-l5C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKZ-om-0Zp"/>
                             <constraint firstItem="Rof-q5-MeA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tOm-69-WWX"/>
