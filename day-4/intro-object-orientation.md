@@ -35,14 +35,25 @@ class User {
 
 let user1 = User()
 ```
-- Define class and instance of a class - we created our class (blueprint) and an instance of a class above (actual user)
-- One example of a class that we've already used is a String. When we make a string, we do more than just connect a bunch of characters. We create an object that has [*properties*](https://developer.apple.com/library/tvos/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_31) and [*methods*](https://developer.apple.com/library/tvos/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_32).
-    - Follow the links to the Swift docs and take a look at a String's instance properties and instance methods. Have students think about the difference between the two groups.
-    - List possible properties and methods that a Facebook User might have.
-    - Name, hometown, school, birthday
-    - post on wall, add friend, like post, comment on picture
+- Define class and instance of a class - we created our class (blueprint) and an instance of a class above (actual user). Another way of looking at it is as a factory. The User class is a factory that produces instances of users.
+- List possible properties and methods that a Facebook User might have.
+    - Properties: Name, hometown, school, birthday
+    - Methods: Post on wall, add friend, like post, comment on picture
+
+```Swift
+class User {
+    var name: String
+    var birthday: String
+    var hometown: String
+}
+
+let user1 = User()
+```
+
+Break for five minutes and have students define another class that facebook might use, like post, comment, timeline, etc. Have them brainstorm about properties and methods that class may have.
+- In the code above, we create an instance of the User class and store it in a variable. This instance has three properties, but none of them have initial values.
 - When we create our new User object, we want to be able to set certain properties for his profile: name, birthday, hometown, etc. To give the object these properties whenever it is created, we can add an initialization method.
-    - To distinguish between the name argument and the name instance property, we can precede the property with "self". Self 
+    - To distinguish between the name argument and the name instance property, we can precede the property with "self". Self refers to that particular instance of the class, so saying "self.name" is the same as saying "this instance's name".
 ```Swift
 class User {
     var name: String
@@ -69,6 +80,8 @@ user1.name = "Will"
 user1.name // returns "Will"
 ```
 
+Take a short break and let the students define the class that they had brainstormed earlier (post, comment, timeline). Have the students give the class at least three properties and an init method.
+
 - A method is a function that belongs to an instance of a class. The init() method is a special method that is only called once when the instance is created. We can give our user additional methods that it can use after initialization.
 ```Swift
 class User {
@@ -91,6 +104,7 @@ let user1 = User(name: "William", birthday: "July 10", hometown: "Pittsburgh")
 
 user1.greeting() //prints "Hi, my name is William."
 ```
+- What are some methods that a Facebook user might have?
 
 Break for [Object Oriented Practice - 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/OOPractice1.playground)
 
@@ -113,33 +127,24 @@ struct TriviaModel {
 - Anytime there are only two or three properties that you want to relate, a struct is a great option to organize that data. For instance, a point on a plane has two important pieces of data: its x and y coordinates.
 ```Swift
 struct Point {
-    var x: Double = 0.0, y: Double = 0.0
+    var x: Double = 0.0
+    var y: Double = 0.0
 }
 
 var point1 = Point(x: 5.5, y: 6.2)
 point1.x // returns 5.5
 point1.y // returns 6.2
 ```
-- We could go a little farther and make a line struct. If you think back to math class, a straight line is just the shortest distance between two points. We could make a struct that has two properties, its two endpoints, and one method that calculates its length. The equation for the length of a line is just: 
-![equation](http://latex.codecogs.com/svg.latex?d = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}})
+- We can give structs methods too. Let's give this struct a simple method: one to print its coordinates.
 ```Swift
-import Darwin
-
-var point1 = Point(x: 5.0, y: 0.0)
-var point2 = Point(x: 2.0, y: 4.0)
-
-struct Line {
-    var endPoint1: Point = Point(x: 0.0, y: 0.0)
-    var endPoint2: Point = Point(x: 0.0, y: 0.0)
+struct Point {
+    var x: Double = 0.0, y: Double = 0.0
     
-    func length()->Double {
-        return sqrt(pow((endPoint2.y - endPoint1.y), 2.0) + pow((endPoint2.x - endPoint1.x), 2.0))
+    func displayCoordinates() {
+        print("x: \(self.x), y: \(self.y)")
     }
 }
 
-var line = Line(endPoint1: point1, endPoint2: point2)
-
-line.length() // returns 5.0
 ```
 Break for [Object Oriented Practice - 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/OOPractice2.playground)
 ###Conclusion
