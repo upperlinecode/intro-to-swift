@@ -46,10 +46,12 @@ class User {
     var birthday: String
     var hometown: String
 }
+
+let user1 = User()
 ```
 
 Break for five minutes and have students define another class that facebook might use, like post, comment, timeline, etc. Have them brainstorm about properties and methods that class may have.
-
+- In the code above, we create an instance of the User class and store it in a variable. This instance has three properties, but none of them have initial values.
 - When we create our new User object, we want to be able to set certain properties for his profile: name, birthday, hometown, etc. To give the object these properties whenever it is created, we can add an initialization method.
     - To distinguish between the name argument and the name instance property, we can precede the property with "self". Self refers to that particular instance of the class, so saying "self.name" is the same as saying "this instance's name".
 ```Swift
@@ -78,6 +80,8 @@ user1.name = "Will"
 user1.name // returns "Will"
 ```
 
+Take a short break and let the students define the class that they had brainstormed earlier (post, comment, timeline). Have the students give the class at least three properties and an init method.
+
 - A method is a function that belongs to an instance of a class. The init() method is a special method that is only called once when the instance is created. We can give our user additional methods that it can use after initialization.
 ```Swift
 class User {
@@ -100,6 +104,7 @@ let user1 = User(name: "William", birthday: "July 10", hometown: "Pittsburgh")
 
 user1.greeting() //prints "Hi, my name is William."
 ```
+- What are some methods that a Facebook user might have?
 
 Break for [Object Oriented Practice - 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/OOPractice1.playground)
 
