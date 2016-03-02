@@ -80,10 +80,10 @@ You may have already noticed that when you preview your app, the view doesn't al
 ####Set Height and Width for Text View
 - At this point, it's hard to guess exactly why our text view isn't showing up. Luckily, Xcode has a feature that displays issues with constraints. Click this red button in the top right corner of your document outline and it will bring up a list of constraint issues.
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues-button.png?raw=true" height="500px" hspace="20">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues.png?raw=true" height="500px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues-button.png?raw=true" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues.png?raw=true" height="200px" hspace="20">
 </p>
-- test
+- This is telling us that our view is missing constraints for the height and width of our text view. Just like when we set the height and width of the image, click on the text view and select the Pin menu in the lower right hand corner. Select height and width and add both constraints. This will make the text view appear when you run the app.
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-6.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-6.png?raw=true" height="500px" hspace="20">
