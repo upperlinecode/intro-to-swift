@@ -12,6 +12,7 @@ var distanceArray: [Double] = [6, 4, 5.5, 4.5]
 
 //1. Create a dictionary of type [String : Double] called runTracker where the keys are the dates of his workouts and the values are the distances of each workout.
 
+var runTracker = ["4/3/2015": 6, "4/5/2015": 4, "4/6/2015": 5.5, "4/7/2015": 4.5]
 
 
 
@@ -26,17 +27,27 @@ var distanceArray: [Double] = [6, 4, 5.5, 4.5]
 // 4/6/2015 |   5.5
 // 4/7/2015 |   4.5
 
-
+func displayWorkouts(workouts: [String: Double]) {
+    print("\tDate\t|\tMilage")
+    for (workoutDate, workoutMilage) in workouts {
+        print("\(workoutDate)\t|\t\(workoutMilage)")
+    }
+}
 
 //3. Add the following workout to the runTracker dictionary: date: 4/9/2015, distance: 7 miles. The run displayWorkouts again to make sure it was added correctly.
 
+runTracker["4/9/2015"] = 7
 
 
 //4. Remove the workout from 4/5/2015
 
-
+runTracker.removeValueForKey("4/5/2015")
 
 //5. Update the workout from 4/6/2015, giving it a distance of 6 miles
 
+runTracker["4/6/2015"] = 6
 
 
+
+
+displayWorkouts(runTracker)
