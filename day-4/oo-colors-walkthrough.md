@@ -96,7 +96,8 @@ let color = Color()
 }
 ```
 ###Bonus
-Add labels in your view that display the current values for Red, Green, Blue, and Alpha. Make it update whenever the background color changes.
+- Add labels in your view that display the current values for Red, Green, Blue, and Alpha. Make it update whenever the background color changes.
+- Make the button change color when the background changes color.
 
 ###Conclusion
 It should be coming clear that the creators of Swift designed it around object orientation. The more you embrace it, the more powerful your applications will become.
