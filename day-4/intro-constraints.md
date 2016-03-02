@@ -13,11 +13,11 @@
 ###Walkthrough
 ####Step One
 <p align="center">
-  <figure>
-    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-1.png?raw=true" height="500px" hspace="20">
-    <figcaption>Caption goes here</figcaption>
-</figure>
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
+  <table class="image">
+    <tr><td><img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20"></td></tr>
+    <tr><td class="caption">caption text</td></tr>
+</table>
+  
 </p>
 
 ####Step Two
