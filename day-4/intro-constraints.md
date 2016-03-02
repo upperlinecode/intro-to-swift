@@ -2,7 +2,10 @@
 
 
 ###Students Will Be Able To
-
+- Use constraints to control layout over multiple screen sizes
+- Center elements in the container
+- Set height and width for elements
+- Control vertical spacing between elements
 
 ###Why
 
