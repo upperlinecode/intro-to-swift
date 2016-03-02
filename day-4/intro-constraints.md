@@ -45,6 +45,11 @@ You may have already noticed that when you preview your app, the view doesn't al
 </p>
 
 ####Step Three
+- It's clear that the previous constraint affected the size of our image. We can add constraints for the height and width of the image.
+- Click on the image. Looking in the bottom right corner of the editor, you should see four buttons. The second from the right is called "Pin". Click on it and select the height and width constraints, then click "Add Two Constraints".
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/pin.png?raw=true" height="300px" hspace="20">
+</p>
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-3.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-3.png?raw=true" height="500px" hspace="20">
