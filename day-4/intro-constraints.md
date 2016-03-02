@@ -13,8 +13,8 @@
 ###Walkthrough
 ####Step One
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-1.png?raw=true" height="600px" hspace="20">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="600px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-1.png?raw=true" height="500px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
 </p>
 
 ####Step Two
