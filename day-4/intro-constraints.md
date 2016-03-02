@@ -80,8 +80,8 @@ You may have already noticed that when you preview your app, the view doesn't al
 ####Set Height and Width for Text View
 - At this point, it's hard to guess exactly why our text view isn't showing up. Luckily, Xcode has a feature that displays issues with constraints. Click this red button in the top right corner of your document outline and it will bring up a list of constraint issues.
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues-button.png?raw=true" height="300px" hspace="20">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues.png?raw=true" height="300px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues-button.png?raw=true" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/constraint-issues.png?raw=true" height="200px" hspace="20">
 </p>
 - test
 <p align="center">
