@@ -28,6 +28,7 @@ var landArea = [71, 109, 23, 42, 58]
   - In a dictionary, each value is associated with a unique key.
   - In the student grades example, the student names would be the keys, and each would be associated with a value equal to their test score.
   - Retrieving a value from a dictionary is similar to doing so in an array. Add square brackets after the name of the dictionary, and put the key of the desired value inside of the brackets.
+
  Borough	    |	 Population    |
 --------------|----------------|
 Brooklyn      |  2621793       |
