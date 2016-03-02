@@ -35,14 +35,23 @@ class User {
 
 let user1 = User()
 ```
-- Define class and instance of a class - we created our class (blueprint) and an instance of a class above (actual user)
-- One example of a class that we've already used is a String. When we make a string, we do more than just connect a bunch of characters. We create an object that has [*properties*](https://developer.apple.com/library/tvos/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_31) and [*methods*](https://developer.apple.com/library/tvos/documentation/Swift/Reference/Swift_String_Structure/index.html#//apple_ref/doc/uid/TP40015181-CH1-DontLinkElementID_32).
-    - Follow the links to the Swift docs and take a look at a String's instance properties and instance methods. Have students think about the difference between the two groups.
-    - List possible properties and methods that a Facebook User might have.
-    - Name, hometown, school, birthday
-    - post on wall, add friend, like post, comment on picture
+- Define class and instance of a class - we created our class (blueprint) and an instance of a class above (actual user). Another way of looking at it is as a factory. The User class is a factory that produces instances of users.
+- List possible properties and methods that a Facebook User might have.
+    - Properties: Name, hometown, school, birthday
+    - Methods: Post on wall, add friend, like post, comment on picture
+
+```Swift
+class User {
+    var name: String
+    var birthday: String
+    var hometown: String
+}
+```
+
+Break for five minutes and have students define another class that facebook might use, like post, comment, timeline, etc. Have them brainstorm about properties and methods that class may have.
+
 - When we create our new User object, we want to be able to set certain properties for his profile: name, birthday, hometown, etc. To give the object these properties whenever it is created, we can add an initialization method.
-    - To distinguish between the name argument and the name instance property, we can precede the property with "self". Self 
+    - To distinguish between the name argument and the name instance property, we can precede the property with "self". Self refers to that particular instance of the class, so saying "self.name" is the same as saying "this instance's name".
 ```Swift
 class User {
     var name: String
