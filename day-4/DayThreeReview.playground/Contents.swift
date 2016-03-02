@@ -26,6 +26,7 @@ func planetLocater(planet: String)->String {
 
 
 //2. Write a method called fence that takes in an argument posts of type Int that prints out fences of differing lengths.
+//hint: use a for-in loop
 //Example output:
 //fence(5) //prints: |--|--|--|--|
 //fence(2) //prints: |--|

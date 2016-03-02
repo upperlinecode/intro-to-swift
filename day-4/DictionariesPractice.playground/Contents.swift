@@ -31,3 +31,6 @@ var distanceArray: [Double] = [6, 4, 5.5, 4.5]
 
 
 //3. Add the following workout to the runTracker dictionary: date: 4/9/2015, distance: 7 miles. The run displayWorkouts again to make sure it was added correctly.
+
+
+//add remove and update

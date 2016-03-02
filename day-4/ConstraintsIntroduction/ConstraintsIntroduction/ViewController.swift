@@ -1,29 +1,25 @@
 //
 //  ViewController.swift
-//  ObjectOrientedColors
+//  ConstraintsIntroduction
 //
-//  Created by flatironstudent on 2/29/16.
+//  Created by flatironstudent on 3/1/16.
 //  Copyright © 2016 flatironstudent. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    
-    let color = Color()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 0.9, green: 0.5, blue: 0.5, alpha: 0.3)
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func changeColor(sender: UIButton) {
-        view.backgroundColor = color.random()
-    }
-    
+
 }
 
