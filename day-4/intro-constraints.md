@@ -34,6 +34,10 @@ You may have already noticed that when you preview your app, the view doesn't al
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/center-horizontally.png?raw=true" height="200px" hspace="20">
 </p>
 - Select "Center Horizontally in Container" and repeat for the other two view elements.
+- Your new constraints will show up in the document outline to the left of the editor. Right now, you should have three constraints listed.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/document-outline.png?raw=true" height="200px" hspace="20">
+</p>
 - Now, the preview of your app should look like this. Again, the iPad Retina is on the left and the iPhone 6s is on the right.
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-2.png?raw=true" height="500px" hspace="20">
