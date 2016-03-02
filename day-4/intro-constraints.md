@@ -21,7 +21,7 @@ You may have already noticed that when you preview your app, the view doesn't al
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/initial-editor.png?raw=true" height="500px" hspace="20">
 </p>
-
+- But when you run the app, you get a very different picture. The images below are simulations of the iPad Retina (left) and the iPhone 6s (right).
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-1.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
