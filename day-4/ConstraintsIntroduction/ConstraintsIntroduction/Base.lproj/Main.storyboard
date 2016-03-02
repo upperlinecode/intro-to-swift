@@ -29,8 +29,7 @@
                                         <exclude reference="tb4-Af-dOw"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="150" y="163" width="300" height="225"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="eg2-Lv-eOh"/>
                                         <include reference="tb4-Af-dOw"/>
@@ -42,9 +41,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="250" y="134" width="100" height="21"/>
-                                </variation>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rof-q5-MeA">
                                 <rect key="frame" x="180" y="404" width="240" height="128"/>
@@ -59,20 +55,26 @@
                         </subviews>
                         <color key="backgroundColor" red="0.51407254749999998" green="0.67398087600000001" blue="0.82410037879999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="NrA-4W-l5C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="Qu8-5s-d9X"/>
+                            <constraint firstItem="fSo-Wi-Swl" firstAttribute="top" secondItem="NrA-4W-l5C" secondAttribute="bottom" constant="8" id="d2q-nU-ivI"/>
                             <constraint firstItem="NrA-4W-l5C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKZ-om-0Zp"/>
                             <constraint firstItem="Rof-q5-MeA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tOm-69-WWX"/>
                             <constraint firstItem="fSo-Wi-Swl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xcv-2v-3ed"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="d2q-nU-ivI"/>
                                 <exclude reference="xcv-2v-3ed"/>
+                                <exclude reference="Qu8-5s-d9X"/>
                                 <exclude reference="lKZ-om-0Zp"/>
                                 <exclude reference="tOm-69-WWX"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="constraints">
+                                <include reference="d2q-nU-ivI"/>
                                 <include reference="xcv-2v-3ed"/>
+                                <include reference="Qu8-5s-d9X"/>
                                 <include reference="lKZ-om-0Zp"/>
                                 <include reference="tOm-69-WWX"/>
                             </mask>
