@@ -69,12 +69,14 @@ You may have already noticed that when you preview your app, the view doesn't al
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/vertical-spacing.png?raw=true" height="300px" hspace="20">
 </p>
+- This will push the image down below the label.
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-5.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-5.png?raw=true" height="500px" hspace="20">
 </p>
 
 ####Step Six
+- The last element we need to get in line is the text view. Add a vertical spacing constraint between the image and the text veiw, just like we did with the label and image above. Unfortunately, this doesn't make our text view appear.
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-6.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-6.png?raw=true" height="500px" hspace="20">
