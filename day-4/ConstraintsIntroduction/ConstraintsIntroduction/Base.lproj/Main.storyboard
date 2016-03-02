@@ -55,6 +55,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.51407254749999998" green="0.67398087600000001" blue="0.82410037879999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Rof-q5-MeA" firstAttribute="top" secondItem="fSo-Wi-Swl" secondAttribute="bottom" constant="8" id="6tX-lm-swb"/>
                             <constraint firstItem="NrA-4W-l5C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="Qu8-5s-d9X"/>
                             <constraint firstItem="fSo-Wi-Swl" firstAttribute="top" secondItem="NrA-4W-l5C" secondAttribute="bottom" constant="8" id="d2q-nU-ivI"/>
                             <constraint firstItem="NrA-4W-l5C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKZ-om-0Zp"/>
@@ -67,6 +68,7 @@
                                 <exclude reference="xcv-2v-3ed"/>
                                 <exclude reference="Qu8-5s-d9X"/>
                                 <exclude reference="lKZ-om-0Zp"/>
+                                <exclude reference="6tX-lm-swb"/>
                                 <exclude reference="tOm-69-WWX"/>
                             </mask>
                         </variation>
@@ -76,6 +78,7 @@
                                 <include reference="xcv-2v-3ed"/>
                                 <include reference="Qu8-5s-d9X"/>
                                 <include reference="lKZ-om-0Zp"/>
+                                <include reference="6tX-lm-swb"/>
                                 <include reference="tOm-69-WWX"/>
                             </mask>
                         </variation>
