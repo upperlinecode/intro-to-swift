@@ -57,6 +57,8 @@ You may have already noticed that when you preview your app, the view doesn't al
 </p>
 
 ####Step Four
+- All of our elements seem to be stuck to the top of the container.
+- Just like when we added the center horizontally constraint, right click on the top label and drag it to the border. This time, select "Vertical Spacing to Top Layout Guide". This sets the distace from the label to the top border of the view.
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-4.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-4.png?raw=true" height="500px" hspace="20">
