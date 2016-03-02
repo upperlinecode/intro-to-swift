@@ -90,6 +90,10 @@ You may have already noticed that when you preview your app, the view doesn't al
 </p>
 
 ####Step Seven
+- Let's say we want to shift everything up to add extra space underneath the text view. Since the image and the text view both depend on the position of the label, shifting the label up will also shift the other two elements up. Click on the label and go into the size inspector (in the right panel). You'll see the constraints listed, and you can click on edit to change them. Change the Top Space to Top Layout Guide value to 70, and watch everything shift up.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/size-inspector.png?raw=true" height="200px" hspace="20">
+</p>
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-7.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-7.png?raw=true" height="500px" hspace="20">
