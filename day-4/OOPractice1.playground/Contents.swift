@@ -5,44 +5,8 @@ import UIKit
 //We just saw how we could represent a person using code. Now we're going to represent a dog the same way.
 
 class Dog {
-    var name: String
-    var breed: String
-    var mood: String
-    var hungry: Bool
-    
-    static var count: Int = 0
-    
-    init(name: String = "dog", breed: String = "unknown", mood: String = "calm", hungry: Bool = false) {
-        self.name = name
-        self.breed = breed
-        self.mood = mood
-        self.hungry = hungry
-        ++Dog.count
-    }
-    
-    func feed() {
-        if hungry {
-            hungry = false
-            print("Woof!")
-        } else {
-            print("\(name) doesn't look hungry")
-        }
-    }
-    
-    func playFetch() {
-        hungry = true
-        print("Ruff!")
-    }
-    
-    func toString()->String {
-        return "Name: \(name)\nBreed: \(breed)\nMood: \(mood)"
-    }
+  
 }
-
-var dog2 = Dog(name: "Oreo", breed: "English Setter", mood: "excited", hungry: true)
-print(dog2.toString())
-
-Dog.count
 
 //Work through the following tasks one by one, in order. Each time, add to the dog class above. Each task has sample output that you should be able to replicate when you are done.
 
