@@ -27,7 +27,7 @@ You may have already noticed that when you preview your app, the view doesn't al
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
 </p>
 
-####Center Horizontally in Container
+####1)Center Horizontally in Container
 - The initial problem seems to be that the elements don't know that they should be centered in the view, even though we placed them in the center of the editor. We can add a constraint to each that tells them to find the horizontal center of the container.
 - Right click on the top label and drag the cursor to the edge of the container. When the container lights up blue, let go of the cursor and the following form should pop up:
 <p align="center">
@@ -44,7 +44,7 @@ You may have already noticed that when you preview your app, the view doesn't al
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-2.png?raw=true" height="500px" hspace="20">
 </p>
 
-####Step Three
+####2) Set Height and Width
 - It's clear that the previous constraint affected the size of our image. We can add constraints for the height and width of the image.
 - Click on the image. Looking in the bottom right corner of the editor, you should see four buttons. The second from the right is called "Pin". Click on it and select the height and width constraints, then click "Add Two Constraints".
 <p align="center">
@@ -56,7 +56,7 @@ You may have already noticed that when you preview your app, the view doesn't al
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-3.png?raw=true" height="500px" hspace="20">
 </p>
 
-####Step Four
+####3) Vertical Spacing to Top Layout Guide
 - All of our elements seem to be stuck to the top of the container.
 - Just like when we added the center horizontally constraint, right click on the top label and drag it to the border. This time, select "Vertical Spacing to Top Layout Guide". This sets the distace from the label to the top border of the view.
 <p align="center">
@@ -64,7 +64,11 @@ You may have already noticed that when you preview your app, the view doesn't al
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-4.png?raw=true" height="500px" hspace="20">
 </p>
 
-####Step Five
+####4) Vertical Spacing Between Elements
+- We can also set vertical spacing between two elements in the view. Just right click on the top label and drag to the image. Select "vertical spacing".
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/vertical-spacing.png?raw=true" height="300px" hspace="20">
+</p>
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-5.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-5.png?raw=true" height="500px" hspace="20">
