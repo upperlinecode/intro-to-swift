@@ -50,6 +50,7 @@ You may have already noticed that when you preview your app, the view doesn't al
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/pin.png?raw=true" height="300px" hspace="20">
 </p>
+- Run your app again, and the view should now look like this:
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/ipad-3.png?raw=true" height="500px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-3.png?raw=true" height="500px" hspace="20">
