@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,77 +17,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LzX-oY-hRo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clover.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LzX-oY-hRo">
                                 <rect key="frame" x="28" y="28" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f7a-0o-Z7i">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f7a-0o-Z7i">
                                 <rect key="frame" x="212" y="28" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt11.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b65-pd-h4P">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="africa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b65-pd-h4P">
                                 <rect key="frame" x="396" y="348" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EdA-jR-jlT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="autumn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EdA-jR-jlT">
                                 <rect key="frame" x="28" y="348" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jCn-Ox-slI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustang.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jCn-Ox-slI">
                                 <rect key="frame" x="28" y="188" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="glb-Nr-fA5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aurora.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="glb-Nr-fA5">
                                 <rect key="frame" x="396" y="188" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="X0e-Hr-vnU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fallow-deer.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="X0e-Hr-vnU">
                                 <rect key="frame" x="212" y="188" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="z0D-gU-egE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="z0D-gU-egE">
                                 <rect key="frame" x="212" y="348" width="176" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="faY-zE-Kbh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snow.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="faY-zE-Kbh">
                                 <rect key="frame" x="396" y="28" width="176" height="152"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="b65-pd-h4P" secondAttribute="trailing" constant="8" id="1IC-fE-vMa"/>
-                            <constraint firstItem="jCn-Ox-slI" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="2iJ-vE-JUA"/>
-                            <constraint firstItem="X0e-Hr-vnU" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="4CV-CL-n9d"/>
-                            <constraint firstItem="X0e-Hr-vnU" firstAttribute="leading" secondItem="jCn-Ox-slI" secondAttribute="trailing" constant="8" id="5pN-3k-Aeu"/>
-                            <constraint firstItem="f7a-0o-Z7i" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="6lO-ZL-KgP"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="b65-pd-h4P" secondAttribute="bottom" constant="100" id="7K8-BM-7F6"/>
-                            <constraint firstItem="LzX-oY-hRo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="7ZT-hH-3IN"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="glb-Nr-fA5" secondAttribute="trailing" constant="8" id="8bF-GE-ZEz"/>
-                            <constraint firstItem="faY-zE-Kbh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="B8G-2r-uNT"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="z0D-gU-egE" secondAttribute="bottom" constant="100" id="D1i-7f-416"/>
-                            <constraint firstItem="f7a-0o-Z7i" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="Ebf-Hs-wbt"/>
-                            <constraint firstItem="b65-pd-h4P" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="GS2-9L-aKR"/>
-                            <constraint firstItem="X0e-Hr-vnU" firstAttribute="top" secondItem="f7a-0o-Z7i" secondAttribute="bottom" constant="8" id="HPb-Uc-o0S"/>
-                            <constraint firstItem="glb-Nr-fA5" firstAttribute="leading" secondItem="X0e-Hr-vnU" secondAttribute="trailing" constant="8" id="JLC-Eo-0Qb"/>
-                            <constraint firstItem="z0D-gU-egE" firstAttribute="top" secondItem="X0e-Hr-vnU" secondAttribute="bottom" constant="8" id="Jss-XR-vhV"/>
-                            <constraint firstItem="faY-zE-Kbh" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="KJO-gL-YVG"/>
-                            <constraint firstItem="EdA-jR-jlT" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="Kjf-6e-s9d"/>
-                            <constraint firstItem="f7a-0o-Z7i" firstAttribute="leading" secondItem="LzX-oY-hRo" secondAttribute="trailing" constant="8" id="OiA-3c-45i"/>
-                            <constraint firstItem="z0D-gU-egE" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="Pyw-6L-ksi"/>
-                            <constraint firstItem="faY-zE-Kbh" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="QEI-9i-rcQ"/>
-                            <constraint firstItem="faY-zE-Kbh" firstAttribute="leading" secondItem="f7a-0o-Z7i" secondAttribute="trailing" constant="8" id="QcM-nX-tmy"/>
-                            <constraint firstItem="EdA-jR-jlT" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="U5Q-3a-0qL"/>
-                            <constraint firstItem="EdA-jR-jlT" firstAttribute="top" secondItem="jCn-Ox-slI" secondAttribute="bottom" constant="8" id="V5u-lc-fM9"/>
-                            <constraint firstItem="z0D-gU-egE" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="WOa-Ek-OKz"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="faY-zE-Kbh" secondAttribute="trailing" constant="8" id="WbX-On-XWZ"/>
-                            <constraint firstItem="glb-Nr-fA5" firstAttribute="top" secondItem="faY-zE-Kbh" secondAttribute="bottom" constant="8" id="Z0Z-Op-tNT"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EdA-jR-jlT" secondAttribute="bottom" constant="100" id="ZB3-gN-YEB"/>
-                            <constraint firstItem="LzX-oY-hRo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="b4d-Fj-9Oq"/>
-                            <constraint firstItem="b65-pd-h4P" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="bDe-CM-4vu"/>
-                            <constraint firstItem="f7a-0o-Z7i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="eve-Ec-Diq"/>
-                            <constraint firstItem="glb-Nr-fA5" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="fP5-VH-0ps"/>
-                            <constraint firstItem="z0D-gU-egE" firstAttribute="leading" secondItem="EdA-jR-jlT" secondAttribute="trailing" constant="8" id="fYV-RT-RZu"/>
-                            <constraint firstItem="glb-Nr-fA5" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="gUh-jn-ykI"/>
-                            <constraint firstItem="X0e-Hr-vnU" firstAttribute="width" secondItem="LzX-oY-hRo" secondAttribute="width" id="gru-ha-xH3"/>
-                            <constraint firstItem="jCn-Ox-slI" firstAttribute="top" secondItem="LzX-oY-hRo" secondAttribute="bottom" constant="8" id="kAd-6Y-PiM"/>
-                            <constraint firstItem="jCn-Ox-slI" firstAttribute="height" secondItem="LzX-oY-hRo" secondAttribute="height" id="nMA-Yb-pjL"/>
-                            <constraint firstItem="EdA-jR-jlT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="nhX-Ua-in9"/>
-                            <constraint firstItem="b65-pd-h4P" firstAttribute="leading" secondItem="z0D-gU-egE" secondAttribute="trailing" constant="8" id="pxf-2w-Jxf"/>
-                            <constraint firstItem="b65-pd-h4P" firstAttribute="top" secondItem="glb-Nr-fA5" secondAttribute="bottom" constant="8" id="rvo-ap-Caa"/>
-                            <constraint firstItem="jCn-Ox-slI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="x1T-lM-wVU"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -97,14 +54,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bolt1.jpg" width="960" height="960"/>
-        <image name="bolt11.jpg" width="960" height="960"/>
-        <image name="bolt2.jpg" width="960" height="960"/>
-        <image name="bolt3.jpg" width="788" height="960"/>
-        <image name="bolt4.jpg" width="960" height="720"/>
-        <image name="bolt5.jpg" width="948" height="960"/>
-        <image name="bolt6.jpg" width="640" height="640"/>
-        <image name="bolt8.jpg" width="960" height="960"/>
-        <image name="bolt9.jpg" width="960" height="960"/>
+        <image name="africa.jpg" width="604" height="340"/>
+        <image name="apple.jpg" width="528" height="340"/>
+        <image name="aurora.jpg" width="510" height="340"/>
+        <image name="autumn.jpg" width="604" height="340"/>
+        <image name="clover.jpg" width="510" height="340"/>
+        <image name="fallow-deer.jpg" width="604" height="340"/>
+        <image name="mustang.jpg" width="453" height="340"/>
+        <image name="snow.jpg" width="510" height="340"/>
+        <image name="sun.jpg" width="422" height="340"/>
     </resources>
 </document>
