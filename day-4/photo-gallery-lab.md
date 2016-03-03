@@ -20,3 +20,4 @@
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/images/constraints-buttons.png?raw=true" height="300px" hspace="20">
 </p>
+- Useful constraints to use include: equal heights, equal width, and spacing to nearest neighbor
