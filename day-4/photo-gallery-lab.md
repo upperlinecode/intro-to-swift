@@ -14,3 +14,9 @@
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/images/photo-gallery-iphone-final.png?raw=true" height="500px" hspace="20">
  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/images/photo-gallery-ipad-final.png?raw=true" height="500px" hspace="20">
 </p>
+
+####Hints:
+- By selecting a group of elements all at once, you can apply constraints to all elements in the group using these buttons:
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/images/constraints-buttons.png?raw=true" height="300px" hspace="20">
+</p>
