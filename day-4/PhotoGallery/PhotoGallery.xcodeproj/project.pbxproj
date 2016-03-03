@@ -12,15 +12,15 @@
 		9B864B471C879FEE002057E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B451C879FEE002057E3 /* Main.storyboard */; };
 		9B864B491C879FEE002057E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B481C879FEE002057E3 /* Assets.xcassets */; };
 		9B864B4C1C879FEE002057E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B4A1C879FEE002057E3 /* LaunchScreen.storyboard */; };
-		9B864B6E1C887B8B002057E3 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B661C887B8B002057E3 /* apple.jpg */; };
-		9B864B6F1C887B8B002057E3 /* clover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B671C887B8B002057E3 /* clover.jpg */; };
-		9B864B701C887B8B002057E3 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B681C887B8B002057E3 /* snow.jpg */; };
-		9B864B711C887B8B002057E3 /* fallow-deer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B691C887B8B002057E3 /* fallow-deer.jpg */; };
-		9B864B721C887B8B002057E3 /* africa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B6A1C887B8B002057E3 /* africa.jpg */; };
-		9B864B731C887B8B002057E3 /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B6B1C887B8B002057E3 /* sun.jpg */; };
-		9B864B741C887B8B002057E3 /* aurora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B6C1C887B8B002057E3 /* aurora.jpg */; };
-		9B864B751C887B8B002057E3 /* autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B6D1C887B8B002057E3 /* autumn.jpg */; };
-		9B864B771C887B96002057E3 /* mustang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B761C887B96002057E3 /* mustang.jpg */; };
+		9B864B811C888342002057E3 /* africa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B781C888341002057E3 /* africa.jpg */; };
+		9B864B821C888342002057E3 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B791C888341002057E3 /* apple.jpg */; };
+		9B864B831C888342002057E3 /* aurora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B7A1C888341002057E3 /* aurora.jpg */; };
+		9B864B841C888342002057E3 /* autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B7B1C888341002057E3 /* autumn.jpg */; };
+		9B864B851C888342002057E3 /* clover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B7C1C888341002057E3 /* clover.jpg */; };
+		9B864B861C888342002057E3 /* fallow-deer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B7D1C888341002057E3 /* fallow-deer.jpg */; };
+		9B864B871C888342002057E3 /* mustang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B7E1C888341002057E3 /* mustang.jpg */; };
+		9B864B881C888342002057E3 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B7F1C888341002057E3 /* snow.jpg */; };
+		9B864B891C888342002057E3 /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B864B801C888341002057E3 /* sun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +31,15 @@
 		9B864B481C879FEE002057E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B864B4B1C879FEE002057E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B864B4D1C879FEE002057E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B864B661C887B8B002057E3 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apple.jpg; path = ../../../../../../../../../Desktop/apple.jpg; sourceTree = "<group>"; };
-		9B864B671C887B8B002057E3 /* clover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clover.jpg; path = ../../../../../../../../../Desktop/clover.jpg; sourceTree = "<group>"; };
-		9B864B681C887B8B002057E3 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snow.jpg; path = ../../../../../../../../../Desktop/snow.jpg; sourceTree = "<group>"; };
-		9B864B691C887B8B002057E3 /* fallow-deer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fallow-deer.jpg"; path = "../../../../../../../../../Desktop/fallow-deer.jpg"; sourceTree = "<group>"; };
-		9B864B6A1C887B8B002057E3 /* africa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = africa.jpg; path = ../../../../../../../../../Desktop/africa.jpg; sourceTree = "<group>"; };
-		9B864B6B1C887B8B002057E3 /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sun.jpg; path = ../../../../../../../../../Desktop/sun.jpg; sourceTree = "<group>"; };
-		9B864B6C1C887B8B002057E3 /* aurora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aurora.jpg; path = ../../../../../../../../../Desktop/aurora.jpg; sourceTree = "<group>"; };
-		9B864B6D1C887B8B002057E3 /* autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = autumn.jpg; path = ../../../../../../../../../Desktop/autumn.jpg; sourceTree = "<group>"; };
-		9B864B761C887B96002057E3 /* mustang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mustang.jpg; path = ../../../../../../../../../Desktop/mustang.jpg; sourceTree = "<group>"; };
+		9B864B781C888341002057E3 /* africa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = africa.jpg; path = images/africa.jpg; sourceTree = "<group>"; };
+		9B864B791C888341002057E3 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apple.jpg; path = images/apple.jpg; sourceTree = "<group>"; };
+		9B864B7A1C888341002057E3 /* aurora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aurora.jpg; path = images/aurora.jpg; sourceTree = "<group>"; };
+		9B864B7B1C888341002057E3 /* autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = autumn.jpg; path = images/autumn.jpg; sourceTree = "<group>"; };
+		9B864B7C1C888341002057E3 /* clover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clover.jpg; path = images/clover.jpg; sourceTree = "<group>"; };
+		9B864B7D1C888341002057E3 /* fallow-deer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fallow-deer.jpg"; path = "images/fallow-deer.jpg"; sourceTree = "<group>"; };
+		9B864B7E1C888341002057E3 /* mustang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mustang.jpg; path = images/mustang.jpg; sourceTree = "<group>"; };
+		9B864B7F1C888341002057E3 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snow.jpg; path = images/snow.jpg; sourceTree = "<group>"; };
+		9B864B801C888341002057E3 /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sun.jpg; path = images/sun.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		9B864B401C879FEE002057E3 /* PhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				9B864B531C879FF6002057E3 /* images */,
+				9B864B8A1C888374002057E3 /* images */,
 				9B864B411C879FEE002057E3 /* AppDelegate.swift */,
 				9B864B431C879FEE002057E3 /* ViewController.swift */,
 				9B864B451C879FEE002057E3 /* Main.storyboard */,
@@ -83,18 +83,18 @@
 			path = PhotoGallery;
 			sourceTree = "<group>";
 		};
-		9B864B531C879FF6002057E3 /* images */ = {
+		9B864B8A1C888374002057E3 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				9B864B661C887B8B002057E3 /* apple.jpg */,
-				9B864B671C887B8B002057E3 /* clover.jpg */,
-				9B864B681C887B8B002057E3 /* snow.jpg */,
-				9B864B691C887B8B002057E3 /* fallow-deer.jpg */,
-				9B864B761C887B96002057E3 /* mustang.jpg */,
-				9B864B6A1C887B8B002057E3 /* africa.jpg */,
-				9B864B6B1C887B8B002057E3 /* sun.jpg */,
-				9B864B6C1C887B8B002057E3 /* aurora.jpg */,
-				9B864B6D1C887B8B002057E3 /* autumn.jpg */,
+				9B864B781C888341002057E3 /* africa.jpg */,
+				9B864B791C888341002057E3 /* apple.jpg */,
+				9B864B7A1C888341002057E3 /* aurora.jpg */,
+				9B864B7B1C888341002057E3 /* autumn.jpg */,
+				9B864B7C1C888341002057E3 /* clover.jpg */,
+				9B864B7D1C888341002057E3 /* fallow-deer.jpg */,
+				9B864B7E1C888341002057E3 /* mustang.jpg */,
+				9B864B7F1C888341002057E3 /* snow.jpg */,
+				9B864B801C888341002057E3 /* sun.jpg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -158,18 +158,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B864B731C887B8B002057E3 /* sun.jpg in Resources */,
-				9B864B771C887B96002057E3 /* mustang.jpg in Resources */,
-				9B864B741C887B8B002057E3 /* aurora.jpg in Resources */,
+				9B864B891C888342002057E3 /* sun.jpg in Resources */,
+				9B864B841C888342002057E3 /* autumn.jpg in Resources */,
 				9B864B4C1C879FEE002057E3 /* LaunchScreen.storyboard in Resources */,
-				9B864B751C887B8B002057E3 /* autumn.jpg in Resources */,
 				9B864B491C879FEE002057E3 /* Assets.xcassets in Resources */,
-				9B864B6E1C887B8B002057E3 /* apple.jpg in Resources */,
-				9B864B6F1C887B8B002057E3 /* clover.jpg in Resources */,
-				9B864B701C887B8B002057E3 /* snow.jpg in Resources */,
-				9B864B711C887B8B002057E3 /* fallow-deer.jpg in Resources */,
 				9B864B471C879FEE002057E3 /* Main.storyboard in Resources */,
-				9B864B721C887B8B002057E3 /* africa.jpg in Resources */,
+				9B864B851C888342002057E3 /* clover.jpg in Resources */,
+				9B864B871C888342002057E3 /* mustang.jpg in Resources */,
+				9B864B881C888342002057E3 /* snow.jpg in Resources */,
+				9B864B831C888342002057E3 /* aurora.jpg in Resources */,
+				9B864B861C888342002057E3 /* fallow-deer.jpg in Resources */,
+				9B864B811C888342002057E3 /* africa.jpg in Resources */,
+				9B864B821C888342002057E3 /* apple.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
