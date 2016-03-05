@@ -27,7 +27,7 @@ You may have already noticed that when you preview your app, the view doesn't al
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/ConstraintsIntroduction/images/iphone-1.png?raw=true" height="500px" hspace="20">
 </p>
 
-####1)Center Horizontally in Container
+####1) Center Horizontally in Container
 - The initial problem seems to be that the elements don't know that they should be centered in the view, even though we placed them in the center of the editor. We can add a constraint to each that tells them to find the horizontal center of the container.
 - Right click on the top label and drag the cursor to the edge of the container. When the container lights up blue, let go of the cursor and the following form should pop up:
 <p align="center">
