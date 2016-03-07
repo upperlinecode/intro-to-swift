@@ -42,9 +42,9 @@ let user1 = User()
 
 ```Swift
 class User {
-    var name: String
-    var birthday: String
-    var hometown: String
+    var name: String = "Tom"
+    var birthday: String = "2/11/94"
+    var hometown: String = "Boston"
 }
 
 let user1 = User()
