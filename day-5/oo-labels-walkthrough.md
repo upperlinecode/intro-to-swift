@@ -65,10 +65,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
-  
     @IBAction func success(sender: UIButton) {
         let label = UILabel(frame: CGRectMake(0, 0, 225, 40))
         label.center = CGPointMake(160, 284)
@@ -77,6 +75,5 @@ class ViewController: UIViewController {
         label.backgroundColor = UIColor(red: 0.361, green: 0.722, blue: 0.361, alpha: 1)
         self.view.addSubview(label)
     }
-
 }
 ```
