@@ -55,5 +55,15 @@ Break for a couple of minutes and let students play around with these properties
     - right click on the button and drag it into the view controller
     - fill out the form with these values:
 <p align="center">
- <img src="" height="400px" hspace="20">
+ <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true" height="400px" hspace="20">
 </p>
+```Swift
+@IBAction func info(sender: UIButton) {
+    let label = UILabel(frame: CGRectMake(0, 0, 225, 40))
+    label.center = CGPointMake(160, 284)
+    label.textAlignment = NSTextAlignment.Center
+    label.text = "Success"
+    label.backgroundColor = UIColor(red: 0.361, green: 0.722, blue: 0.361, alpha: 1)
+    self.view.addSubview(label)
+}
+```
