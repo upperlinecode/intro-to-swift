@@ -146,6 +146,7 @@ func division(dividend: Double, divisor: Double)->Double? {
 }
 ```
 - Optional chaining is preferable to force unwrapping because it will not throw an error if we try to unwrap a nil value. In the if statement, we can assign the return value of the function to a constant called quotient.
+
 Non-nil return value:
 ```Swift
 if let quotient = division(10.0, divisor: 2.0) {
