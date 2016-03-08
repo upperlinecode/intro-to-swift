@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -67,20 +68,20 @@
                                 <exclude reference="Qde-rS-1Wr"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8pS-gx-Ulc"/>
-                                <exclude reference="Tho-Ny-JnQ"/>
-                                <exclude reference="Fxr-OG-Rih"/>
-                                <exclude reference="JrR-y6-sZT"/>
-                                <exclude reference="SeR-n9-fVh"/>
-                                <exclude reference="gLq-0h-9Ji"/>
                                 <exclude reference="6Hj-qQ-8Pj"/>
                                 <exclude reference="OFI-A6-jKQ"/>
                                 <exclude reference="SFl-sS-Nks"/>
+                                <exclude reference="8pS-gx-Ulc"/>
+                                <exclude reference="Tho-Ny-JnQ"/>
                                 <exclude reference="3nJ-iu-O8d"/>
                                 <exclude reference="NF4-Vb-p7s"/>
                                 <exclude reference="TYs-I8-tOM"/>
                                 <exclude reference="eCA-QY-5ar"/>
                                 <exclude reference="gtk-rB-aNO"/>
+                                <exclude reference="Fxr-OG-Rih"/>
+                                <exclude reference="JrR-y6-sZT"/>
+                                <exclude reference="SeR-n9-fVh"/>
+                                <exclude reference="gLq-0h-9Ji"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -90,20 +91,20 @@
                                 <include reference="Qde-rS-1Wr"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8pS-gx-Ulc"/>
-                                <include reference="Tho-Ny-JnQ"/>
-                                <include reference="Fxr-OG-Rih"/>
-                                <include reference="JrR-y6-sZT"/>
-                                <include reference="SeR-n9-fVh"/>
-                                <include reference="gLq-0h-9Ji"/>
                                 <include reference="6Hj-qQ-8Pj"/>
                                 <include reference="OFI-A6-jKQ"/>
                                 <include reference="SFl-sS-Nks"/>
+                                <exclude reference="8pS-gx-Ulc"/>
+                                <include reference="Tho-Ny-JnQ"/>
                                 <exclude reference="3nJ-iu-O8d"/>
                                 <include reference="NF4-Vb-p7s"/>
                                 <include reference="TYs-I8-tOM"/>
                                 <include reference="eCA-QY-5ar"/>
                                 <include reference="gtk-rB-aNO"/>
+                                <include reference="Fxr-OG-Rih"/>
+                                <include reference="JrR-y6-sZT"/>
+                                <include reference="SeR-n9-fVh"/>
+                                <include reference="gLq-0h-9Ji"/>
                             </mask>
                         </variation>
                     </view>
