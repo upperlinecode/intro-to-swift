@@ -46,3 +46,8 @@ class ViewController: UIViewController {
 <p align="center">
  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/test-label.png?raw=true" height="400px" hspace="20">
 </p>
+
+Break for a couple of minutes and let students play around with these properties. Encourage them to change the values around and run the app to see how the changes look in the simulator.
+
+####Build a Label with the Push of a Button
+- Our app isn't going to automatically build a label when the view loads though. We're going to connect the label creation with the three buttons at the bottom of the view. Each button will create a different label: a success message, an error message, and an info message.
