@@ -24,7 +24,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Success"/>
                                 <connections>
-                                    <action selector="success:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HPS-El-6ac"/>
+                                    <action selector="success:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZJ-vh-rbg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAj-mU-bGh">
