@@ -44,5 +44,5 @@ class ViewController: UIViewController {
 }
 ```
 <p align="center">
- <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/test-label.png?raw=true" height="300px" hspace="20">
+ <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/test-label.png?raw=true" height="400px" hspace="20">
 </p>
