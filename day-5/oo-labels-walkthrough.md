@@ -43,6 +43,7 @@ class ViewController: UIViewController {
     }
 }
 ```
+Running the app with iPhone 6 Plus simulator:
 <p align="center">
  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/test-label.png?raw=true" height="400px" hspace="20">
 </p>
