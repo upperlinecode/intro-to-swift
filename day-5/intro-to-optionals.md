@@ -167,3 +167,8 @@ if let quotient = division(10.0, divisor: 0.0) {
 ```
 
 ###Conclusion
+- You can make any type an optional type by adding a quotation mark after the type in the type declaration
+```Swift
+var age: Int?
+```
+- You can access an optional value with force unwrapping or optional chaining. Optional chaining is preferable because it allows you to handle nil values without breaking your code.
