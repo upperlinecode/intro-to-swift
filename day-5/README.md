@@ -4,8 +4,8 @@
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
  Morning	    |  9:00 - 9:30   | [Day Five Slides]()<br>[Day Four Review]()
-             |  9:30 - 10:30  | [OO Buttons Walkthrough]()<br>[OO Buttons Project]()
-       	     |  10:15 - 11:30 | 
+        	    |  9:30 - 10:15  | [Optional Properties Lecture]()<br>[Optionals Practice]()
+             |  10:15 - 11:30 | [OO Buttons Walkthrough]()<br>[OO Buttons Project]()
  Lunch       |  11:30 - 12:30 | 
  Afternoon   |  12:30 - 1:15  | 
              |  1:15 - 1:45   | 
