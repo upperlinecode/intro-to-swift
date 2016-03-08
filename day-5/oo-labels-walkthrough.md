@@ -56,7 +56,9 @@ Break for a couple of minutes and let students play around with these properties
     - right click on the button and drag it into the view controller
     - fill out the form with these values:
 <p align="center">
- <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true" height="200px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/success-label.png?raw=true" height="300px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/warning-label.png?raw=true" height="300px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/info-label.png?raw=true" height="300px" hspace="20">
 </p>
 ```Swift
 import UIKit
@@ -144,6 +146,7 @@ override func viewDidLoad() {
 ```
 - Putting it in the viewDidLoad method will prompt a warning that the instance of CustomLabel is never used. There will also be an error in the sucess method saying that there is an unresolved identifier: labelGenerator.
 - Instead, we want to give ViewController a property labelGenerator. The type will be CustomLabel? so that we can wait for the view to load to assign it a value. This is very important, and the reason for it goes back to this morning's lecture on optionals. Only an optional variable can have no value (nil), and we need to create the class without an initial value for labelGenerator. The reason for this is that the view object is an argument for CustomLabel's initializer. Therefore, we need to wait for the view to load before we can assign a value to labelGenerator.
+
 ```Swift
 class ViewController: UIViewController {
     
@@ -155,10 +158,12 @@ class ViewController: UIViewController {
         labelGenerator = CustomLabel(view: self.view)
     }
     
-  
     @IBAction func success(sender: UIButton) {
         labelGenerator!.success()
     }
-
 }
 ```
+- Notice that we need to unwrap labelGenerator before using it because it is an optional value. In this case, forced unwrapping isn't as dangerous because when the view loads, labelGenerator is always assigned a value. If the view doesn't load, we won't have an opportunity to push the button and run the success function anyways.
+- At this point, run the simulator. Pushing the success button should insert a success label.
+####Replicating Behavior for Other Buttons
+- Have the students split up into pairs. Each pair should work so that these three labels are generated when each corresponding button is pushed.
