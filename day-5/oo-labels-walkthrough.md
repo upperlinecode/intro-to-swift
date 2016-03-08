@@ -10,6 +10,4 @@ Yesterday, students were able to change the background color of their apps using
 
 
 ###Walkthrough
-
-
-###Conclusion
+- Download the starter Xcode project.
