@@ -10,19 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let labelGenerator = CustomLabel()
+    var labelGenerator: CustomLabel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        labelGenerator = CustomLabel(view: self.view)
+    }
     
+  
+    @IBAction func success(sender: UIButton) {
+        if labelGenerator?.success() != nil {
+            print("label generated")
+        } else {
+            print("Error: label generator is nil")
+        }
     }
 
-    func oveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func warning(sender: UIButton) {
+        if labelGenerator?.warning() != nil {
+            print("label generated")
+        } else {
+            print("Error: label generator is nil")
+        }
     }
 
-
+    @IBAction func info(sender: UIButton) {
+        if labelGenerator?.info() != nil {
+            print("label generated")
+        } else {
+            print("Error: label generator is nil")
+        }
+    }
 }
 
