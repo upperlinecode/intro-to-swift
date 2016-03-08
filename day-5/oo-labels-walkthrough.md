@@ -77,3 +77,9 @@ class ViewController: UIViewController {
     }
 }
 ```
+- Now, pressing the success button will draw a green label with the text "Success"
+####MVC Review
+- While our button is now connected, and it functions how we want, we still aren't finished. Simply having working code isn't always enough. It's important to have code that is clean, concise, and organized according to the MVC design pattern. That means our code should be organized into a model, a view, and a controller. This is what Apple has to say about how a user's actions (like pushing a button) should communicate with your code:
+```
+Communication: User actions in the view layer that create or modify data are communicated through a controller object and result in the creation or updating of a model object. When a model object changes (for example, new data is received over a network connection), it notifies a controller object, which updates the appropriate view objects.
+```
