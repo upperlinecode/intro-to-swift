@@ -55,7 +55,7 @@ Break for a couple of minutes and let students play around with these properties
     - right click on the button and drag it into the view controller
     - fill out the form with these values:
 <p align="center">
- <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true" height="400px" hspace="20">
+ <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true" height="200px" hspace="20">
 </p>
 ```Swift
 @IBAction func info(sender: UIButton) {
