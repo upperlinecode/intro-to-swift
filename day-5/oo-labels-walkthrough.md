@@ -10,4 +10,39 @@ Yesterday, students were able to change the background color of their apps using
 
 
 ###Walkthrough
-- Download the starter Xcode project.
+####Getting Started
+- Download the [starter](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5/ObjectOrientedLabels) Xcode project. This includes three buttons with constraints. We are going to connect each button to the view controller with IBActions. Each action will create a different label above the buttons in the view.
+- When you create add a label to the view, that label is an instance of a Swift class: [UILabel](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UILabel_Class/)
+- This class has an initializer with one parameter: a CGRect, which will be the label's frame. CGRect's initializer takes in four arguments (x position, y position, width, height), none of which require a parameter name. 
+```Swift
+let label = UILabel(frame: CGRectMake(0, 0, 225, 40))
+```
+- This creates an empty label in the upper left hand corner of the view. We can also assign values for important properties such as text, backgroundColor, textAlignment, and center (the coordinates of the label's center).
+```Swift
+let label = UILabel(frame: CGRectMake(0, 0, 225, 40))
+label.text = "This is a label"
+label.backgroundColor = UIColor.blueColor()
+label.center = CGPointMake(160, 284)
+label.textAlignment = NSTextAlignment.Center
+```
+- This will create a label, but creating a label doesn't automatically add it to the view. The view controller has a property, view, which is an instance of UIView. This is responsible for managing all of the content in Main.storyboard. It has a method, addSubView, which we can use to add the label to the view. This will make our new label appear when we run the app. Let's try adding this code to our ViewController
+
+```Swift
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let label = UILabel(frame: CGRectMake(0, 0, 225, 40))
+        label.text = "This is a label"
+        label.backgroundColor = UIColor.blueColor()
+        label.center = CGPointMake(160, 284)
+        label.textAlignment = NSTextAlignment.Center
+        
+        self.view.addSubview(label)
+    }
+}
+```
+<p>
+ <img src="" height="300px" hspace="20">
+</p>
