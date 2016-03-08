@@ -27,7 +27,6 @@ label.textAlignment = NSTextAlignment.Center
 ```
 - This will create a label, but creating a label doesn't automatically add it to the view. The view controller has a property, view, which is an instance of UIView. This is responsible for managing all of the content in Main.storyboard. It has a method, addSubView, which we can use to add the label to the view. This will make our new label appear when we run the app. Let's try adding this code to our ViewController
 
-<p align="center">
 ```Swift
 class ViewController: UIViewController {
 
@@ -44,5 +43,6 @@ class ViewController: UIViewController {
     }
 }
 ```
- <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/images/photo-gallery-ipad-initial.png?raw=true" height="500px" hspace="20">
+<p>
+ <img src="" height="300px" hspace="20">
 </p>
