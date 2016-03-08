@@ -56,8 +56,7 @@ Break for a couple of minutes and let students play around with these properties
     - right click on the button and drag it into the view controller
     - fill out the form with these values:
 <p align="center">
-
-    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true" height="300px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true" height="200px" hspace="20">
 </p>
 ```Swift
 import UIKit
@@ -167,7 +166,7 @@ class ViewController: UIViewController {
 ####Replicating Behavior for Other Buttons
 - Have the students split up into pairs. Each pair should work so that these three labels are generated when each corresponding button is pushed.
 <p align="center">
-    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/success-label.png?raw=true" height="300px" hspace="20">
-    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/warning-label.png?raw=true" height="300px" hspace="20">
-    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/info-label.png?raw=true" height="300px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/success-label.png?raw=true" height="400px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/warning-label.png?raw=true" height="400px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/info-label.png?raw=true" height="400px" hspace="20">
 </p>
