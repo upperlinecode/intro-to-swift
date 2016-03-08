@@ -163,6 +163,7 @@ class ViewController: UIViewController {
 ```
 - Notice that we need to unwrap labelGenerator before using it because it is an optional value. In this case, forced unwrapping isn't as dangerous because when the view loads, labelGenerator is always assigned a value. If the view doesn't load, we won't have an opportunity to push the button and run the success function anyways.
 - At this point, run the simulator. Pushing the success button should insert a success label.
+
 ####Replicating Behavior for Other Buttons
 - Have the students split up into pairs. Each pair should work so that these three labels are generated when each corresponding button is pushed.
 <p align="center">
@@ -170,3 +171,11 @@ class ViewController: UIViewController {
     <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/warning-label.png?raw=true" height="400px" hspace="20">
     <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/info-label.png?raw=true" height="400px" hspace="20">
 </p>
+
+####Bonus Tasks
+- Right now, if you push multiple buttons it adds one label on top of the previous one. Add code that destroys the old label before drawing a new one.
+- Change the forced unwrapping of labelGenerator to optional chaining
+- UILabel has many more properties that we didn't use in our method. Use some of these properties to customize your labels.
+
+###Conclusion
+This lab ties together a lot of programming concepts: object orientation, optional values, MVC design, UIActions, and more. The most important idea though is that we are abstracting logic to the model, and connecting that logic to the view through the controller. This MVC path is very important, and we will continue to use it as you begin to build your own apps.
