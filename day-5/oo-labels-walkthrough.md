@@ -1,5 +1,7 @@
 ##Object Oriented Labels
 
+Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tree/solution/day-5/ObjectOrientedLabels)
+
 ###Students Will Be Able To
 - Build a one-page application with IBActions to handle button events
 - Create a label programatically rather than throught the GUI
@@ -171,6 +173,8 @@ class ViewController: UIViewController {
     <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/warning-label.png?raw=true" height="400px" hspace="20">
     <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/info-label.png?raw=true" height="400px" hspace="20">
 </p>
+
+Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tree/solution/day-5/ObjectOrientedLabels)
 
 ####Bonus Tasks
 - Right now, if you push multiple buttons it adds one label on top of the previous one. Add code that destroys the old label before drawing a new one.
