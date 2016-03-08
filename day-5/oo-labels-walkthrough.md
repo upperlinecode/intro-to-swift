@@ -128,3 +128,37 @@ class CustomLabel {
     }
 }
 ```
+
+####Connecting our Model with our Controller
+This section is probably the most complicated and moves the fastest. Take your time and pause to ask/answer lots of questions.
+- We need to create an instance of CustomLabel in the view controller, and then we'll be able to use the success method to generate the success label.
+- When the view loads, we want to create the instance of our CustomLabel class
+```Swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    let labelGenerator = CustomLabel(view: self.view)
+}
+@IBAction func success(sender: UIButton) {
+    labelGenerator.success()
+}
+```
+- Putting it in the viewDidLoad method will prompt a warning that the instance of CustomLabel is never used. There will also be an error in the sucess method saying that there is an unresolved identifier: labelGenerator.
+- Instead, we want to give ViewController a property labelGenerator. The type will be CustomLabel? so that we can wait for the view to load to assign it a value. This is very important, and the reason for it goes back to this morning's lecture on optionals. Only an optional variable can have no value (nil), and we need to create the class without an initial value for labelGenerator. The reason for this is that the view object is an argument for CustomLabel's initializer. Therefore, we need to wait for the view to load before we can assign a value to labelGenerator.
+```Swift
+class ViewController: UIViewController {
+    
+    var labelGenerator: CustomLabel?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        labelGenerator = CustomLabel(view: self.view)
+    }
+    
+  
+    @IBAction func success(sender: UIButton) {
+        labelGenerator!.success()
+    }
+
+}
+```
