@@ -10,4 +10,5 @@ Yesterday, students were able to change the background color of their apps using
 
 
 ###Walkthrough
-- Download the starter Xcode project.
+- Download the [starter](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5/ObjectOrientedLabels) Xcode project. This includes three buttons with constraints. We are going to connect each button to the view controller with IBActions. Each action will create a different label above the buttons in the view.
+- When you create add a label to the view, that label is an instance of a Swift class: [UILabel](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UILabel_Class/)
