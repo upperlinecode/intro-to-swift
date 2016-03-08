@@ -80,9 +80,31 @@ class ViewController: UIViewController {
 - Now, pressing the success button will draw a green label with the text "Success"
 ####MVC Review
 - While our button is now connected, and it functions how we want, we still aren't finished. Simply having working code isn't always enough. It's important to have code that is clean, concise, and organized according to the MVC design pattern. That means our code should be organized into a model, a view, and a controller. This is what Apple has to say about how a user's actions (like pushing a button) should communicate with your code:
+
 ```
 Communication: User actions in the view layer that create or modify data are communicated through a 
 controller object and result in the creation or updating of a model object. When a model object changes 
 (for example, new data is received over a network connection), it notifies a controller object, 
 which updates the appropriate view objects.
+```
+
+- In other words, we shouldn't write all of the code for generating a label in the view controller. Instead, we can create a class that can generate labels and then call upon this class in the view controller.
+
+####CustomLabel.swift
+- Our model is going to be stored in CustomLabel.swift, which now contains an empty class, CustomLabel.
+- This class needs one property, view. When we created a label in ViewController and added it to the view, we did so with this line of code:
+```Swift
+self.view.addSubview(label)
+```
+- The ViewController class had a property view that was an instance of UIView. This instance of the view is not available outside of the ViewController, unless we pass it into our CustomLabel class when we initialize our instance. Then, that view becomes a property of the CustomLabel instance and we can use the addSubView method in our model.
+- Add view as a property of CustomLabel, and add an init method to initialize each instance with a view.
+```Swift
+class CustomLabel {
+    
+    var view: UIView
+    
+    init(view: UIView) {
+        self.view = view
+    }
+}
 ```
