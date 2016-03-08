@@ -51,3 +51,9 @@ Break for a couple of minutes and let students play around with these properties
 
 ####Build a Label with the Push of a Button
 - Our app isn't going to automatically build a label when the view loads though. We're going to connect the label creation with the three buttons at the bottom of the view. Each button will create a different label: a success message, an error message, and an info message.
+- Connect the success button with the view controller with an IBAction.
+    - right click on the button and drag it into the view controller
+    - fill out the form with these values:
+<p align="center">
+ <img src="" height="400px" hspace="20">
+</p>
