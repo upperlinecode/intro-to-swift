@@ -108,3 +108,23 @@ class CustomLabel {
     }
 }
 ```
+- The instance of CustomLabel will need a method for creating a success button. Create a method and put it in the code we used previously to create the label.
+```Swift
+class CustomLabel {
+    
+    var view: UIView
+    
+    init(view: UIView) {
+        self.view = view
+    }
+    
+    func success() {
+        let label = UILabel(frame: CGRectMake(0, 0, 225, 40))
+        label.center = CGPointMake(160, 284)
+        label.textAlignment = NSTextAlignment.Center
+        label.text = "Success"
+        label.backgroundColor = UIColor(red: 0.361, green: 0.722, blue: 0.361, alpha: 1)
+        self.view.addSubview(label)
+    }
+}
+```
