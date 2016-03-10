@@ -19,8 +19,8 @@ Starting a project from scratch is a difficult task, and can lead to lots of tim
 
 
 ###Example Projects:
-[Weather App](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5/WeatherApp)
 <p align="center">
+[Weather App](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5/WeatherApp)
 <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/weather-nyc.png?raw=true" height="400px" hspace="20">
  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/weather-pittsburgh.png?raw=true" height="400px" hspace="20">
 </p>
