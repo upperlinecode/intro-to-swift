@@ -6,33 +6,6 @@ import UIKit
 
 class Course {
     
-    var teacher: String
-    var roster: [String]
-    var name: String
-    var description: String
-    
-    init(teacher: String, roster: [String], name: String, description: String) {
-        self.teacher = teacher
-        self.roster = roster
-        self.name = name
-        self.description = description
-    }
-    
-    func addStudent(student: String) {
-        roster += [student]
-    }
-    
-    func removeStudent(student: String) {
-        roster = roster.filter() {$0 != student}
-    }
-    
-    func printDescription() {
-        print("Teacher: \(teacher)\nCourse: \(name)\nDescription: \(description)")
-        print("Roster:")
-        for (index, student) in roster.enumerate() {
-            print("\(index + 1). \(student)")
-        }
-    }
 }
 
 //1. Give the class four properties: teacher (String), roster ([String]), name (String), and description (String). Give it an init method that initializes each instance with values for each property.
