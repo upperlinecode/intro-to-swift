@@ -22,6 +22,9 @@ Starting a project from scratch is a difficult task, and can lead to lots of tim
  <a href="https://github.com/upperlinecode/intro-to-swift/tree/master/day-5/WeatherApp">Weather App</a>
 </p>
 <p align="center">
+ This app displays the five-day weather forcast for four different cities. By pressing the buttons at the bottom of the view, you can bring up the weather for the corresponding city. The weather data is hard coded as a dictionary in the model.
+</p>
+<p align="center">
 <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/weather-nyc.png?raw=true" height="400px" hspace="20">
  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/weather-pittsburgh.png?raw=true" height="400px" hspace="20">
 </p>
