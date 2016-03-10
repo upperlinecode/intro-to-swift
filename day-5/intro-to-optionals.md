@@ -9,10 +9,10 @@
 
 ###Why
 We've used values in different data types that seem like they represent nothing: 
-    - 0 (Int)
-    - 0.0 (Double)
-    - "" (String)
-    - False (Bool)
+- 0 (Int)
+- 0.0 (Double)
+- "" (String)
+- False (Bool)
 
 However, all of these values require the user to at one point assign a value to a variable. If a programmer forgets to assign a value to a variable, the program is going to break. The build will fail and it will tell you to give that variable a value. 
 
