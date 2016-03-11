@@ -1,10 +1,9 @@
-# Day Six
-
-## Schedule
+#[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
+## Day Six Schedule
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
- Morning	   |  9:00 - 9:30   | [Day Six Slides]()<br>[Week 1 Review]()
-        	   |  9:30 - 10:15  | 
+ Morning	    |  9:00 - 9:30   | [Day Six Slides]()<br>[Week 1 Review]()
+        	    |  9:30 - 10:15  | 
              |  10:15 - 11:30 | 
  Lunch       |  11:30 - 12:30 | 
  Afternoon   |  12:30 - 1:00  | 
