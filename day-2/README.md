@@ -1,6 +1,5 @@
-# Day Two
-
-## Schedule
+#[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
+## Day Two Schedule
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
  Morning	    |  9:00 - 9:15   | [Day Two Slides](https://docs.google.com/presentation/d/1MdEfHKbvhRe6PEhFTrdCPfNJp-lURezgZ-AopvXAuNg/edit?usp=sharing)<br>[Review Lab](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/DayOneReview.playground)
