@@ -1,4 +1,4 @@
-###[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
+#[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
 # Day Five
 ## Schedule
  	           |	Time           | Activity                 |
