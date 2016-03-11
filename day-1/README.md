@@ -1,6 +1,5 @@
-# Day One
-
-## Schedule
+#[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
+## Day One Schedule
  	|	Time        		| Activity       |
    -------------|-------------       |:-------------:|
     Morning	            |   9:00 - 9:30        | [Day One Slides](https://docs.google.com/presentation/d/1jygKz5cmy_Qz4bxvpK3Pyl6RKmh8PrqFyDLCFrE_AW0/edit?usp=sharing)
