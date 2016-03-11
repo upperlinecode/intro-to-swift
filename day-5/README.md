@@ -1,6 +1,5 @@
 #[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
-# Day Five
-## Schedule
+## Day Five Schedule
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
  Morning	    |  9:00 - 9:30   | [Day Five Slides](https://docs.google.com/presentation/d/1cHwWQdfJd5WDLIiepWWHvD0OFv9t7cvH2NOVSMIwb3c/edit?usp=sharing)<br>[Day Four Review](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5/DayFourReview.playground)
