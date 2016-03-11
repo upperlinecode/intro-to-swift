@@ -1,6 +1,5 @@
-# Day Four
-
-## Schedule
+#[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
+## Day Four Schedule
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
  Morning	    |  9:00 - 9:30   | [Day 4 Slides](https://docs.google.com/presentation/d/1bPqbIBgJXV5kZdzzhluV20vaIxnJbsSKJgYxzB6wYLY/edit?usp=sharing)<br>[Day Three Review](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/DayThreeReview.playground)
