@@ -1,6 +1,5 @@
-# Day Three
-
-## Schedule
+#[Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
+## Day Three Schedule
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
  Morning	   |  9:00 - 9:15   | [Day 3 Slides](https://docs.google.com/presentation/d/1liExMeMs9lzwJPD3lPF4wcJLl3yMBHvC6CowKHUgTdA/edit?usp=sharing)<br>[Review Lab]()
