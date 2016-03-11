@@ -2,7 +2,7 @@
 ## Day Six Schedule
  	           |	Time           | Activity                 |
 -------------|----------------|:------------------------:|
- Morning	    |  9:00 - 9:30   | [Day Six Slides]()<br>[Week 1 Review]()
+ Morning	    |  9:00 - 9:30   | [Day Six Slides](https://docs.google.com/presentation/d/1_AMisIbJkYvdu5r9VL6IxHNlkoE-BD35UsWfrAKpMUo/edit?usp=sharing)<br>[Week 1 Review]()
         	    |  9:30 - 10:15  | 
              |  10:15 - 11:30 | 
  Lunch       |  11:30 - 12:30 | 
