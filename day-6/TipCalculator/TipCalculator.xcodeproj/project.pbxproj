@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BE37CD71C93442D00B373D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37CD61C93442D00B373D3 /* AppDelegate.swift */; };
-		9BE37CD91C93442D00B373D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37CD81C93442D00B373D3 /* ViewController.swift */; };
-		9BE37CDC1C93442D00B373D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE37CDA1C93442D00B373D3 /* Main.storyboard */; };
-		9BE37CDE1C93442D00B373D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE37CDD1C93442D00B373D3 /* Assets.xcassets */; };
-		9BE37CE11C93442D00B373D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE37CDF1C93442D00B373D3 /* LaunchScreen.storyboard */; };
+		9BE37CF51C96E55C00B373D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37CF41C96E55C00B373D3 /* AppDelegate.swift */; };
+		9BE37CF71C96E55C00B373D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37CF61C96E55C00B373D3 /* ViewController.swift */; };
+		9BE37CFA1C96E55C00B373D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE37CF81C96E55C00B373D3 /* Main.storyboard */; };
+		9BE37CFC1C96E55C00B373D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE37CFB1C96E55C00B373D3 /* Assets.xcassets */; };
+		9BE37CFF1C96E55C00B373D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE37CFD1C96E55C00B373D3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BE37CD31C93442D00B373D3 /* UpperlineCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpperlineCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BE37CD61C93442D00B373D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BE37CD81C93442D00B373D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9BE37CDB1C93442D00B373D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9BE37CDD1C93442D00B373D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9BE37CE01C93442D00B373D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9BE37CE21C93442D00B373D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE37CF11C96E55C00B373D3 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE37CF41C96E55C00B373D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BE37CF61C96E55C00B373D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BE37CF91C96E55C00B373D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE37CFB1C96E55C00B373D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE37CFE1C96E55C00B373D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE37D001C96E55C00B373D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BE37CD01C93442D00B373D3 /* Frameworks */ = {
+		9BE37CEE1C96E55C00B373D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9BE37CCA1C93442D00B373D3 = {
+		9BE37CE81C96E55C00B373D3 = {
 			isa = PBXGroup;
 			children = (
-				9BE37CD51C93442D00B373D3 /* UpperlineCalculator */,
-				9BE37CD41C93442D00B373D3 /* Products */,
+				9BE37CF31C96E55C00B373D3 /* TipCalculator */,
+				9BE37CF21C96E55C00B373D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9BE37CD41C93442D00B373D3 /* Products */ = {
+		9BE37CF21C96E55C00B373D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BE37CD31C93442D00B373D3 /* UpperlineCalculator.app */,
+				9BE37CF11C96E55C00B373D3 /* TipCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BE37CD51C93442D00B373D3 /* UpperlineCalculator */ = {
+		9BE37CF31C96E55C00B373D3 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				9BE37CD61C93442D00B373D3 /* AppDelegate.swift */,
-				9BE37CD81C93442D00B373D3 /* ViewController.swift */,
-				9BE37CDA1C93442D00B373D3 /* Main.storyboard */,
-				9BE37CDD1C93442D00B373D3 /* Assets.xcassets */,
-				9BE37CDF1C93442D00B373D3 /* LaunchScreen.storyboard */,
-				9BE37CE21C93442D00B373D3 /* Info.plist */,
+				9BE37CF41C96E55C00B373D3 /* AppDelegate.swift */,
+				9BE37CF61C96E55C00B373D3 /* ViewController.swift */,
+				9BE37CF81C96E55C00B373D3 /* Main.storyboard */,
+				9BE37CFB1C96E55C00B373D3 /* Assets.xcassets */,
+				9BE37CFD1C96E55C00B373D3 /* LaunchScreen.storyboard */,
+				9BE37D001C96E55C00B373D3 /* Info.plist */,
 			);
-			path = UpperlineCalculator;
+			path = TipCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BE37CD21C93442D00B373D3 /* UpperlineCalculator */ = {
+		9BE37CF01C96E55C00B373D3 /* TipCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BE37CE51C93442D00B373D3 /* Build configuration list for PBXNativeTarget "UpperlineCalculator" */;
+			buildConfigurationList = 9BE37D031C96E55C00B373D3 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
 			buildPhases = (
-				9BE37CCF1C93442D00B373D3 /* Sources */,
-				9BE37CD01C93442D00B373D3 /* Frameworks */,
-				9BE37CD11C93442D00B373D3 /* Resources */,
+				9BE37CED1C96E55C00B373D3 /* Sources */,
+				9BE37CEE1C96E55C00B373D3 /* Frameworks */,
+				9BE37CEF1C96E55C00B373D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UpperlineCalculator;
-			productName = UpperlineCalculator;
-			productReference = 9BE37CD31C93442D00B373D3 /* UpperlineCalculator.app */;
+			name = TipCalculator;
+			productName = TipCalculator;
+			productReference = 9BE37CF11C96E55C00B373D3 /* TipCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9BE37CCB1C93442D00B373D3 /* Project object */ = {
+		9BE37CE91C96E55C00B373D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = flatironstudent;
 				TargetAttributes = {
-					9BE37CD21C93442D00B373D3 = {
+					9BE37CF01C96E55C00B373D3 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = QGJXAGKLW7;
 					};
 				};
 			};
-			buildConfigurationList = 9BE37CCE1C93442D00B373D3 /* Build configuration list for PBXProject "UpperlineCalculator" */;
+			buildConfigurationList = 9BE37CEC1C96E55C00B373D3 /* Build configuration list for PBXProject "TipCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 9BE37CCA1C93442D00B373D3;
-			productRefGroup = 9BE37CD41C93442D00B373D3 /* Products */;
+			mainGroup = 9BE37CE81C96E55C00B373D3;
+			productRefGroup = 9BE37CF21C96E55C00B373D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BE37CD21C93442D00B373D3 /* UpperlineCalculator */,
+				9BE37CF01C96E55C00B373D3 /* TipCalculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9BE37CD11C93442D00B373D3 /* Resources */ = {
+		9BE37CEF1C96E55C00B373D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE37CE11C93442D00B373D3 /* LaunchScreen.storyboard in Resources */,
-				9BE37CDE1C93442D00B373D3 /* Assets.xcassets in Resources */,
-				9BE37CDC1C93442D00B373D3 /* Main.storyboard in Resources */,
+				9BE37CFF1C96E55C00B373D3 /* LaunchScreen.storyboard in Resources */,
+				9BE37CFC1C96E55C00B373D3 /* Assets.xcassets in Resources */,
+				9BE37CFA1C96E55C00B373D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BE37CCF1C93442D00B373D3 /* Sources */ = {
+		9BE37CED1C96E55C00B373D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE37CD91C93442D00B373D3 /* ViewController.swift in Sources */,
-				9BE37CD71C93442D00B373D3 /* AppDelegate.swift in Sources */,
+				9BE37CF71C96E55C00B373D3 /* ViewController.swift in Sources */,
+				9BE37CF51C96E55C00B373D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9BE37CDA1C93442D00B373D3 /* Main.storyboard */ = {
+		9BE37CF81C96E55C00B373D3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9BE37CDB1C93442D00B373D3 /* Base */,
+				9BE37CF91C96E55C00B373D3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9BE37CDF1C93442D00B373D3 /* LaunchScreen.storyboard */ = {
+		9BE37CFD1C96E55C00B373D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9BE37CE01C93442D00B373D3 /* Base */,
+				9BE37CFE1C96E55C00B373D3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9BE37CE31C93442D00B373D3 /* Debug */ = {
+		9BE37D011C96E55C00B373D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		9BE37CE41C93442D00B373D3 /* Release */ = {
+		9BE37D021C96E55C00B373D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,24 +244,24 @@
 			};
 			name = Release;
 		};
-		9BE37CE61C93442D00B373D3 /* Debug */ = {
+		9BE37D041C96E55C00B373D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UpperlineCalculator/Info.plist;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.upperlinecode.UpperlineCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upperlinecode.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9BE37CE71C93442D00B373D3 /* Release */ = {
+		9BE37D051C96E55C00B373D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UpperlineCalculator/Info.plist;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.upperlinecode.UpperlineCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upperlinecode.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -269,24 +269,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BE37CCE1C93442D00B373D3 /* Build configuration list for PBXProject "UpperlineCalculator" */ = {
+		9BE37CEC1C96E55C00B373D3 /* Build configuration list for PBXProject "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BE37CE31C93442D00B373D3 /* Debug */,
-				9BE37CE41C93442D00B373D3 /* Release */,
+				9BE37D011C96E55C00B373D3 /* Debug */,
+				9BE37D021C96E55C00B373D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BE37CE51C93442D00B373D3 /* Build configuration list for PBXNativeTarget "UpperlineCalculator" */ = {
+		9BE37D031C96E55C00B373D3 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BE37CE61C93442D00B373D3 /* Debug */,
-				9BE37CE71C93442D00B373D3 /* Release */,
+				9BE37D041C96E55C00B373D3 /* Debug */,
+				9BE37D051C96E55C00B373D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9BE37CCB1C93442D00B373D3 /* Project object */;
+	rootObject = 9BE37CE91C96E55C00B373D3 /* Project object */;
 }

@@ -2,4 +2,7 @@
 
 import UIKit
 
+let arr = [Int](1...100)
 
+
+arr[5]

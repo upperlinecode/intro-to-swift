@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  UpperlineCalculator
+//  TipCalculator
 //
-//  Created by flatironstudent on 3/11/16.
+//  Created by flatironstudent on 3/14/16.
 //  Copyright © 2016 flatironstudent. All rights reserved.
 //
 

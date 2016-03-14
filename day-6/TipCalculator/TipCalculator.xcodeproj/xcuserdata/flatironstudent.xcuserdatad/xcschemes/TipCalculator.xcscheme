@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BE37CD21C93442D00B373D3"
-               BuildableName = "UpperlineCalculator.app"
-               BlueprintName = "UpperlineCalculator"
-               ReferencedContainer = "container:UpperlineCalculator.xcodeproj">
+               BlueprintIdentifier = "9BE37CF01C96E55C00B373D3"
+               BuildableName = "TipCalculator.app"
+               BlueprintName = "TipCalculator"
+               ReferencedContainer = "container:TipCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BE37CD21C93442D00B373D3"
-            BuildableName = "UpperlineCalculator.app"
-            BlueprintName = "UpperlineCalculator"
-            ReferencedContainer = "container:UpperlineCalculator.xcodeproj">
+            BlueprintIdentifier = "9BE37CF01C96E55C00B373D3"
+            BuildableName = "TipCalculator.app"
+            BlueprintName = "TipCalculator"
+            ReferencedContainer = "container:TipCalculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BE37CD21C93442D00B373D3"
-            BuildableName = "UpperlineCalculator.app"
-            BlueprintName = "UpperlineCalculator"
-            ReferencedContainer = "container:UpperlineCalculator.xcodeproj">
+            BlueprintIdentifier = "9BE37CF01C96E55C00B373D3"
+            BuildableName = "TipCalculator.app"
+            BlueprintName = "TipCalculator"
+            ReferencedContainer = "container:TipCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BE37CD21C93442D00B373D3"
-            BuildableName = "UpperlineCalculator.app"
-            BlueprintName = "UpperlineCalculator"
-            ReferencedContainer = "container:UpperlineCalculator.xcodeproj">
+            BlueprintIdentifier = "9BE37CF01C96E55C00B373D3"
+            BuildableName = "TipCalculator.app"
+            BlueprintName = "TipCalculator"
+            ReferencedContainer = "container:TipCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
