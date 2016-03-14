@@ -6,6 +6,6 @@
         	    |  9:30 - 10:15  | User Input: Text Fields <br> [Username Generator Walkthrough]()
              |  10:15 - 11:30 | 
  Lunch       |  11:30 - 12:30 | 
- Afternoon   |  12:30 - 1:30  | User Input: UIPickerView [Tip Calculator Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/text-field-walkthrough.md)<br>[Tip Calculator Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/TipCalculator)
+ Afternoon   |  12:30 - 1:30  | User Input: UIPickerView <br> [Tip Calculator Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/text-field-walkthrough.md) <br> [Tip Calculator Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/TipCalculator)
              |  1:30 - 2:50   | 
        	     |  2:50 - 3:00   | Debrief
