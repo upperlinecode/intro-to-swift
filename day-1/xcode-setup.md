@@ -41,7 +41,7 @@ var str = "Hello, playground"
 - At this point, there is not output in the console because we have not explicitly told the computer to 
 output any messages. Go ahead and give it a try.
 - When we are writing code, sometimes we want to display a message on the screen. We can tell our program to do so using the print command.
-- now replace all of the code with the following line:
+- Now replace all of the code with the following line:
 
 ```swift
 print("Hello, World!")
