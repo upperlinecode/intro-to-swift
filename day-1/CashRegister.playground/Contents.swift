@@ -2,7 +2,9 @@
 
 import UIKit
 
-var message = "In order to help out in the checkout line, we're going to write a program to calculate the price of apples at a store. A purchase of less than 5 apples costs 50 cents per apple. A purchase of between 6 and 24 apples costs 40 cents per apple. Any purchase of more than 25 apples costs a flat fee of $10.00"
+//In order to help out in the checkout line, we're going to write a program to calculate the price of apples at a store. 
+//A purchase of less than 5 apples costs 50 cents per apple. A purchase of between 6 and 24 apples costs 40 cents per apple. 
+//Any purchase of more than 25 apples costs a flat fee of $10.00"
 
 
 var pricePerApple: Double // = ___
