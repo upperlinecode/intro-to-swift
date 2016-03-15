@@ -8,7 +8,7 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
 - Download instructions from app store. Link here: https://developer.apple.com/xcode/download/
 
 - To start a new project:
-    - open xcode
+    - open Xcode
     - click on 'get started with a new playground'
     - name your file, use camelcase eg. IntroSwiftSetup
     - select ios as platform
