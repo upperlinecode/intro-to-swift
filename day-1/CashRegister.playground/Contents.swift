@@ -7,11 +7,11 @@ import UIKit
 //Any purchase of more than 25 apples costs a flat fee of $10.00"
 
 
-var pricePerApple: Double // = ___
+var pricePerApple: Double = 0.0
 
-var numberOfItems: Int // = ___
+var numberOfItems: Int // = set this to different values to test the conditional
 
-var totalCost: Double // = ___
+var totalCost: Double
 
 //write conditional statement here to calculate the correct total cost
 
@@ -34,13 +34,11 @@ print(message)
 
 //-------------------------------------------------------------------------------------------------
 //Bonus
-//Add an additional branch to the conditional statement that removes 10% of the cost if
+//Add an additional branch to the conditional statement that removes 10% of the cost if onSale is true
 
-var onSale: Bool // = ___
+var onSale: Bool // = set this to either true or false
 
-pricePerApple // = ___
-numberOfItems // = ___
-totalCost // = ___
+numberOfItems // = set this to different values to test the conditional
 
 
 //write your new conditional statement here
@@ -66,11 +64,9 @@ print(message)
 //per orange. Any purchase of more than 20 oranges costs a flat fee of $12.00"
 
 var item: String // = add either apple or orange here
-var pricePerOrange: Double // = 
+var pricePerOrange: Double = 0.0 
 
-pricePerApple // = ___
-numberOfItems // = ___
-totalCost // = ___
+numberOfItems // = set this to different values to test the conditional
 
 
 //write your new conditional statement here
