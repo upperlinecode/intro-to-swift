@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     func addData() {
         Name.text = "Name: \(about.name)"
         Age.text = "Age: \(about.age)"
-        FavoriteMovies.text = "Favorite Movies:\n1. \(about.favoriteWebsites[about.favoriteWebsites.startIndex])\n2. \(about.favoriteWebsites[about.favoriteWebsites.startIndex.advancedBy(1)])\n3. \(about.favoriteWebsites[about.favoriteWebsites.startIndex.advancedBy(2)])"
+        FavoriteMovies.text = "Favorite Movies:\n1. \(about.favoriteMovies[about.favoriteMovies.startIndex])\n2. \(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(1)])\n3. \(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(2)])"
         FavoriteMovies.sizeToFit()
         Biography.text = "Biography: \(about.bio)"
     }
