@@ -11,11 +11,11 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
     - open xcode
     - click on 'get started with a new playground'
     - name your file, use camelcase eg. IntroSwiftSetup
-    <p align="center">
-        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-1.png" height="200px" hspace="20">
-    </p>
     - select ios as platform
     - select file location eg. user/development/swift
+    <p align="center">
+        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-1.png" height="300px" hspace="20">
+    </p>
 
 - Discuss the environment that has now been launched.
     - the code editor is in the center. This is where you will write your code.
