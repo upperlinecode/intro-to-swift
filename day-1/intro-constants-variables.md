@@ -36,10 +36,10 @@ score = 100
 ```
 
  - Notice that we put quotation marks around the username, but not around the score. This is because not all data is the same. There are many different data types in swift, but we can focus on just four: Integer, Double, String, and Boolean. 
-      - integers are whole numbers
-      - type double is used for decimal numbers
-      - strings are sequences of characters surrounded by quotation marks.
-      - booleans have two possible values: true or false.
+  - strings are sequences of characters surrounded by quotation marks.
+  - integers are whole numbers
+  - type double is used for decimal numbers
+  - booleans have two possible values: true or false.
 
 - Try to assign a value of 5.5 to the score. An error will appear in the console, telling you that you cannot assign a value of type double to type int
 
