@@ -21,7 +21,7 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
     - the code editor is in the center. This is where you will write your code.
     - the three buttons in the upper right hand corner can expand you window to include additional features. Click the center button to reveal the debug area, or console.
     <p align="center">
-        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-hide-show.png" height="200px" hspace="20">
+        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-hide-show.png" height="150px" hspace="20">
     </p>
     - when we are writing code, sometimes we want to display a message on the screen. We can tell our 
         program to do so using the print command.
@@ -38,7 +38,7 @@ var str = "Hello, playground"
 
 - you can run this code by clicking the blue triangle in the upper-left corner of the console.
 <p align="center">
-    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-play.png" height="200px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-play.png" height="150px" hspace="20">
     </p>
 - at this point, there is not output in the console because we have not explicitly told the computer to 
 output any messages. Go ahead and give it a try.
