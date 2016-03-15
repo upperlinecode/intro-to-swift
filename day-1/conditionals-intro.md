@@ -1,14 +1,16 @@
 ##Introduction to Conditionals
 
-##SWBAT
+##Students Will Be Able To
 - Use boolean operators to test a statement's boolean value
 - Explain the need for if/else statements in code
 - Implement an if statement, an if/else statement, and an if/else-if/else statement in their code
 
-##Lesson
+##Motivation
+Up until this point our code has executed line by line, from top to bottom. Every line of code always ran, no matter what. It can be useful to write code that will only execute if certain conditions are true. This kind of code is called conditional.
+
+##Walkthrough
 ####Conditional Statements with Comparison Operators
-- Up until this point our code has executed line by line, from top to bottom. Every line of code always ran, no matter what.
-- It can be useful to write code that will only execute if certain conditions are true. This kind of code is called conditional, and a well written conditional statement reads a lot like a normal sentence.
+- A well written conditional statement reads a lot like a normal sentence.
 ```Swift
 if somethingIsTrue {
   then execute this code
