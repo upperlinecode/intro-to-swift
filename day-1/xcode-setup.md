@@ -14,7 +14,7 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
     - select ios as platform
     - select file location eg. user/development/swift
     <p align="center">
-        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-1.png" height="300px" hspace="20">
+        <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-1.png" height="350px" hspace="20">
     </p>
 
 - Discuss the environment that has now been launched.
