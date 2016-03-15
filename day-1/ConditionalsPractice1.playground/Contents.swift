@@ -5,25 +5,25 @@ import UIKit
 //Replace the '__' with comparison operators to make the following statements true
 //Try to use a different comparison operator each time
 
-//45 __ 45
+//45 == 45
 
-//-9 __ 9
+//-9 < 9
 
-//100 __ 100000
+//100 <= 100000
 
-//5.6 __ 5.5
+//5.6 > 5.5
 
 
 //Replace the '__' with comparison operators to make the following statements false
 //Try to use a different comparison operator each time
 
-//2 __ 10
+//2 > 10
 
-//22 __ 22
+//22 < 22
 
-//0 __ -5
+//0 == -5
 
-//3.3 __ 3.5
+//3.3 >= 3.5
 
 
 
@@ -34,7 +34,7 @@ import UIKit
 //replace the blank with a conditional statement so that the lunch invitation is only printed if isHungry is true
 var isHungry = false
 
-//if __________ {
+//if isHungry {
 //    print("Do you want to grab some lunch?")
 //}
 
@@ -44,9 +44,9 @@ var isHungry = false
 
 
 //replace the blank with a conditional statement that tests to see if a number is even. Hint: the % operator might be useful here.
-var number: Int // = ______
+var number: Int = 20 // = ______
 
-//if __________ {
+//if number % 2 == 0 {
 //    print("That number is even!")
 //} else {
 //    print("That number is odd!")
@@ -61,7 +61,7 @@ var number: Int // = ______
 var luggageWeight = 55
 var ticketPrice = 150
 
-//if __________ {
+//if luggageWeight > 50 {
 //    ticketPrice += 20
 //    print("An extra $20.00 fee was added to the plane ticket for going over the maximum weight.")
 //} else {
@@ -76,14 +76,14 @@ var ticketPrice = 150
 
 //replace the blanks with a conditional statement that prints the correct statement depending on the carSpeed that you input.
 
-var carSpeed: Int // = _____
+var carSpeed: Int = 65 // = _____
 var maximumSpeed = 70
 var minimumSpeed = 45
 
 
-//if __________ {
+//if carSpeed > 70 {
 //    print("Slow down, you're speeding!")
-//} else if __________ {
+//} else if carSpeed < 45 {
 //    print("Speed up, you're holding up traffic!")
 //} else {
 //    print("You are at a great speed, just keep driving.")
@@ -107,7 +107,15 @@ var customerPayment: Double // = _______
 var totalCheckoutCost: Double // = _______
 
 //write conditional statement here:
-
+if customerPayment > totalCheckoutCost {
+        let change: Double = customerPayment - totalCheckoutCost
+        print("Your change is $\(change). Thank you for shopping with us today.")
+} else if customerPayment < totalCheckoutCost {
+        let remaining = totalCheckoutCost - customerPayment
+        print("There is still $\(remaining) remaining on your balance.")
+} else if customerPayment == totalCheckoutCost {
+        print("Thanks and have a nice day!")
+} 
 
 
 
