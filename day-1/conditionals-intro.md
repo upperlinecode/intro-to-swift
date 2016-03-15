@@ -1,9 +1,9 @@
 ##Introduction to Conditionals
 
 ##SWBAT
-- use boolean operators to test a statement's boolean value
-- explain the need for if/else statements in code
-- implement an if statement, and if/else statement, and an if/else if/ else statement in their code
+- Use boolean operators to test a statement's boolean value
+- Explain the need for if/else statements in code
+- Implement an if statement, an if/else statement, and an if/else-if/else statement in their code
 
 ##Lesson
 ####Conditional Statements with Comparison Operators
@@ -14,6 +14,7 @@ if somethingIsTrue {
   then execute this code
 }
 ```
+
 - The "somethingIsTrue" part of the statement is where booleans come in. Remember that booleans can have either a true or false value. If somethingIsTrue has a value of true, then the code inside that branch will execute. If it has a value of false, nothing will happen.
 ```Swift
 var cold = true
@@ -22,6 +23,7 @@ if cold {
 }
 //prints "Don't forget to wear a coat when you go outside."
 ```
+
 ```Swift
 var cold = false
 if cold {
@@ -29,7 +31,8 @@ if cold {
 }
 //nothing happens
 ```
-- We can even write code for both possibilities in the same block
+
+- We can even write code for both possibilities in the same block by creating a second branch in our conditional statement. Else is always the last branch of the conditional, and convers all possible outcomes that were not included in previous branches.
 ```Swift
 var cold = false
 if cold {
@@ -39,6 +42,7 @@ if cold {
 }
 //prints "Wear a t-shirt! It's beautiful outside."
 ```
+
 - Usually though, we want to make a comparison when deciding whether or not to execute a particular block of code. For that, we use comparison operators:
 
 ######Comparison Operators
@@ -60,6 +64,7 @@ if temperature < 32 {
 }
 //prints "Don't forget to wear a coat when you go outside." because temperature < 32 is true
 ```
+
 - Sometimes we need to account for more than two possibilities. To account for this, we can add "else if" statements.
 ```Swift
 var temperature = 58
@@ -73,7 +78,7 @@ if temperature < 32 {
 //prints "It's a little chilly, you should probably throw on a sweater." because temperature < 32 and temperature > 70 are both false
 ```
 <br>
-######Break for conditionals-practice-1
+######Break for [conditionals-practice-1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice1.playground)
 <br>
 ####Conditional Statements with Logical Operators
 When one branch of a conditional statement depends on more than one factore, we can use logical operators to find the truth value of the combined statement.
