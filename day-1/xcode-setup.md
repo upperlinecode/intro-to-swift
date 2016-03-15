@@ -47,7 +47,7 @@ output any messages. Go ahead and give it a try.
 print("Hello, World!")
 ```
 
-- Run the program again. This time, you should see 'Hello World' appear in your console. if not, 
+- Run the program again. This time, you should see 'Hello World' appear in your console. 
 - If we were using this code in an iPhone app, this message would not appear on the screen. However, we
 would be able to use it to test our code during development.
 - This program, though simple, is a tradition amongst programmers. Congratulations! You just finished 
