@@ -4,6 +4,9 @@
 So far, we've only used the Xcode playground. When we create a new Xcode project, it creates a skeleton of an application for us, which consists of several different folders and files. Let's take a look at the new layout.
 - Editor Area
   - Purpose: This is where the the core development tasks take place. When you open a file, it is displayed in the editor area. Right now, this should be where you see the layout of the beginning of an iphone app.
+  <p align="center">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/editor-area.png" height="500px" hspace="20">
+  </p>
 - Navigator
   - How to show: click the rectangular button in the upper right hand corner of Xcode (leftmost of three).
   - Purpose: Show your project's file structure.
