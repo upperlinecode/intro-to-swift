@@ -8,11 +8,11 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
 - Download instructions from app store. Link here: https://developer.apple.com/xcode/download/
 
 - To start a new project:
-    -open xcode
-    -click on 'get started with a new playground'
-    -name your file, use camelcase eg. IntroSwiftSetup
-    -select ios as platform
-    -select file location eg. user/development/swift
+    - open xcode
+    - click on 'get started with a new playground'
+    - name your file, use camelcase eg. IntroSwiftSetup
+    - select ios as platform
+    - select file location eg. user/development/swift
 
 - Discuss the environment that has now been launched.
     -the code editor is in the center. This is where you will write your code.
