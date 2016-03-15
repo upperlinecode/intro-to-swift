@@ -75,7 +75,8 @@ var number: Int // = ______
 
 
 //challenge
-//given three numbers, create a conditional statement that prints out the string "___ is the greatest of these three numbers" with the number filling in the blank.
+//given three numbers, create a conditional statement that prints out the string "___ is the greatest of these three numbers" 
+//with the number filling in the blank. Assume that none of the three numbers are equal
 var x = -3
 var y = 45
 var z = 15
@@ -86,7 +87,11 @@ var z = 15
 
 if x > y && x > z {
   print("x is the greatest of these three numbers")
-} else if 
+} else if y > x && y > z {
+  print("y is the greatest of these three numbers")
+} else {
+  print("z is the greatest of these three numbers")
+}
 
 
 
