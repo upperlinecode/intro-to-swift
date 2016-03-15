@@ -10,18 +10,24 @@ var message = "This calculator will be a little bit more advanced than the last 
 
 
 
-var num1: Double // = add some number here
+var num1: Double = 10.0
 
-var num2: Double // = add some other number here
+var num2: Double = 6.5
 
-var mathOperator: String // = put a +, -, *, or / here
+var mathOperator: String  = "+"
 
-var answer: Double // this variable will hold your answer. The caculations will all go inside of the conditional statement that you build.
+var answer: Double 
 
 //add conditional statement here
-
-
-
+if mathOperator == "+" {
+  answer = num1 + num2
+} else if mathOperator == "-" {
+  answer = num1 - num2
+} else if mathOperator == "*" {
+  answer = num1 * num2
+} else if mathOperator == "/" {
+  answer = num1 / num2
+}
 
 print(answer)
 
@@ -35,20 +41,30 @@ print(answer)
 
 //Bonus Round: give the use the option of rounding their answer to the nearest whole number. Write a more complex conditional statement that can handle the extra decision.
 
-num1 // = add some number here
+num1 = 5.5
 
-num2 // = add some other number here
+num2 = 3.2
 
-mathOperator // = put a +, -, *, or / here
+mathOperator = "/"
 
 answer
 
-var isRounded: Bool // = add true if you want to round any decimal off the end of your answer, and put false otherwise
+var isRounded: true
 
 //add conditional statement here
+if mathOperator == "+" {
+  answer = num1 + num2
+} else if mathOperator == "-" {
+  answer = num1 - num2
+} else if mathOperator == "*" {
+  answer = num1 * num2
+} else if mathOperator == "/" {
+  answer = num1 / num2
+}
 
-
-
+if isRounded {
+  answer = floor(answer)
+}
 
 print(answer)
 
@@ -63,17 +79,33 @@ print(answer)
 //Double Bonus Round
 //Add more math functions to your calculator. Start out with a power function and a square root function, and then move on to some more advanced tools like sine or log.
 
-num1 // =
+num1 = 1.1
 
-num2 // =
+num2 = 8.5
 
-mathOperator // =
+mathOperator = "^"
 
-answer // =
-
-isRounded // =
+isRounded = true
 
 //add conditional statement here
+if mathOperator == "+" {
+  answer = num1 + num2
+} else if mathOperator == "-" {
+  answer = num1 - num2
+} else if mathOperator == "*" {
+  answer = num1 * num2
+} else if mathOperator == "/" {
+  answer = num1 / num2
+} else if mathOperator == "^" {
+  answer = pow(num1, num2)
+} else if mathOperator == "sqrt" {
+  answer = pow(num1, 0.5)
+}
 
+if isRounded {
+  answer = floor(answer)
+}
+
+print(answer)
 
 
