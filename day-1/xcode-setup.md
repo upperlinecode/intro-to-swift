@@ -23,8 +23,6 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
     <p align="center">
         <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-hide-show.png" height="150px" hspace="20">
     </p>
-    - when we are writing code, sometimes we want to display a message on the screen. We can tell our 
-        program to do so using the print command.
 
 - When you create a new playground, the code editor already has the following code in it:
 
@@ -36,23 +34,24 @@ import UIKit
 var str = "Hello, playground"
 ```
 
-- you can run this code by clicking the blue triangle in the upper-left corner of the console.
+- You can run this code by clicking the blue triangle in the upper-left corner of the console.
 <p align="center">
     <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/images/intro-xcode-play.png" height="150px" hspace="20">
     </p>
-- at this point, there is not output in the console because we have not explicitly told the computer to 
+- At this point, there is not output in the console because we have not explicitly told the computer to 
 output any messages. Go ahead and give it a try.
+- When we are writing code, sometimes we want to display a message on the screen. We can tell our program to do so using the print command.
 - now replace all of the code with the following line:
 
 ```swift
 print("Hello, World!")
 ```
 
-- this time, you should see 'Hello World' appear in your console. if not, 
+- Run the program again. This time, you should see 'Hello World' appear in your console. if not, 
 - If we were using this code in an iPhone app, this message would not appear on the screen. However, we
 would be able to use it to test our code during development.
-- this program, though simple, is a tradition amongst programmers. Congratulations! You just finished 
-your first swift program.
+- This program, though simple, is a tradition amongst programmers. Congratulations! You just finished 
+your first Swift program.
 
 
 
