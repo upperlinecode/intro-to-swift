@@ -1,9 +1,9 @@
 ##Introduction to Constants and Variables
 
 ###Students Will Be Able To
-- explain the difference between a constant and a variable
-- assign values to a variable or constant
-- provide type annotation to declare a variable or constant's type
+- Explain the difference between a constant and a variable
+- Assign values to a variable or constant
+- Provide type annotation to declare a variable or constant's type
 - Explain the differences between Strings, Booleans, Integers, and Doubles.
 
 ###Why
@@ -11,12 +11,12 @@ Every app that you use on your phone contains data. That data becomes useful whe
 
 ###Anticipated Pain Points
 - Difference between constant and variable use cases: only use a constant if you are positive this is a value that you never want to change.
-- We do not have to declare a type for a constant or variable. It just helps to make your code more clear. You will usually only see it done when there is no initial value assigned to the variable.
+- We do not have to declare a type for a constant or variable. It simply helps to make your code easier to read.
 
 ###Walkthrough
-- Have the students name an app that they use. Brainstorm about a piece of data that is going to stay the same the entire time you are using the app. eg. Angry Birds - when you create an account, the username that you enter is going to stay on the screen, unchanged. 
+- Have the students name an app that they use. Brainstorm about a piece of data that is going to stay the same the entire time you are using the app. 
+  - eg. Angry Birds: When you create an account, the username that you enter is going to stay on the screen, unchanged. 
 - In a case like this, it is convention to let swift know that this data will not change. we do so by assigning it to a constant. A constant is a word that refers to a piece of data and is immutable, meaning xcode will throw an error if we ever attempt to change it. Assigning this data looks pretty similar to a simple algebraic expression, with one addition. We begin the statement with 'let', which is a keyword in swift. Assigning your username to a constant might look something like this:
-
 
 ```swift
 let username = "angrypig1673"
@@ -45,7 +45,6 @@ score = 100
 
 - Sometimes, you might see a variable or constant declared with an explicit declaration of data type.
 
-
 ```swift
 let username: String = "angrypig1673"
 var score: Int = 3
@@ -56,10 +55,8 @@ var gameOver: Bool = false
  - This is not neccessary though. Swift is able to guess the type of the data from the first value that we give it. It's main purpose is to ensure that you don't pass the incorrect type of data to a variable by mistake. 
 
  - Some fun things we can do with strings: 
-
-      - let's say you want a message to appear for the user at the end of every level. Giving the same message at the end of every level is called 'hard-coding'. 
+  - let's say you want a message to appear for the user at the end of every level. Giving the same message at the end of every level is called 'hard-coding'. 
  
-
 ```swift
 var message = "Congratulations! You destroyed all of the pigs! Time to move to the next level"
 ```
