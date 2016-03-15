@@ -9,7 +9,7 @@ Development Environment (IDE) that uses a compiler to make it machine-readable
 
 - To start a new project:
     - open Xcode
-    - click on 'get started with a new playground'
+    - click *get started with a new playground*
     - name your file, use camelcase eg. IntroSwiftSetup
     - select ios as platform
     - select file location eg. user/development/swift
