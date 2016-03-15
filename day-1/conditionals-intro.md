@@ -77,7 +77,8 @@ if temperature < 32 {
 } else {
   print("It's a little chilly, you should probably throw on a sweater.")
 }
-//prints "It's a little chilly, you should probably throw on a sweater." because temperature < 32 and temperature > 70 are both false
+//prints "It's a little chilly, you should probably throw on a sweater." 
+//because temperature < 32 and temperature > 70 are both false
 ```
 <br>
 ######Break for [conditionals-practice-1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice1.playground)
@@ -91,8 +92,8 @@ symbol|description|example
 &&|and|1 > 0 && 5 < 7   //true
 \|\||or|4.5 == 4.5 || 5.6 == 4.3   //true
 - The not operator (!) changes the boolean value of the following statement. True becomes false, false becomes true.
-- The and operator (&&) connects two values, and both of these values must be true for the entire statement to be true. Otherwise, it evaluates to false. 
-- The or operator (||) connects two values as well, but only one of them needs to be true for the entire statement to be true. The statement is only false is both connected values are false.
+- The And operator (&&) connects two values, and both of these values must be true for the entire statement to be true. Otherwise, it evaluates to false. 
+- The Or operator (||) connects two values as well, but only one of them needs to be true for the entire statement to be true. The statement is only false is both connected values are false.
 - Using these operators, we can make much more intricate branches in our code.
 ```Swift
 var chanceOfPrecipitation = 5
@@ -109,4 +110,4 @@ if chanceOfPrecipitation == 0 && temperature > 70{
 //prints "You can never believe the weatherman anyways."
 ```
 <br>
-######Continue on to conditionals-practice-2
+######Continue on to [conditionals-practice-2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice2.playground)
