@@ -33,15 +33,14 @@ print(answer)
 
 
 
-//Bonus Round: give the use the option of rounding their answer to the nearest whole number. Write a more complex conditional statement that can handle the extra decision.
+//Bonus Round: give the use the option of rounding their answer to the nearest whole number.
+//Write a more complex conditional statement(s) that can handle the extra decision.
 
 num1 // = add some number here
 
 num2 // = add some other number here
 
 mathOperator // = put a +, -, *, or / here
-
-answer
 
 var isRounded: Bool // = add true if you want to round any decimal off the end of your answer, and put false otherwise
 
@@ -69,11 +68,10 @@ num2 // =
 
 mathOperator // =
 
-answer // =
-
 isRounded // =
 
 //add conditional statement here
 
 
 
+print(answer)
