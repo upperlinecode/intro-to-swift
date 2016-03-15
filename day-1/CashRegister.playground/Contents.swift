@@ -33,6 +33,7 @@ print(message)
 
 
 //-------------------------------------------------------------------------------------------------
+//Bonus
 //Add an additional branch to the conditional statement that removes 10% of the cost if
 
 var onSale: Bool // = ___
@@ -59,6 +60,7 @@ print(message)
 
 
 //-------------------------------------------------------------------------------------------------
+//Double Bonus
 //Oranges are also available at the store. Add some code to your conditional so that it can handle the additional item. 
 //A purchase of less than 10 oranges costs 80 cents per orange. A purchase of between 11 and 20 oranges costs 60 cents 
 //per orange. Any purchase of more than 20 oranges costs a flat fee of $12.00"
