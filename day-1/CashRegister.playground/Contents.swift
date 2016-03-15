@@ -59,7 +59,9 @@ print(message)
 
 
 //-------------------------------------------------------------------------------------------------
-//Oranges are also available at the store. Add some code to your conditional so that it can handle the additional item. A purchase of less than 10 oranges costs 80 cents per orange. A purchase of between 11 and 20 oranges costs 60 cents per orange. Any purchase of more than 20 oranges costs a flat fee of $12.00"
+//Oranges are also available at the store. Add some code to your conditional so that it can handle the additional item. 
+//A purchase of less than 10 oranges costs 80 cents per orange. A purchase of between 11 and 20 oranges costs 60 cents 
+//per orange. Any purchase of more than 20 oranges costs a flat fee of $12.00"
 
 var item: String // = add either apple or orange here
 var pricePerOrange: Double // = 
@@ -88,7 +90,8 @@ print(message)
 
 
 //-------------------------------------------------------------------------------------------------
-//Final Challenge: add a variable so that the user can input the amount of money that they are paying, and print a message letting them know how much change they are getting back. Add in any other features that you think are missing!
+//Final Challenge: add a variable so that the user can input the amount of money that they are paying, and print a 
+//message letting them know how much change they are getting back. Add in any other features that you think are missing!
 
 
 
