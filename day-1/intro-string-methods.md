@@ -1,9 +1,9 @@
 ##A Closer Look at Strings
 
 ###Students Will Be Able To
-- Explain the difference between a property and a method
-- 
-
+- Explain the difference between a string's properties and its methods
+- Use a string's properties and methods with the dot operator
+- Retrieve individual characters from a string
 
 ###Motivation
 Strings are common across programming languages, and knowing how to use them is an important fundamental skill. Strings are a special data type because they come with a series of build-in methods and accessible properties. Learning about these will be a good introduction to functions for students before functions are fully introduced tomorrow.
