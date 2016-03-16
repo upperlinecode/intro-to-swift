@@ -30,3 +30,28 @@ staircase(6)
 // #####
 //######
 ```
+
+
+2. Given an array of integers, calculate the fraction of elements that are positive.
+
+Example Output:
+
+```Swift
+fractionPositive([1, -6, 8, 3])
+
+//prints:
+//0.75 of these integers are positive
+
+
+fractionPositive([-5, -9, -100, 0, -3])
+
+//prints:
+//0.2 of these integers are positive
+
+
+
+fractionPositive([])
+
+//prints:
+//That array is empty!
+```
