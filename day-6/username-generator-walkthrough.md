@@ -42,15 +42,40 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
   - Action: create a method instead of simply a property to reference.
   - Event: Primary Action Triggered. This means that this method will execute whenever the user presses return (enter).
   - Arguments: Sender. This means that the object sending the information to the controller (the text field) will be passed in as an argument to the method. This is important because it's how we will access the text field's text.
+
 ```Swift
 @IBAction func animal(sender: UITextField) {
   print(sender.text)
 }
 ```
+
 - By adding this print statement, we can see how the sender's (text field's)text, can be accessed in the controller. Open the debugging area and run the simulator. Add some text to the bottom text field and press enter. You should see this appear in the debugging area:
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-debug-text-field.png" height="200px" hspace="20">
 </p>
+- When the students see how this works, have them delete the IBAction method in the controller.
+- We don't actually want to send the data from the text fields to the controller until both fields have been filled. To do this, we'll add a button underneath both text fields.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-add-button.png" height="200px" hspace="20">
+</p>
+- Then connect the button to the controller as an IBAction.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-button-action.png" height="200px" hspace="20">
+</p>
+- Our View Controller should now look like this:
+```Swift
+class ViewController: UIViewController {
+
+    @IBOutlet weak var hometownField: UITextField!
+    @IBOutlet weak var animalField: UITextField!
+    
+    ...
+  
+    @IBAction func generateUsername(sender: AnyObject) {
+    } 
+}
+```
+
 ####Bonus Tasks
 - Add additional text fields so that the user can include more personal information in the username.
 - Randomize the number that is added to the end of the username.
