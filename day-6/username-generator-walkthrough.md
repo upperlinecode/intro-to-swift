@@ -84,7 +84,7 @@ class ViewController: UIViewController {
 - Now that we have the user input stored in the controller, we need a way to display it in the view. A simple way to do this is to add two labels to the view: one with the text "New Username" and the other initially blank. When the button is pressed, we can fill the text of the blank label with the new username.
 - Add the two new labels to the view, and create an IBOutlet for the blank label.
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-labels-for-submit.png" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-labels-for-submit.png" height="400px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-new-username-iboutlet.png" height="200px" hspace="20">
 </p>
 - Now we can complete the process by combining the animal and hometown strings, with some extra numbers at the end for good measure, and storing that new string in the newUsername label.
