@@ -56,7 +56,7 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
 - When the students see how this works, have them delete the IBAction method in the controller.
 - We don't actually want to send the data from the text fields to the controller until both fields have been filled. To do this, we'll add a button underneath both text fields.
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-add-button.png" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-add-button.png" height="400px" hspace="20">
 </p>
 - Then connect the button to the controller as an IBAction.
 <p align="center">
