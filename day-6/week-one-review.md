@@ -55,3 +55,28 @@ fractionPositive([])
 //prints:
 //That array is empty!
 ```
+
+3) Given a time in AM/PM format, convert it to military (24-hour) time.
+
+
+Example Output:
+
+```Swift
+amPmToMilitary("03:15:20PM")
+
+//prints:
+//Military time: 15:15:20
+
+
+amPmToMilitary("12:00:00AM")
+
+//prints:
+//Military time: 00:00:00
+
+
+
+amPmToMilitary("12:30:00PM")
+
+//prints:
+//Military time: 12:30:00
+```
