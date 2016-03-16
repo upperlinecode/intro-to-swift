@@ -37,7 +37,7 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
 ####Connecting Text Fields to the View Controller
 - Just like when we would right-click and drag from our label to the View Controller to create our IBOutlets, do the same to create an IBAction. Connect the lower of the two text fields to the controller. This is how the form should look:
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-ibaction.png" height="400px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-ibaction.png" height="200px" hspace="20">
 </p>
   - Action: create a method instead of simply a property to reference.
   - Event: Primary Action Triggered. This means that this method will execute whenever the user presses return (enter).
