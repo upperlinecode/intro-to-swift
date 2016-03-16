@@ -1,8 +1,8 @@
 ##Warming Up for Week Two
 Use anything from last week that you might need to solve the following challenges:
 
- 1. Write a program that will draw the a staircase of height *n*. 
-
+ 1. Write a program that will draw the a staircase of height *n*.
+ 
 Example Output:
 
 ```Swift
@@ -31,7 +31,8 @@ staircase(6)
 //######
 ```
 
-2. Given an array of integers, calculate the fraction of elements that are positive.
+ 2. Given an array of integers, calculate the fraction of elements that are positive.
+
 
 Example Output:
 
