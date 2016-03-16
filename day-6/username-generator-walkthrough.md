@@ -84,7 +84,7 @@ class ViewController: UIViewController {
 - Now that we have the user input stored in the controller, we need a way to display it in the view. A simple way to do this is to add two labels to the view: one with the text "New Username" and the other initially blank. When the button is pressed, we can fill the text of the blank label with the new username.
 - Add the two new labels to the view, and create an IBOutlet for the blank label.
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-labels-for-submit.png" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-labels-for-submit.png" height="400px" hspace="20">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-new-username-iboutlet.png" height="200px" hspace="20">
 </p>
 - Now we can complete the process by combining the animal and hometown strings, with some extra numbers at the end for good measure, and storing that new string in the newUsername label.
@@ -107,7 +107,7 @@ class ViewController: UIViewController {
 ```
 - Try it out! We are very close, but we have one more problem: optionals. The text obtained from the text fields are of type String? (optional string). This means we have to unwrap them or else we end up with this:
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-optionals.png" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-optionals.png" height="400px" hspace="20">
 </p>
 - We could fix this by force unwrapping the hometown and animal constants with an "!", but it would be better to use optional chaining to unwrap the optionals as we assign them to constants.
 ```Swift
@@ -123,10 +123,11 @@ class ViewController: UIViewController {
 ```
 Final Test:
 <p align="center">
-  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-final-ss.png" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-final-ss.png" height="400px" hspace="20">
 </p>
 
 ####Bonus Tasks
+- Add constraints so the labels, text fields, and buttons stay aligned in different simulations.
 - Add additional text fields so that the user can include more personal information in the username.
 - Randomize the number that is added to the end of the username.
 - Capitalize random letters in the username
