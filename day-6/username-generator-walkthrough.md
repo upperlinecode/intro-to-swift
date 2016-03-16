@@ -130,7 +130,9 @@ Final Test:
 - Add constraints so the labels, text fields, and buttons stay aligned in different simulations.
 - Add additional text fields so that the user can include more personal information in the username.
 - Randomize the number that is added to the end of the username.
-- Capitalize random letters in the username
+- Capitalize random letters in the username.
+- Create a model to abstract the logic of the generateUsername method.
+
 
 ###Conclusion
 - It's important to remember that this is just another part of the greater MVC system. It's another way that we can send data from the view to the controller, and manipulate that data in the model. Similar to the text field object, there are many objects included in Xcode's object library that can accept user input. If you are curious about these, google is one of the most effective tools you can use. Try phrases like "Xcode object library checkboxes" or "Xcode object user input scroll".
