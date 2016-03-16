@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BE37D0E1C98447A00B373D3"
+               BlueprintIdentifier = "9BBFFA511C999F8A00560FFC"
                BuildableName = "UsernameGenerator.app"
                BlueprintName = "UsernameGenerator"
                ReferencedContainer = "container:UsernameGenerator.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BE37D0E1C98447A00B373D3"
+            BlueprintIdentifier = "9BBFFA511C999F8A00560FFC"
             BuildableName = "UsernameGenerator.app"
             BlueprintName = "UsernameGenerator"
             ReferencedContainer = "container:UsernameGenerator.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BE37D0E1C98447A00B373D3"
+            BlueprintIdentifier = "9BBFFA511C999F8A00560FFC"
             BuildableName = "UsernameGenerator.app"
             BlueprintName = "UsernameGenerator"
             ReferencedContainer = "container:UsernameGenerator.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BE37D0E1C98447A00B373D3"
+            BlueprintIdentifier = "9BBFFA511C999F8A00560FFC"
             BuildableName = "UsernameGenerator.app"
             BlueprintName = "UsernameGenerator"
             ReferencedContainer = "container:UsernameGenerator.xcodeproj">

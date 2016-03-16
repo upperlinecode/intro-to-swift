@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  UsernameGenerator
 //
-//  Created by flatironstudent on 3/15/16.
+//  Created by flatironstudent on 3/16/16.
 //  Copyright © 2016 flatironstudent. All rights reserved.
 //
 
