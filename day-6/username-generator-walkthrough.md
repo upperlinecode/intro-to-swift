@@ -62,6 +62,8 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-button-action.png" height="200px" hspace="20">
 </p>
+- Inside of the IBAction, store the text from each text field in a constant. The IBOutlets for each text field have a property "text" that can be used to retrieve this data.
+
 - Our View Controller should now look like this:
 ```Swift
 class ViewController: UIViewController {
@@ -72,9 +74,57 @@ class ViewController: UIViewController {
     ...
   
     @IBAction func generateUsername(sender: AnyObject) {
+        let hometown = hometownField.text
+        let animal = animalField.text
     } 
 }
 ```
+
+####Sending Data Back to the View
+- Now that we have the user input stored in the controller, we need a way to display it in the view. A simple way to do this is to add two labels to the view: one with the text "New Username" and the other initially blank. When the button is pressed, we can fill the text of the blank label with the new username.
+- Add the two new labels to the view, and create an IBOutlet for the blank label.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-labels-for-submit.png" height="200px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-new-username-iboutlet.png" height="200px" hspace="20">
+</p>
+- Now we can complete the process by combining the animal and hometown strings, with some extra numbers at the end for good measure, and storing that new string in the newUsername label.
+```Swift
+class ViewController: UIViewController {
+
+    @IBOutlet weak var hometownField: UITextField!
+    @IBOutlet weak var animalField: UITextField!
+    @IBOutlet weak var newUsername: UILabel!
+
+    ...
+  
+    @IBAction func generateUsername(sender: AnyObject) {
+        let hometown = hometownField.text
+        let animal = animalField.text
+        newUsername.text = "\(hometown)\(animal)123"
+ 
+    }
+}
+```
+- Try it out! We are very close, but we have one more problem: optionals. The text obtained from the text fields are of type String? (optional string). This means we have to unwrap them or else we end up with this:
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-optionals.png" height="200px" hspace="20">
+</p>
+- We could fix this by force unwrapping the hometown and animal constants with an "!", but it would be better to use optional chaining to unwrap the optionals as we assign them to constants.
+```Swift
+@IBAction func generateUsername(sender: AnyObject) {
+    @IBAction func generateUsername(sender: AnyObject) {
+        if let hometown = hometownField.text {
+            if let animal = animalField.text {
+                 newUsername.text = "\(hometown)\(animal)123"
+            }
+        }
+    }
+}
+```
+Final Test:
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-final-ss.png" height="200px" hspace="20">
+</p>
 
 ####Bonus Tasks
 - Add additional text fields so that the user can include more personal information in the username.
