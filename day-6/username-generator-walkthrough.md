@@ -14,7 +14,19 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
 
 ###Walkthrough
 ####Getting Started
-- In Xcode, create a new one-page application with 
+- In Xcode, create a new one-page application with the name "UsernameGenerator".
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-create-project.png" height="400px" hspace="20">
+</p>
+- Give students ten minutes to set up their project. These are the things they should add to the project to get set up:
+  - Add a label that says "Username Generator" at the top center.
+  - Add a label below it that says "What is your hometown?"
+  - Add another label below that says "What is your favorite animal?"
+  - If they have extra time, have them add constraints so that the labels are all centered horizontally and nicely spaced vertically, as shown below.
+  - Another extra task: Set the background color, or the text color in the labels.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/un-gen-labels-ss.png" height="400px" hspace="20">
+</p>
 
 ####Bonus Tasks
 - Add additional text fields so that the user can include more personal information in the username.
