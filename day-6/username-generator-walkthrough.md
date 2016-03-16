@@ -127,6 +127,7 @@ Final Test:
 </p>
 
 ####Bonus Tasks
+- Add constraints so the labels, text fields, and buttons stay aligned in different simulations.
 - Add additional text fields so that the user can include more personal information in the username.
 - Randomize the number that is added to the end of the username.
 - Capitalize random letters in the username
