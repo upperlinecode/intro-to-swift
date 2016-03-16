@@ -31,8 +31,7 @@ staircase(6)
 //######
 ```
 
-
- 2. Given an array of integers, calculate the fraction of elements that are positive.
+2. Given an array of integers, calculate the fraction of elements that are positive.
 
 Example Output:
 
