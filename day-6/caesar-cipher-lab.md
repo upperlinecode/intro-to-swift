@@ -12,4 +12,4 @@ You'll be writing a caeser encoder and decoder. Your application will have text 
 
 
 ###Bonus
-
+Add a button that converts the encoded message back into readable text.
