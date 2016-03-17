@@ -6,8 +6,8 @@ You'll be writing a caeser encoder and decoder. Your application will have text 
 
 ###Example Output
 <p align="center">
-  <img src="" height="400px" hspace="20">
-    <img src="" height="400px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/caesar-cipher-word.png" height="400px" hspace="20">
+    <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/caesar-cipher-sentence.png" height="400px" hspace="20">
 </p>
 
 
