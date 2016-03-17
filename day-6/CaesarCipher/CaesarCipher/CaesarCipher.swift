@@ -14,7 +14,6 @@ class CaesarCipher {
         var result = [Character]()
         
         for u in original.utf8 {
-            print(u)
             if u != 32 {
                 let s = Int(u) + offset
                 if s > 97 + 25 {
