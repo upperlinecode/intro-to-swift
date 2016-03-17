@@ -12,9 +12,9 @@ Day 	    |	Topic
 ###Week 2
 Day 	    |	Topic           
 ----------|:----------------:
-[Monday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6) 	  | 
+[Monday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6) 	  | Text Field Input <br> UIPickerView Input
 [Tuesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-7)    | 
 [Wednesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-8)  | 
-[Thursday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-9)   | 
-[Friday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-10)     | 
+[Thursday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-9)   | **Final Project**
+[Friday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-10)    | **Final Project**
 
