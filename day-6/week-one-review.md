@@ -1,5 +1,5 @@
 ##Warming Up for Week Two
-Use anything from last week that you might need to solve the following challenges:
+Use anything from last week that you might need to solve the following challenges. Do your work in an Xcode playground.
 
 1) Write a program that will draw the a staircase of height *n*.
  
