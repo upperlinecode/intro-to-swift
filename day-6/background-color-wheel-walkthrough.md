@@ -29,16 +29,18 @@ class ViewController: UIViewController {
 
 ####Protocols, and How to Not be Afraid of Them
 - In order to deal add a picker view to our app, we need to touch some advanced topics in Swift programming. We don't need to get too in depth about any of these topics, and it's ok to be confused about some of what you're seeing. The most important take away from today is that you can use really powerful tools in your app without understanding every level of code that it comes from or being an expert in Object-Oriented Programming or Protocol-Oriented Programming or whatever it might be. Being an expert only comes with time, but you can do a lot of experimenting before then.
-- Do you know how our ViewController class always has this colon followed by UIViewController? What's going on here is something called *inheritance*. This is a more advanced topic that we don't need to worry much about right now. But in a nutshell, there is a big class that the creators of Swift wrote called UIViewController. That class has a lot of methods and properties that our ViewController Class needs. With inheritance, this saves us the time of writing a lot of standard code whenever we first write our class.
+- Do you know how our ViewController class always has this colon followed by UIViewController? What's going on here is something called *inheritance*. This is a more advanced topic that we don't need to worry much about right now. But in a nutshell, there is a big class that the creators of Swift wrote called UIViewController. That class has a lot of methods and properties that our ViewController Class needs. With inheritance, our ViewController class automatically gets all of those methods and properties without us having to write that code.
 ```Swift
 class ViewController: UIViewController {
   
 }
-
 ```
-
-
-
+- We can also add something called protocols to this top line. A protocol is a set of rules, and adding it to the top line is stating that our class will adhere to the rules of that protocol.
+```Swift
+class ViewController: UIViewController, UIPickerViewDataSource {
+  
+}
+```
 
 ####Bonus Tasks
 
