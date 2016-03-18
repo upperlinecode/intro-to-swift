@@ -2,12 +2,8 @@
 
 Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/TipCalculator)
 
-
 ###Students Will Be Able To
-- Understand how user input fits into the MVC pattern
-- Add a UIPickerView object to their project
-- Link a UIPickerView object to the ViewController using an IBOutlet
-- Submit information from a UIPickerView object and manipulate it in the controller
+- Put together what they've learned about Text Field objects and UIPickerView objects to create a tip calculator application.
 
 ###Why
 
