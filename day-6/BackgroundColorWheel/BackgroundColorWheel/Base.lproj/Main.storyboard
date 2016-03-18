@@ -46,7 +46,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="pickerView" destination="dLT-Wp-Jij" id="acI-QL-ixu"/>
+                        <outlet property="colorWheel" destination="dLT-Wp-Jij" id="sf4-TQ-BVI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

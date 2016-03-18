@@ -10,13 +10,14 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-    @IBOutlet weak var pickerView: UIPickerView!
+    @IBOutlet weak var colorWheel: UIPickerView!
+    
     var pickerDataSource = ["White", "Red", "Green", "Blue"];
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.pickerView.dataSource = self;
-        self.pickerView.delegate = self;
+        self.colorWheel.dataSource = self;
+        self.colorWheel.delegate = self;
     }
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
@@ -50,7 +51,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             self.view.backgroundColor = UIColor.blueColor();
         }
     }
-
 
 }
 

@@ -19,6 +19,7 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/bgcw-picker-selected.png" height="400px" hspace="20">
 </p>
 
+####Connecting the Picker View to the View Controller
 
 ####Bonus Tasks
 
