@@ -7,6 +7,6 @@
              |  10:30 - 11:30 | [Pig Latinizer Lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/pig-latinizer-lab.md) <br> [Pig Latinizer Example](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/PigLatinizer)
              |                | Stretch Lab <br> [Caesar Cipher Lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/caesar-cipher-lab.md) <br> [Caesar Cipher Example Project]()
  Lunch       |  11:30 - 12:30 | 
- Afternoon   |  12:30 - 1:30  | User Input: UIPickerView <br> [Background Color Wheel Walkthrough]() <br> [Background Color Wheel Project]()
+ Afternoon   |  12:30 - 1:30  | User Input: UIPickerView <br> [Background Color Wheel Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/background-color-wheel-walkthrough.md) <br> [Background Color Wheel Project](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/BackgroundColorWheel)
              |  1:30 - 2:50   | [Tip Calculator Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/tip-calculator-walkthrough.md) <br> [Tip Calculator Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/TipCalculator)
        	     |  2:50 - 3:00   | Debrief
