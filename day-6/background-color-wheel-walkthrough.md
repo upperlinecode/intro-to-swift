@@ -20,6 +20,25 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
 </p>
 
 ####Connecting the Picker View to the View Controller
+- We'll need to be able to reference the picker view in the controller, so make an outlet for it in the controller (click and drag as usual). Call it "colorWheel".
+```Swift
+class ViewController: UIViewController {
+    @IBOutlet weak var colorWheel: UIPickerView!
+}
+```
+
+####Protocols, and How to Not be Afraid of Them
+- In order to deal add a picker view to our app, we need to touch some advanced topics in Swift programming. We don't need to get too in depth about any of these topics, and it's ok to be confused about some of what you're seeing. The most important take away from today is that you can use really powerful tools in your app without understanding every level of code that it comes from or being an expert in Object-Oriented Programming or Protocol-Oriented Programming or whatever it might be. Being an expert only comes with time, but you can do a lot of experimenting before then.
+- Do you know how our ViewController class always has this colon followed by UIViewController? What's going on here is something called *inheritance*. This is a more advanced topic that we don't need to worry much about right now. But in a nutshell, there is a big class that the creators of Swift wrote called UIViewController. That class has a lot of methods and properties that our ViewController Class needs. With inheritance, this saves us the time of writing a lot of standard code whenever we first write our class.
+```Swift
+class ViewController: UIViewController {
+  
+}
+
+```
+
+
+
 
 ####Bonus Tasks
 
