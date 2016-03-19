@@ -45,7 +45,10 @@ class ViewController: UIViewController, UIPickerViewDataSource {
 - This [UIPickerViewDataSource](https://developer.apple.com/library/ios/documentation/iPhone/Reference/UIPickerViewDataSource_Protocol/index.html#//apple_ref/occ/intfm/UIPickerViewDataSource) protocol is required for any controller that is going to send data to a Picker View object. Giving our class this protocol is a promise that we'll include two specific methods in our class:
   - numberOfComponentsInPickerView: the number of wheels that our picker view will have. Ours will have 1 component.
   - pickerView:numberOfRowsInComponent: the number of rows in each wheel of our picker view. This will be equal to the number of colors in our color wheel.
-
+- These methods depend on a data source. The data source of a color wheel will just be a list of colors that will appear on the wheel. Because this data source is so simple, we can just include it in the controller. Add an array at the top of the controller, and call it pickerDataSource.
+```Swift
+var pickerDataSource = ["White", "Red", "Green", "Blue"]
+```
 Our ViewController class after these UIPickerViewDataSource methods have been added:
 ```Swift
 class ViewController: UIViewController, UIPickerViewDataSource {
