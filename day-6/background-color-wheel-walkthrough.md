@@ -42,7 +42,7 @@ class ViewController: UIViewController, UIPickerViewDataSource {
 }
 ```
 
-- This [UIPickerViewDataSource](https://developer.apple.com/library/ios/documentation/iPhone/Reference/UIPickerViewDataSource_Protocol/index.html#//apple_ref/occ/intfm/UIPickerViewDataSource/numberOfComponentsInPickerView:) protocol is required for any controller that is going to send data to a Picker View object. Giving our class this protocol is a promise that we'll include two specific methods in our class:
+- This [UIPickerViewDataSource](https://developer.apple.com/library/ios/documentation/iPhone/Reference/UIPickerViewDataSource_Protocol/index.html#//apple_ref/occ/intfm/UIPickerViewDataSource) protocol is required for any controller that is going to send data to a Picker View object. Giving our class this protocol is a promise that we'll include two specific methods in our class:
   - numberOfComponentsInPickerView: the number of wheels that our picker view will have. Ours will have 1 component.
   - pickerView:numberOfRowsInComponent: the number of rows in each wheel of our picker view. This will be equal to the number of colors in our color wheel.
 ####Bonus Tasks
