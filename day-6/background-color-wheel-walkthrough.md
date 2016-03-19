@@ -35,13 +35,14 @@ class ViewController: UIViewController {
   
 }
 ```
-- We can also add something called protocols to this top line. A protocol is a set of rules, and adding it to the top line is stating that our class will adhere to the rules of that protocol.
+- We can also add *protocols* to this top line. A protocol is a set of rules, and adding it to the top line is stating that our class will adhere to the rules of that protocol. Below, we define a class called ViewController, which inherits some of it's abilities from UIViewController. By adding the UIPickerViewDataSource protocol to this class definition, we are saying that the class is going to supply the data for a picker view somewhere. In this case, data means a list of things that will appear in the wheel as you scroll through different color options
 ```Swift
 class ViewController: UIViewController, UIPickerViewDataSource {
   
 }
 ```
 
+- 
 ####Bonus Tasks
 
 
