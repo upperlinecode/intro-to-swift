@@ -45,6 +45,74 @@ class ViewController: UIViewController, UIPickerViewDataSource {
 - This [UIPickerViewDataSource](https://developer.apple.com/library/ios/documentation/iPhone/Reference/UIPickerViewDataSource_Protocol/index.html#//apple_ref/occ/intfm/UIPickerViewDataSource) protocol is required for any controller that is going to send data to a Picker View object. Giving our class this protocol is a promise that we'll include two specific methods in our class:
   - numberOfComponentsInPickerView: the number of wheels that our picker view will have. Ours will have 1 component.
   - pickerView:numberOfRowsInComponent: the number of rows in each wheel of our picker view. This will be equal to the number of colors in our color wheel.
+
+Our ViewController class after these UIPickerViewDataSource methods have been added:
+```Swift
+class ViewController: UIViewController, UIPickerViewDataSource {
+  
+  @IBOutlet weak var colorWheel: UIPickerView!
+
+  override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerDataSource.count;
+    }
+}
+```
+- A view controller that connects a data source to a UIPickerView object needs one more protocol: [UIPickerViewDelegate](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIPickerViewDelegate_Protocol/index.html). We need to include two methods from the UIPickerViewDelegate protocol:
+  - pickerView:titleForRow:forComponent: This method will tell our picker view object what names (colors) to display in each row of the color wheel.
+  - pickerView:didSelectRow:inComponent: This method says what to do when a row of the picker view is selected.
+
+Our ViewController class after these UIPickerViewDelegate methods have been added:
+```Swift
+class ViewController: UIViewController, UIPickerViewDataSource {
+  
+  @IBOutlet weak var colorWheel: UIPickerView!
+
+  override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerDataSource.count;
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return pickerDataSource[row]
+    }
+    
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
+    {
+        if(row == 0)
+        {
+            self.view.backgroundColor = UIColor.whiteColor();
+        }
+        else if(row == 1)
+        {
+            self.view.backgroundColor = UIColor.redColor();
+        }
+        else if(row == 2)
+        {
+            self.view.backgroundColor =  UIColor.greenColor();
+        }
+        else
+        {
+            self.view.backgroundColor = UIColor.blueColor();
+        }
+    }
+}
+```
+
 ####Bonus Tasks
 
 
