@@ -32,17 +32,19 @@ class ViewController: UIViewController {
 - Do you know how our ViewController class always has this colon followed by UIViewController? What's going on here is something called *inheritance*. This is a more advanced topic that we don't need to worry much about right now. But in a nutshell, there is a big class that the creators of Swift wrote called UIViewController. That class has a lot of methods and properties that our ViewController Class needs. With inheritance, our ViewController class automatically gets all of those methods and properties without us having to write that code.
 ```Swift
 class ViewController: UIViewController {
-  
+    ...
 }
 ```
 - We can also add *protocols* to this top line. A protocol is a set of rules, and adding it to the top line is stating that our class will adhere to the rules of that protocol. Below, we define a class called ViewController, which inherits some of it's abilities from UIViewController. By adding the UIPickerViewDataSource protocol to this class definition, we are saying that the class is going to supply the data for a picker view somewhere. In this case, data means a list of things that will appear in the wheel as you scroll through different color options
 ```Swift
 class ViewController: UIViewController, UIPickerViewDataSource {
-  
+    ...
 }
 ```
 
-- 
+- This [UIPickerViewDataSource](https://developer.apple.com/library/ios/documentation/iPhone/Reference/UIPickerViewDataSource_Protocol/index.html#//apple_ref/occ/intfm/UIPickerViewDataSource/numberOfComponentsInPickerView:) protocol is required for any controller that is going to send data to a Picker View object. Giving our class this protocol is a promise that we'll include two specific methods in our class:
+  - numberOfComponentsInPickerView: the number of wheels that our picker view will have. Ours will have 1 component.
+  - pickerView:numberOfRowsInComponent: the number of rows in each wheel of our picker view. This will be equal to the number of colors in our color wheel.
 ####Bonus Tasks
 
 
