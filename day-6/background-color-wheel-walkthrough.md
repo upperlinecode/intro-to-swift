@@ -20,6 +20,103 @@ Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tr
 </p>
 
 ####Connecting the Picker View to the View Controller
+- We'll need to be able to reference the picker view in the controller, so make an outlet for it in the controller (click and drag as usual). Call it "colorWheel".
+```Swift
+class ViewController: UIViewController {
+    @IBOutlet weak var colorWheel: UIPickerView!
+}
+```
+
+####Protocols, and How to Not be Afraid of Them
+- In order to deal add a picker view to our app, we need to touch some advanced topics in Swift programming. We don't need to get too in depth about any of these topics, and it's ok to be confused about some of what you're seeing. The most important take away from today is that you can use really powerful tools in your app without understanding every level of code that it comes from or being an expert in Object-Oriented Programming or Protocol-Oriented Programming or whatever it might be. Being an expert only comes with time, but you can do a lot of experimenting before then.
+- Do you know how our ViewController class always has this colon followed by UIViewController? What's going on here is something called *inheritance*. This is a more advanced topic that we don't need to worry much about right now. But in a nutshell, there is a big class that the creators of Swift wrote called UIViewController. That class has a lot of methods and properties that our ViewController Class needs. With inheritance, our ViewController class automatically gets all of those methods and properties without us having to write that code.
+```Swift
+class ViewController: UIViewController {
+    ...
+}
+```
+- We can also add *protocols* to this top line. A protocol is a set of rules, and adding it to the top line is stating that our class will adhere to the rules of that protocol. Below, we define a class called ViewController, which inherits some of it's abilities from UIViewController. By adding the UIPickerViewDataSource protocol to this class definition, we are saying that the class is going to supply the data for a picker view somewhere. In this case, data means a list of things that will appear in the wheel as you scroll through different color options
+```Swift
+class ViewController: UIViewController, UIPickerViewDataSource {
+    ...
+}
+```
+
+- This [UIPickerViewDataSource](https://developer.apple.com/library/ios/documentation/iPhone/Reference/UIPickerViewDataSource_Protocol/index.html#//apple_ref/occ/intfm/UIPickerViewDataSource) protocol is required for any controller that is going to send data to a Picker View object. Giving our class this protocol is a promise that we'll include two specific methods in our class:
+  - numberOfComponentsInPickerView: the number of wheels that our picker view will have. Ours will have 1 component.
+  - pickerView:numberOfRowsInComponent: the number of rows in each wheel of our picker view. This will be equal to the number of colors in our color wheel.
+- These methods depend on a data source. The data source of a color wheel will just be a list of colors that will appear on the wheel. Because this data source is so simple, we can just include it in the controller. Add an array at the top of the controller, and call it pickerDataSource.
+```Swift
+var pickerDataSource = ["White", "Red", "Green", "Blue"]
+```
+Our ViewController class after these UIPickerViewDataSource methods have been added:
+```Swift
+class ViewController: UIViewController, UIPickerViewDataSource {
+  
+  @IBOutlet weak var colorWheel: UIPickerView!
+
+  var pickerDataSource = ["White", "Red", "Green", "Blue"]
+
+  override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerDataSource.count;
+    }
+}
+```
+- A view controller that connects a data source to a UIPickerView object needs one more protocol: [UIPickerViewDelegate](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIPickerViewDelegate_Protocol/index.html). We need to include two methods from the UIPickerViewDelegate protocol:
+  - pickerView:titleForRow:forComponent: This method will tell our picker view object what names (colors) to display in each row of the color wheel.
+  - pickerView:didSelectRow:inComponent: This method says what to do when a row of the picker view is selected.
+
+Our ViewController class after these UIPickerViewDelegate methods have been added:
+```Swift
+class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+  
+  @IBOutlet weak var colorWheel: UIPickerView!
+
+  override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerDataSource.count;
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return pickerDataSource[row]
+    }
+    
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
+    {
+        if(row == 0)
+        {
+            self.view.backgroundColor = UIColor.whiteColor();
+        }
+        else if(row == 1)
+        {
+            self.view.backgroundColor = UIColor.redColor();
+        }
+        else if(row == 2)
+        {
+            self.view.backgroundColor =  UIColor.greenColor();
+        }
+        else
+        {
+            self.view.backgroundColor = UIColor.blueColor();
+        }
+    }
+}
+```
 
 ####Bonus Tasks
 
