@@ -76,7 +76,7 @@ class ViewController: UIViewController, UIPickerViewDataSource {
 
 Our ViewController class after these UIPickerViewDelegate methods have been added:
 ```Swift
-class ViewController: UIViewController, UIPickerViewDataSource {
+class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
   
   @IBOutlet weak var colorWheel: UIPickerView!
 
