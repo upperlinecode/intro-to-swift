@@ -55,6 +55,8 @@ class ViewController: UIViewController, UIPickerViewDataSource {
   
   @IBOutlet weak var colorWheel: UIPickerView!
 
+  var pickerDataSource = ["White", "Red", "Green", "Blue"]
+
   override func viewDidLoad() {
         super.viewDidLoad()
     }
