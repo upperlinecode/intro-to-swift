@@ -71,8 +71,8 @@ class ViewController: UIViewController, UIPickerViewDataSource {
 }
 ```
 - A view controller that connects a data source to a UIPickerView object needs one more protocol: [UIPickerViewDelegate](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIPickerViewDelegate_Protocol/index.html). We need to include two methods from the UIPickerViewDelegate protocol:
-  - pickerView:titleForRow:forComponent: This method will tell our picker view object what names (colors) to display in each row of the color wheel.
-  - pickerView:didSelectRow:inComponent: This method says what to do when a row of the picker view is selected.
+  - pickerView:titleForRow:forComponent: This method will tell our picker view object what names (colors) to display in each row of the color wheel. It is using the pickerDataSource array to display a color based on the current selected row number.
+  - pickerView:didSelectRow:inComponent: This method says what to do when a row of the picker view is selected. One of the arguments that is automatically passed into this method is the selected row. The function contains a conditional statement that sets the background color of the view based on the color in the selected row. You may recognize the UIColor class from the Object Oriented colors lab.
 
 Our ViewController class after these UIPickerViewDelegate methods have been added:
 ```Swift
@@ -117,6 +117,21 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
 }
 ```
+
+- Finally, we need to add two lines of code to the viewDidLoad() function.
+```Swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    self.colorWheel.dataSource = self
+    self.colorWheel.delegate = self
+}
+```
+- This is setting the dataSource and the delegate of the colorWheel. We are assigning *self* to both of these values. In this context, *self* is the ViewController class. Whenever you use self within an instance method, it is referring to that instance method's class. The ViewController class is providing the data source for the color wheel and is delegating some of it's behavior, and this needs to be explicitly stated (as it is in the code above).
+- Now if you run the application, selecting a row should change the background color.
+<p align="center">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/bgcw-red.png" height="400px" hspace="20">
+  <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/bgcw-blue.png" height="400px" hspace="20">
+</p>
 
 ####Bonus Tasks
 
