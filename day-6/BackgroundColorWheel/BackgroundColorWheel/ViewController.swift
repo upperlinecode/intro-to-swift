@@ -12,12 +12,12 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var colorWheel: UIPickerView!
     
-    var pickerDataSource = ["White", "Red", "Green", "Blue"];
+    var pickerDataSource = ["White", "Red", "Green", "Blue"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.colorWheel.dataSource = self;
-        self.colorWheel.delegate = self;
+        self.colorWheel.dataSource = self
+        self.colorWheel.delegate = self
     }
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
