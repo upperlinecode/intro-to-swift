@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -18,11 +19,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vk6-CN-V3G">
-                                <rect key="frame" x="103" y="0.0" width="194" height="69"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vk6-CN-V3G">
+                                <rect key="frame" x="103" y="0.0" width="154" height="30"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYw-sl-M3E">
-                                        <rect key="frame" x="20" y="20" width="154" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tip Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYw-sl-M3E">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -111,15 +112,15 @@
                                 <exclude reference="HSF-ng-kOI"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="f8L-kq-Tti"/>
-                                <exclude reference="ScD-VI-Cvx"/>
+                                <exclude reference="0S5-pX-5pz"/>
                                 <exclude reference="0zh-2X-hp9"/>
                                 <exclude reference="OJj-Qg-Rdt"/>
-                                <exclude reference="FhY-OX-uip"/>
-                                <exclude reference="nKk-4q-2dl"/>
-                                <exclude reference="0S5-pX-5pz"/>
                                 <exclude reference="6lL-T5-Oed"/>
                                 <exclude reference="RHY-fM-Cvy"/>
+                                <exclude reference="FhY-OX-uip"/>
+                                <exclude reference="nKk-4q-2dl"/>
+                                <exclude reference="ScD-VI-Cvx"/>
+                                <exclude reference="f8L-kq-Tti"/>
                                 <exclude reference="70A-z9-rce"/>
                             </mask>
                         </variation>
@@ -134,15 +135,15 @@
                                 <include reference="HSF-ng-kOI"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="f8L-kq-Tti"/>
-                                <include reference="ScD-VI-Cvx"/>
+                                <include reference="0S5-pX-5pz"/>
                                 <include reference="0zh-2X-hp9"/>
                                 <include reference="OJj-Qg-Rdt"/>
-                                <include reference="FhY-OX-uip"/>
-                                <include reference="nKk-4q-2dl"/>
-                                <include reference="0S5-pX-5pz"/>
                                 <include reference="6lL-T5-Oed"/>
                                 <include reference="RHY-fM-Cvy"/>
+                                <include reference="FhY-OX-uip"/>
+                                <include reference="nKk-4q-2dl"/>
+                                <include reference="ScD-VI-Cvx"/>
+                                <include reference="f8L-kq-Tti"/>
                                 <include reference="70A-z9-rce"/>
                             </mask>
                         </variation>
