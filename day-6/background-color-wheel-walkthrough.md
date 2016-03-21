@@ -134,7 +134,9 @@ override func viewDidLoad() {
 </p>
 
 ####Bonus Tasks
-
-
+- Add more colors to the data source so there are more options for the background color.
+- Allow the user to input RGB values to create custom colors for the background.
+- Pull some of the logic from the pickerView:didSelectRow:inComponent: method and put it in a model so that your app follows more of an MVC design pattern.
 
 ###Conclusion
+It may seem like using a UIPickerView, with all of the new methods that it brings to the view controller, would be very hard to use without help. But if you do a little googling, you'll see that there are countless blogs and video tutorials walking you through each step of the process.
