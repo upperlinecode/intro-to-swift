@@ -19,7 +19,47 @@ Adding a timing element to an app can be very useful. Most games out there have 
   <img src="" height="400px" hspace="20">
 </p>
 
+```Swift
+class ViewController: UIViewController {
 
+    @IBOutlet weak var timeLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        timeLabel.text = "11:25:15"
+    }
+}
+```
+
+
+```Swift
+class Clock {
+    
+    func getCurrentTime() -> NSDate {
+        return NSDate()
+    }
+}
+```
+
+```Swift
+let clock = Clock()
+```
+
+```Swift
+func updateTimeLabel() {
+    let formatter = NSDateFormatter()
+    formatter.timeStyle = .MediumStyle
+    timeLabel.text = formatter.stringFromDate(clock.getCurrentTime())
+}
+```
+
+```Swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTimeLabel", userInfo: nil, repeats: true)
+}
+```
 
 ####Bonus Tasks
 - Add multiple clock displays, each for a different time zone.
