@@ -16,7 +16,7 @@ Adding a timing element to an app can be very useful. Most games out there have 
 ####Getting Started
 - Create a one-page application in Xcode called Clock. 
 <p align="center">
-  <img src="../images/clock-initial-view.png" height="400px" hspace="20">
+  <img src="images/clock-initial-view.png" height="400px" hspace="20">
 </p>
 
 ```Swift
