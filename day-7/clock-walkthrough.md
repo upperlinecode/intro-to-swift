@@ -15,6 +15,7 @@ Adding a timing element to an app can be very useful. Most games out there have 
 ###Walkthrough
 ####Getting Started
 - Create a one-page application in Xcode called Clock. 
+- To begin, we need a label that will display the time. The initial placeholder text should be '00:00:00 PM'.
 <p align="center">
   <img src="images/clock-initial-view.png" height="400px" hspace="20">
 </p>
