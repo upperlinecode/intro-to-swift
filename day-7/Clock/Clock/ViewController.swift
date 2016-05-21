@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        timeLabel.text = "11:25:15 AM"
+//        timeLabel.text = "11:25:15 AM"
     }
 }
 
