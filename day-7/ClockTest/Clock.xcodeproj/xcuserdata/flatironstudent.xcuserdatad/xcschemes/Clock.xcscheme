@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BEBB20E1CF1135E008DB065"
+               BlueprintIdentifier = "9B570FE81CC2D26A00714D10"
                BuildableName = "Clock.app"
                BlueprintName = "Clock"
                ReferencedContainer = "container:Clock.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BEBB20E1CF1135E008DB065"
+            BlueprintIdentifier = "9B570FE81CC2D26A00714D10"
             BuildableName = "Clock.app"
             BlueprintName = "Clock"
             ReferencedContainer = "container:Clock.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BEBB20E1CF1135E008DB065"
+            BlueprintIdentifier = "9B570FE81CC2D26A00714D10"
             BuildableName = "Clock.app"
             BlueprintName = "Clock"
             ReferencedContainer = "container:Clock.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BEBB20E1CF1135E008DB065"
+            BlueprintIdentifier = "9B570FE81CC2D26A00714D10"
             BuildableName = "Clock.app"
             BlueprintName = "Clock"
             ReferencedContainer = "container:Clock.xcodeproj">
