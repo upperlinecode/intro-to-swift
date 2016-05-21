@@ -46,7 +46,11 @@ class Clock {
         return NSDate()
     }
 }
+
+let clock = Clock()
+clock.getCurrentTime()
 ```
+- Also experiment with the [NSDateFormatter](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSDateFormatter_Class/) class, which can let you display the date and time in different formats.
 <p align="center">
   <img src="images/ns-date-formatter-playground.png" height="400px" hspace="20">
 </p>
