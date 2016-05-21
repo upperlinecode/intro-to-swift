@@ -54,15 +54,33 @@ clock.getCurrentTime()
 <p align="center">
   <img src="images/ns-date-formatter-playground.png" height="400px" hspace="20">
 </p>
+- This clock class is going to be our app's model, or backend. Make a new file called clock.swift and add the clock class to it.
 ```Swift
-let clock = Clock()
+//clock.swift
+import Foundation
+class Clock {
+    func getCurrentTime() -> NSDate {
+        return NSDate()
+    }
+}
 ```
-
+- Give the ViewController access to the model by storing it in a constant. Remember that any classes we add to our model are automatically available in the controller.
 ```Swift
-func updateTimeLabel() {
-    let formatter = NSDateFormatter()
-    formatter.timeStyle = .MediumStyle
-    timeLabel.text = formatter.stringFromDate(clock.getCurrentTime())
+//ViewController.swift
+class ViewController: UIViewController {
+  let clock = Clock()
+ ..
+}
+```
+- Now, we can take the code that we used in the playground to get format the time and put it in a controller method called updateTimeLabel. This will change the text of timeLabel to the formatted current time.
+```Swift
+class ViewController: UIViewController {
+ ..
+  func updateTimeLabel() {
+      let formatter = NSDateFormatter()
+      formatter.timeStyle = .MediumStyle
+      timeLabel.text = formatter.stringFromDate(clock.getCurrentTime())
+  }
 }
 ```
 
