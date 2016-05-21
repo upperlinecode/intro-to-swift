@@ -15,10 +15,12 @@ Adding a timing element to an app can be very useful. Most games out there have 
 ###Walkthrough
 ####Getting Started
 - Create a one-page application in Xcode called Clock. 
+- To begin, we need a label that will display the time. The initial placeholder text should be '00:00:00 PM'.
 <p align="center">
   <img src="images/clock-initial-view.png" height="400px" hspace="20">
 </p>
 
+- A clock display works very similarly to the labels we've used before in class. We've already updated the text attribute of a label from the controller. Create an IBOutlet from Main.storyboard to ViewController.swift, and call the outlet "timeLabel". Then, we can update the clock's time as the app loads, just like this:
 ```Swift
 class ViewController: UIViewController {
 
@@ -27,11 +29,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        timeLabel.text = "11:25:15"
+        timeLabel.text = "11:25:15 AM"
     }
 }
 ```
-
+- There are two obvious problems with this method of updating the clock: we are only updating the clock at the instant when the app loads, and the time is hard-coded rather than the actual time.
+- We'll start with getting the accurate time. Swift has a class within UIKit called [NSDate](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSDate_Class/) that has methods for getting the time and date. Have the students open up a new Xcode playground and, as a class, test out the methods and properties of NSDate. You can start by making a Clock class that has a getCurrentTime method like below.
 
 ```Swift
 class Clock {
