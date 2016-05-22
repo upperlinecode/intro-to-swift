@@ -1,6 +1,6 @@
 ##Clock App
 
-Completed project code [here]()
+Completed Clock app [here](https://github.com/upperlinecode/intro-to-swift/tree/master/day-7/Clock)
 
 ###Students Will Be Able To
 - Strengthen their knowledge of:
@@ -97,7 +97,7 @@ override func viewDidLoad() {
 }
 ```
 
-Completed Clock app [here]()
+Completed Clock app [here](https://github.com/upperlinecode/intro-to-swift/tree/master/day-7/Clock)
 
 ####Bonus Tasks
 - Add multiple clock displays, each for a different time zone.
