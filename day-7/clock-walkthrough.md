@@ -104,5 +104,4 @@ Completed Clock app [here](https://github.com/upperlinecode/intro-to-swift/tree/
 - Improve the accuracy of your clock and display time down to the millisecond.
 - Draw an analog clock to display the time. You can follow the tutorial [here](http://sketchytech.blogspot.com/2014/11/swift-how-to-draw-clock-face-using.html)
 
-###Conclusion
 
