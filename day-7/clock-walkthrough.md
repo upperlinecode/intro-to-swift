@@ -64,7 +64,7 @@ class ViewController: UIViewController {
 - Now, we can take the code that we used in the playground to get format the time and put it in a controller method called updateTimeLabel. This will change the text of timeLabel to the formatted current time.
 ```Swift
 class ViewController: UIViewController {
- ..
+ ...
   func updateTimeLabel() {
       let formatter = NSDateFormatter()
       formatter.timeStyle = .MediumStyle
@@ -75,7 +75,7 @@ class ViewController: UIViewController {
 - Adding this method to the viewDidLoad method will update the view with the correct time once at the instant of the view loading.
 ```Swift
 class ViewController: UIViewController {
- ..
+ ...
   override func viewDidLoad() {
       super.viewDidLoad()
       updateTimeLabel()
