@@ -11,11 +11,18 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var timeLabel: UILabel!
-    
+    let clock = Clock()
+    var timer: NSTimer?
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        timeLabel.text = "11:25:15 AM"
+        print(self)
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTimeLabel", userInfo: nil, repeats: true)
+    }
+    
+    func updateTimeLabel() {
+        let formatter = NSDateFormatter()
+        formatter.timeStyle = .MediumStyle
+        timeLabel.text = formatter.stringFromDate(clock.getCurrentTime())
     }
 }
 

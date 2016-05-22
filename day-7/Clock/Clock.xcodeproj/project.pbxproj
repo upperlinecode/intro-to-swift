@@ -12,6 +12,7 @@
 		9BEBB2181CF1135E008DB065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBB2161CF1135E008DB065 /* Main.storyboard */; };
 		9BEBB21A1CF1135E008DB065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBB2191CF1135E008DB065 /* Assets.xcassets */; };
 		9BEBB21D1CF1135E008DB065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBB21B1CF1135E008DB065 /* LaunchScreen.storyboard */; };
+		9BEBB2251CF12509008DB065 /* clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBB2241CF12509008DB065 /* clock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9BEBB2191CF1135E008DB065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BEBB21C1CF1135E008DB065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BEBB21E1CF1135E008DB065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BEBB2241CF12509008DB065 /* clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9BEBB2191CF1135E008DB065 /* Assets.xcassets */,
 				9BEBB21B1CF1135E008DB065 /* LaunchScreen.storyboard */,
 				9BEBB21E1CF1135E008DB065 /* Info.plist */,
+				9BEBB2241CF12509008DB065 /* clock.swift */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BEBB2151CF1135E008DB065 /* ViewController.swift in Sources */,
+				9BEBB2251CF12509008DB065 /* clock.swift in Sources */,
 				9BEBB2131CF1135E008DB065 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				9BEBB2231CF1135E008DB065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
