@@ -39,17 +39,6 @@ class ViewController: UIViewController {
 - There are two obvious problems with this method of updating the clock: we are only updating the clock at the instant when the app loads, and the time is hard-coded rather than the actual time.
 - We'll start with getting the accurate time. Swift has a class within UIKit called [NSDate](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSDate_Class/) that has methods for getting the time and date. Have the students open up a new Xcode playground and, as a class, test out the methods and properties of NSDate. You can start by making a Clock class that has a getCurrentTime method like below.
 
-```Swift
-class Clock {
-    
-    func getCurrentTime() -> NSDate {
-        return NSDate()
-    }
-}
-
-let clock = Clock()
-clock.getCurrentTime()
-```
 - Also experiment with the [NSDateFormatter](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSDateFormatter_Class/) class, which can let you display the date and time in different formats.
 <p align="center">
   <img src="images/ns-date-formatter-playground.png" height="400px" hspace="20">
