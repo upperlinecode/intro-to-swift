@@ -74,9 +74,13 @@ class ViewController: UIViewController {
 ```
 - Adding this method to the viewDidLoad method will update the view with the correct time once at the instant of the view loading.
 ```Swift
-override func viewDidLoad() {
-    super.viewDidLoad()
-    updateTimeLabel()
+class ViewController: UIViewController {
+ ..
+  override func viewDidLoad() {
+      super.viewDidLoad()
+      updateTimeLabel()
+  }
+  ..
 }
 ```
 - Now we run into our second problem of this only working once. What we want is for our label to update once every second so the user doesn't have to reload the page every time they want an accurate time. For this, there is a class called NSTimer with a method called scheduledTimerWithTimeInterval that can perform actions at a designated time interval. The code for this is shown below. It takes five arguments. 
