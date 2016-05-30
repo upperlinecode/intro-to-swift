@@ -6,6 +6,6 @@
         	   |  9:30 - 10:30  | NSTimer and NSNotificationCenter <br> [Clock Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-7/clock-walkthrough.md) <br> [Clock Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-7/Clock)
             |  10:30 - 11:30 | Tab Bar Controllers <br> [Stopwatch Extension](https://github.com/upperlinecode/intro-to-swift/blob/master/day-7/stopwatch-extension.md) <br> [Stopwatch Example]()
  Lunch      |  11:30 - 12:30 | 
- Afternoon  |  12:30 - 1:00  | NSTimer and NSNotificationCenter <br> [Clock Walkthrough]() <br> [Clock Project]()
-            |  12:30 - 2:50  | [Stopwatch Lab]() <br> [Stopwatch Example]()
+ Afternoon  |  12:30 - 1:00  | 
+            |  12:30 - 2:50  | 
        	    |  2:50 - 3:00   | Debrief
