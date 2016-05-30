@@ -51,7 +51,10 @@ Tabbed Views are very popular in iOS apps. The Clock, Music, Instagram, and iBoo
 - Now, it's up to you to build out the rest of this app. Using the NSDate and NSTimer classes, add a timer to the second tab of the app.
 - Some things to think about as you build it out:
   - Keep Object-Oriented programming principles in mind. Add methods to the clock model to help out with the timer functionality, similar to the getCurrentTime method we built.
-  - Brainstorm with a partner to come up with a way to use use NSDate to create a timer. Try and think of some small changes that you can make to code we've already written.
+  - Brainstorm with a partner about ways to create a timer. If you're having trouble coming up with ideas:
+    - Think about creating a counter variable and using NSTimer to increment the counter and update a label with the counter's value.
+    - Another more advanced solution would be to use the NSTimeInterval data type. 
+    - If you get stuck, take a look at some blog posts or stack overflow answers about making timers with Swift.
   - You can design the app anyway you like. Here's an example of what a very simple display would look like:
 <p align="center">
   <img src="images/finished-app-clock.png" height="400px" hspace="20">
