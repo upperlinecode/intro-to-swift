@@ -22,6 +22,10 @@ Main.storyboard:
   <img src="images/tab-bar-controller-one-scene.png" height="300px" hspace="20">
 </p>
 - In order to add another tab, go to the object library and search for view controller. Drag the new view controller object onto your storyboard and arrange it next to the tab controller and the clock page.
+<p align="center">
+  <img src="images/object-library-view-controller.png" height="200px" hspace="20">
+  <img src="images/tab-bar-controller-two-scenes.png" height="300px" hspace="20">
+</p>
 - Holding down the control button, click and drag from the tab controller to the new view controller. When the popup menu appears, select Relationship Segue -> View Controllers.
 - Now that we have two scenes in our storyboard, it is good practice to create two separate controllers for the scenes. Here's how to do that:
   - Add a new swift file to the project and name it StopwatchViewController. Copy and paste the following boilerplate controller code into the new file
