@@ -1,7 +1,5 @@
 ##Clock App: Stopwatch Extension
 
-Completed App [here]()
-
 ###Students Will Be Able To
 - Create a tabbed application from a single-view app. Specifically, create a tabbed application with two views: a clock and a stopwatch.
 - Strengthen their knowledge of NSDate and NSTimer
@@ -17,11 +15,13 @@ Tabbed Views are very popular in iOS apps. The Clock, Music, Instagram, and iBoo
   <img src="images/embed-in-tab-bar-controller.png" height="400px" hspace="20">
   <img src="images/one-tab-view.png" height="400px" hspace="20">
 </p>
-Main.storyboard:
+- Main.storyboard will now show the tab view controller and the one scene that is connected to it.
 <p align="center">
   <img src="images/tab-bar-controller-one-scene.png" height="300px" hspace="20">
 </p>
-- In order to add another tab, go to the object library and search for view controller. Drag the new view controller object onto your storyboard and arrange it next to the tab controller and the clock page.
+
+####Adding a Second Scene
+- In order to add another tab, go to the object library and search for the view controller object. Drag the new view controller object onto your storyboard and arrange it next to the tab controller and the clock page.
 <p align="center">
   <img src="images/object-library-view-controller.png" height="200px" hspace="20">
   <img src="images/tab-bar-controller-two-scenes.png" height="400px" hspace="20">
@@ -31,7 +31,9 @@ Main.storyboard:
   <img src="images/connecting-second-scene-1.png" height="400px" hspace="20">
   <img src="images/connecting-second-scene-2.png" height="400px" hspace="20">
 </p>
-- Now that we have two scenes in our storyboard, it is good practice to create two separate controllers for the scenes. Here's how to do that:
+
+####Adding Multiple View Controllers
+- Now that we have two scenes in our storyboard, it is good practice to create two separate controllers for the scenes. It's possible to keep all of the necessary code in one view controller, but this can make your code very hard to read and debug as your app grows. Here's how to do it:
   - Add a new swift file to the project and name it StopwatchViewController. Copy and paste the following boilerplate controller code into the new file
     ```Swift
     import UIKit
@@ -45,8 +47,16 @@ Main.storyboard:
   - Rename the ViewController file ClockViewController. Go into the file and also change the name of the class to ClockViewController.
   - Connect each scene to their respective controller. You can do this by clicking on the scene in the storyboard, going to the identity inspector on the right, and selecting the appropriate view controller class in the Class dropdown field.
 
-Completed App [here]()
-
+####Next Steps:
+- Now, it's up to you to build out the rest of this app. Using the NSDate and NSTimer classes, add a timer to the second tab of the app.
+- Some things to think about as you build it out:
+  - Keep Object-Oriented programming principles in mind. Add methods to the clock model to help out with the timer functionality, similar to the getCurrentTime method we built.
+  - Brainstorm with a partner to come up with a way to use use NSDate to create a timer. Try and think of some small changes that you can make to code we've already written.
+  - You can design the app anyway you like. Here's an example of what a very simple display would look like:
+<p align="center">
+  <img src="images/finished-app-clock.png" height="400px" hspace="20">
+  <img src="images/finished-app-stopwatch.png" height="400px" hspace="20">
+</p>
 ####Bonus Tasks
 
 
