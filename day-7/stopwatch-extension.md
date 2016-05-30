@@ -15,6 +15,7 @@ Tabbed Views are very popular in iOS apps. The Clock, Music, Instagram, and iBoo
 - Open up your clock app and go to Main.storyboard. You should see your clock page with the time label at the top. Click on the clock page, go to the editor dropdown in the menu, and select Embed In -> Tab Bar Controller. This will create a tab bar controller that points to our clock page. If you run the app, it will show the same clock page, but now there is one tab at the bottom.
 <p align="center">
   <img src="images/embed-in-tab-bar-controller.png" height="300px" hspace="20">
+  <img src="images/one-tab-view.png" height="400px" hspace="20">
 </p>
 - In order to add another tab, go to the object library and search for view controller. Drag the new view controller object onto your storyboard and arrange it next to the tab controller and the clock page.
 - Holding down the control button, click and drag from the tab controller to the new view controller. When the popup menu appears, select Relationship Segue -> View Controllers.
