@@ -26,6 +26,9 @@ Tabbed Views are very popular in iOS apps. The Clock, Music, Instagram, and iBoo
       }
     }
     ```
+  - Rename the ViewController file ClockViewController. Go into the file and also change the name of the class to ClockViewController.
+  - Connect each scene to their respective controller. You can do this by clicking on the scene in the storyboard, going to the identity inspector on the right, and selecting the appropriate view controller class in the Class dropdown field.
+
 Completed App [here]()
 
 ####Bonus Tasks
