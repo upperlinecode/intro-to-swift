@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ClockViewController: UIViewController {
 
     @IBOutlet weak var timeLabel: UILabel!
     let clock = Clock()

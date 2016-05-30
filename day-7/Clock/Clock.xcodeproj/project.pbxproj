@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B01AB8D1CFCB05400F84849 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01AB8C1CFCB05400F84849 /* StopwatchViewController.swift */; };
 		9BEBB2131CF1135E008DB065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBB2121CF1135E008DB065 /* AppDelegate.swift */; };
-		9BEBB2151CF1135E008DB065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBB2141CF1135E008DB065 /* ViewController.swift */; };
+		9BEBB2151CF1135E008DB065 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBB2141CF1135E008DB065 /* ClockViewController.swift */; };
 		9BEBB2181CF1135E008DB065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBB2161CF1135E008DB065 /* Main.storyboard */; };
 		9BEBB21A1CF1135E008DB065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBB2191CF1135E008DB065 /* Assets.xcassets */; };
 		9BEBB21D1CF1135E008DB065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBB21B1CF1135E008DB065 /* LaunchScreen.storyboard */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B01AB8C1CFCB05400F84849 /* StopwatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		9BEBB20F1CF1135E008DB065 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BEBB2121CF1135E008DB065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BEBB2141CF1135E008DB065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BEBB2141CF1135E008DB065 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		9BEBB2171CF1135E008DB065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BEBB2191CF1135E008DB065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BEBB21C1CF1135E008DB065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				9BEBB2121CF1135E008DB065 /* AppDelegate.swift */,
-				9BEBB2141CF1135E008DB065 /* ViewController.swift */,
+				9BEBB2141CF1135E008DB065 /* ClockViewController.swift */,
+				9B01AB8C1CFCB05400F84849 /* StopwatchViewController.swift */,
 				9BEBB2161CF1135E008DB065 /* Main.storyboard */,
 				9BEBB2191CF1135E008DB065 /* Assets.xcassets */,
 				9BEBB21B1CF1135E008DB065 /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BEBB2151CF1135E008DB065 /* ViewController.swift in Sources */,
+				9B01AB8D1CFCB05400F84849 /* StopwatchViewController.swift in Sources */,
+				9BEBB2151CF1135E008DB065 /* ClockViewController.swift in Sources */,
 				9BEBB2251CF12509008DB065 /* clock.swift in Sources */,
 				9BEBB2131CF1135E008DB065 /* AppDelegate.swift in Sources */,
 			);
