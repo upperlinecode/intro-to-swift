@@ -17,15 +17,15 @@ Tabbed Views are very popular in iOS apps. The Clock, Music, Instagram, and iBoo
 - Holding down the control button, click and drag from the tab controller to the new view controller. When the popup menu appears, select Relationship Segue -> View Controllers.
 - Now that we have two scenes in our storyboard, it is good practice to create two separate controllers for the scenes. Here's how to do that:
   - Add a new swift file to the project and name it StopwatchViewController. Copy and paste the following boilerplate controller code into the new file
-  ```Swift
-  import UIKit
+    ```Swift
+    import UIKit
 
-  class StopwatchViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    class StopwatchViewController: UIViewController {
+      override func viewDidLoad() {
+          super.viewDidLoad()
+      }
     }
-  }
-  ```
+    ```
 Completed App [here]()
 
 ####Bonus Tasks
