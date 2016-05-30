@@ -57,7 +57,6 @@ Tabbed Views are very popular in iOS apps. The Clock, Music, Instagram, and iBoo
   <img src="images/finished-app-clock.png" height="400px" hspace="20">
   <img src="images/finished-app-stopwatch.png" height="400px" hspace="20">
 </p>
-####Bonus Tasks
 
 
 
