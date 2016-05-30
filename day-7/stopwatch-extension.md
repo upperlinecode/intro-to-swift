@@ -17,6 +17,10 @@ Tabbed Views are very popular in iOS apps. The Clock, Music, Instagram, and iBoo
   <img src="images/embed-in-tab-bar-controller.png" height="300px" hspace="20">
   <img src="images/one-tab-view.png" height="300px" hspace="20">
 </p>
+Main.storyboard:
+<p align="center">
+  <img src="images/tab-bar-controller-one-scene.png" height="300px" hspace="20">
+</p>
 - In order to add another tab, go to the object library and search for view controller. Drag the new view controller object onto your storyboard and arrange it next to the tab controller and the clock page.
 - Holding down the control button, click and drag from the tab controller to the new view controller. When the popup menu appears, select Relationship Segue -> View Controllers.
 - Now that we have two scenes in our storyboard, it is good practice to create two separate controllers for the scenes. Here's how to do that:
