@@ -5,13 +5,23 @@ Completed map app [here]()
 ###Students Will Be Able To
 - Embed a map directly in their app with MapKit View
 - Annotate their app's map with MKAnnotationView
+- Find their phone's current location in a MapKit View using CoreLocation
+- Create buttons to control events in the map
 
 ###Why
-Maps can be a very useful addition to your app. Also, more object-oriented programming! MapKit is a framework that uses the same patterns we've seen for UIKit; more importantly, it uses the same patterns as WebKit, SiriKit, and many more APIs you can use in your iOS apps.  
+Maps can be a very useful addition to your app. Also, more object-oriented programming! MapKit is a framework that uses the same patterns we've seen for UIKit; more importantly, it uses the same patterns as WebKit, SiriKit, and many more APIs you can use in your iOS apps.
 
 ###Walkthrough
-- Create a one-page application in Xcode called MyFirstMapApp.
-- In the ViewController, add the line import MapKit to the top of the file.
+####Getting Started
+- Create a one-page application in Xcode.
+- MapKit is another framework that isn't automatically included in your Xcode project. At the top of the ViewController file, add this line so that all of MapKit's functionality is available to us.
+```Swift
+import MapKit
+```
+- In the Object Library, find the Map Kit View object and drag it into the storyboard. Then, drag a button beneath the map and change the button's text to read "Find my house". It should look something like this:
+<p align="center">
+  <img src="images/initial-map-view.png" height="300px" hspace="20">
+</p>
 
 Completed map app [here]()
 ####Bonus Tasks
