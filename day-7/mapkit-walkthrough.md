@@ -22,6 +22,10 @@ import MapKit
 <p align="center">
   <img src="images/initial-map-view.png" height="300px" hspace="20">
 </p>
+- As with any other object that we interact with from the view controller, we need to connect the map object to the controller with an IBOutlet. Just like before, you can do this by right-clicking on the map in the storyboard and dragging the mouse into the top of the ViewController class. Name the connection mapView.
+<p align="center">
+  <img src="images/mapView-connection.png" height="200px" hspace="20">
+</p>
 
 Completed map app [here]()
 ####Bonus Tasks
