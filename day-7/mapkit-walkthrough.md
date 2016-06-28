@@ -30,17 +30,30 @@ import MapKit
 
 ####Setting a default map location
 - Already, our you can use your fingers to zoom in/out, rotate, and scroll around the map. The next iteration of our map will center the map on a specific location when the page loads.
-- We will tell the view controller where to load the map by giving a latitude and longitude. There is a class in Swift called [CLLocation](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocation_Class/index.html) that lets us create an object that holds both of these values in one instance, like this:
+- We will tell the view controller where to load the map by giving a latitude and longitude. There is a class in Swift called [CLLocation](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocation_Class/index.html) that lets us create an object that holds both of these values in one instance. Find the [coordinates](http://www.latlong.net/) of your home (or somewhere else cool) and create a CLLocation constant beneath your mapView outlet.
 ```Swift
 class ViewController: UIViewController {
 
     @IBOutlet weak var mapvView: MKMapView!
-    let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
+    let homeLocation = CLLocation(latitude: 38.897676, longitude: -77.036483)
   
   ...
 }
 ```
+- Next, we're going to add a function that will tell the map to center on a specific point on the map. This function can be called when the view loads as well as in an action connected to a button. Let's call the function centerOnLocation.
+  - this method will take two parameters: a location, which will allow us to use the function to go to any location we pass in, and the mapView itself.
+  - there is a MapKit function called [MKCoordinateRegionMakeWithDistance](https://developer.apple.com/library/ios/documentation/MapKit/Reference/MapKitFunctionsReference/index.html#//apple_ref/c/func/MKCoordinateRegionMakeWithDistance) that will use the CLLocation object to create a region to center on. It takes three arguments: the location object, the latitudinal meters to fit in the view, and the longitudinal meters to fit in the view.
+```Swift
+class ViewController: UIViewController {
 
+...
+
+  func centerOnLocation(location: CLLocation, mapView: MKMapView) {
+      let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, 750, 750)
+      mapView.setRegion(coordinateRegion, animated: true)
+  }
+}
+```
 Completed map app [here]()
 ####Bonus Tasks
 
