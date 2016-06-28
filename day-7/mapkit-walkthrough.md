@@ -14,7 +14,7 @@ Maps can be a very useful addition to your app. Also, more object-oriented progr
 ###Walkthrough
 ####Getting Started
 - Create a one-page application in Xcode.
-- MapKit is another framework that isn't automatically included in your Xcode project. At the top of the ViewController file, add this line so that all of MapKit's functionality is available to us.
+- [MapKit](https://developer.apple.com/maps/) is another framework that isn't automatically included in your Xcode project. At the top of the ViewController file, add this line so that all of MapKit's functionality is available to us.
 ```Swift
 import MapKit
 ```
@@ -28,6 +28,18 @@ import MapKit
   <img src="images/initial-map-view.png" height="350px" hspace="20">
 </p>
 
+####Setting a default map location
+- Already, our you can use your fingers to zoom in/out, rotate, and scroll around the map. The next iteration of our map will center the map on a specific location when the page loads.
+- We will tell the view controller where to load the map by giving a latitude and longitude. There is a class in Swift called [CLLocation](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocation_Class/index.html) that lets us create an object that holds both of these values in one instance, like this:
+```Swift
+class ViewController: UIViewController {
+
+    @IBOutlet weak var mapvView: MKMapView!
+    let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
+  
+  ...
+}
+```
 
 Completed map app [here]()
 ####Bonus Tasks
