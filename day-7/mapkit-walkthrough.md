@@ -46,11 +46,34 @@ class ViewController: UIViewController {
 ```Swift
 class ViewController: UIViewController {
 
-...
+  ...
 
   func centerOnLocation(location: CLLocation, mapView: MKMapView) {
       let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, 750, 750)
       mapView.setRegion(coordinateRegion, animated: true)
+  }
+}
+```
+
+- This method centerOnLocation can be called anywhere in our class in order to center the map on a specific location, as long as we pass in two arguments: an instance of the CLLocation class and our instance of MKMapView. Add it to the viewDidLoad function. Use the homeLocation and mapView instance properties for arguments. Now, the app will load on the home location that we've set.
+```Swift
+class ViewController: UIViewController {
+
+  ...
+
+  override func viewDidLoad() {
+      super.viewDidLoad()
+      centerOnLocation(homeLocation, mapView: mapView)
+  }
+```
+
+```Swift
+class ViewController: UIViewController {
+
+  ...
+
+  @IBAction func findMyHouse(sender: UIButton) {
+      centerOnLocation(homeLocation, mapView: mapView)
   }
 }
 ```
