@@ -29,6 +29,17 @@ import UIKit
 
 
 
+//Create a variable that contains your username and insert your username before your tweet. Hint: Try using insert(_:atIndex:)
+
+
+
+
+
+// Make your tweet super excited --- add 3 exclamation points to the end of it.
+
+
+
+
 
 /*------------------------- ADVANCED --------------------------*/
 
