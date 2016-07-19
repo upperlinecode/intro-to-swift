@@ -8,7 +8,7 @@
 Lunch	       |  11:30 - 12:30 |
 Afternoon    |  12:30 - 1:15  | [Functions Lecture - Adding a Parameter](https://github.com/upperlinecode/intro-to-swift/blob/master/day-2/intro-parameter.md)<br>[Functions Practice 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice2.playground)
        	     |  1:15 - 2:15   | Labs<br>[Emojis](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/Emojis.playground)<br>[Email Verification](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/EmailVerification.playground)
-       	     |  2:15 - 2:45  | [First Project Introduction](https://github.com/upperlinecode/intro-to-swift/blob/master/day-2/trivia-app-intro.md)
+       	     |  2:15 - 2:45  | [First Project + Intro to MVC Introduction](https://github.com/upperlinecode/intro-to-swift/blob/master/day-2/trivia-app-intro.md)
        	     |  2:45 - 3:00  | Debrief
 
 
