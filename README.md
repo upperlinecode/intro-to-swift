@@ -13,8 +13,8 @@ Day 	    |	Topic
 Day 	    |	Topic           
 ----------|:----------------:
 [Monday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6) 	  | Text Field Input <br> UIPickerView Input
-[Tuesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-7)    | 
-[Wednesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-8)  | 
+[Tuesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-7)    | NSTimer <br> Tab Bar Controller <br> NSNotification Center <br> Mapkit
+[Wednesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-8)  | Tableview <br> Navigation Controller
 [Thursday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-9)   | **Final Project**
 [Friday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-10)    | **Final Project**
 
