@@ -12,3 +12,23 @@
        	     |                | [Line Struct](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/LineStruct.playground)
        	     |                | [Constraints: Photo Gallery](https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/photo-gallery-lab.md)
        	     |  2:50 - 3:00   | Debrief
+
+##Goals:
+- Introduce dictionaries as another type of collection
+- What is Object Orientation?
+- Introduce classes and structures
+- Introduce Constraints
+
+##SWBATS:
+- determine when a dictionary is more beneficial over an array
+- create a new dictionary
+- edit/add to existing dictionaries
+- retrieve values from dictionaries
+- use common instance properties and methods made for dictionaries
+- determine when structs or classes should be used
+- define class and struct
+- create instances of classes and structs
+- access set properties of a class/struct
+- define instance methods for a class/struct
+- utilize class/struct within an app
+- build views using contraints and autolayout
