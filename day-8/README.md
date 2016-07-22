@@ -8,3 +8,15 @@
  Lunch       |  12:00 - 1:00 | Lunch
  Afternoon   |  1:00 - 2:00  | Navigation Controllers 
              |  2:00 - 3:00  | Project Ideation!
+
+##Goals:
+- Introduce Tableviews
+- Introduce Navigation Controllers
+- Begin planning independent projects
+
+##SWBATs:
+- utilize Apple frameworks and protocols
+- learn how to segue between views
+- build multiple-view storyboards
+- understand the life cycle of views and how segues play into that.
+- plan and discuss projects to build together
