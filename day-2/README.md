@@ -12,5 +12,16 @@ Afternoon    |  12:30 - 1:15  | [Functions Lecture - Adding a Parameter](https:/
        	     |  2:45 - 3:00  | Debrief
 
 
+##General Goals:
+- Students will learn what arrays are and how to utilize them
+- Students will learn how to build functions and incorporate them in applications
+- Students will learn to create an application using MVC.
 
+## SWBATs:
+- understand what arrays are and how collections can help their code
+- use .count, .append, .insert, .popLast, .removeLast, .removeAtIndex
+- access particular elements of the array using square brackets
+- start learning how to read documentation 
+- Create functions with parameters and return values
+- Create functions with no parameters and no return values
 
