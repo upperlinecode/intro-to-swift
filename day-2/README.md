@@ -8,9 +8,20 @@
 Lunch	       |  11:30 - 12:30 |
 Afternoon    |  12:30 - 1:15  | [Functions Lecture - Adding a Parameter](https://github.com/upperlinecode/intro-to-swift/blob/master/day-2/intro-parameter.md)<br>[Functions Practice 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/FunctionsPractice2.playground)
        	     |  1:15 - 2:15   | Labs<br>[Emojis](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/Emojis.playground)<br>[Email Verification](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/EmailVerification.playground)
-       	     |  2:15 - 2:45  | [First Project Introduction](https://github.com/upperlinecode/intro-to-swift/blob/master/day-2/trivia-app-intro.md)
+       	     |  2:15 - 2:45  | [First Project + Intro to MVC Introduction](https://github.com/upperlinecode/intro-to-swift/blob/master/day-2/trivia-app-intro.md)
        	     |  2:45 - 3:00  | Debrief
 
 
+##General Goals:
+- Students will learn what arrays are and how to utilize them
+- Students will learn how to build functions and incorporate them in applications
+- Students will learn to create an application using MVC.
 
+## SWBATs:
+- understand what arrays are and how collections can help their code
+- use .count, .append, .insert, .popLast, .removeLast, .removeAtIndex
+- access particular elements of the array using square brackets
+- start learning how to read documentation 
+- Create functions with parameters and return values
+- Create functions with no parameters and no return values
 

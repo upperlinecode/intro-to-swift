@@ -10,3 +10,18 @@
  Afternoon   |  12:30 - 1:30  | User Input: UIPickerView <br> [Background Color Wheel Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/background-color-wheel-walkthrough.md) <br> [Background Color Wheel Project](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/BackgroundColorWheel)
              |  1:30 - 2:50   | [Tip Calculator Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/tip-calculator-walkthrough.md) <br> [Tip Calculator Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/TipCalculator)
        	     |  2:50 - 3:00   | Debrief
+
+##Goals:
+- Introduce UITextField and show how to incorporate it in an MVC-designed app
+- Introduce UIPickerView and show how to incorporate it in an MVC-designed app
+- Teach students to explore other UIKit objects
+
+##SWBATs:
+- understand how user inputs work in MVC
+- add UITextfield into their project
+- link UITextfield to VC
+- Submit text from UITextfield and manipulate information in view controller
+- Understand how user input fits into the MVC pattern
+- Add a UIPickerView object to their project
+- Link a UIPickerView object to the ViewController using an IBOutlet
+- Submit information from a UIPickerView object and manipulate it in the controller

@@ -11,3 +11,21 @@
        	     |  1:30 - 1:45   | [Independent Project Ideation](https://github.com/upperlinecode/intro-to-swift/blob/master/day-3/independent-project-ideation.md)
        	     |  1:45 - 2:50   | [Independent Project Work Time](https://github.com/upperlinecode/intro-to-swift/blob/master/day-3/pair-project-ideation.md)
        	     |  2:50 - 3:00   | Debrief
+
+
+##Goals:
+- Create advanced functions with multiple parameters, multiple return values, and default values
+- Learn to iterate using for-loops
+- Create their first single-view independent project
+
+##SWBATs:
+- create functions with multiple parameters
+- create functions with multiple return values
+- create functions with default values
+- iterate through a set of integers.
+- iterate through items in an array
+- create a single-page view
+- connect labels in the view to the view controller
+- connect buttons to view controller
+- change the view by an IBAction
+- create models

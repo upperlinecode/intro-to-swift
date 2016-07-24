@@ -9,3 +9,18 @@
  Afternoon   |  12:30 - 1:00  | Finish OO Labels if necessary
              |  12:30 - 2:50  | [Independent Project](https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/independent-project-2.md)<br>[Weather App](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5/WeatherApp)
        	     |  2:50 - 3:00   | Debrief
+
+
+##Goals:
+- Introduce Optionals
+- Introduce views in OO
+- Begin Independent Project #2
+
+##SWBATs:
+- know the difference between optionals and non optional values
+- create optional vars and lets
+- force unwrap optionals
+- optional chaining/binding as an alternative to force unwrapping
+- Build a one page app with IBActions to handle button events
+- Create labels programmatically rather than through GUI
+- Build an app that utilizes MVC, OO, IBOutlets, IBActions, Constraints, Optionals, & Collections 
