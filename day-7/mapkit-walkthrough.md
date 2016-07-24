@@ -69,7 +69,7 @@ class ViewController: UIViewController {
 ```
 - We also want to connect this functionality to a button so that we can easily center the map back on the home region whenever we want. Right click on the "Find my house" button that we added earlier and drag the mouse to the bottom of the view controller class. Fill out the form to generate the IBAction that will connect this button to the centerOnLocation method.
 <p align="center">
-  <img src="images/findMyHouse.png" height="300px" hspace="20">
+  <img src="images/findMyHouse.png" height="250px" hspace="20">
 </p>
 ```Swift
 class ViewController: UIViewController {
