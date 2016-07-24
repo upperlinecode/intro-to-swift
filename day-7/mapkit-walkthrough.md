@@ -23,26 +23,27 @@ import MapKit
 <p align="center">
   <img src="images/mapView-connection.png" height="300px" hspace="20">
 </p>
-- Next, drag a button beneath the map and change the button's text to read "Find my house". It should look something like this:
+- Next, go again to the object library and drag a button object beneath the map and change the button's text to read "Find my house". It should look something like this:
 <p align="center">
   <img src="images/initial-map-view.png" height="350px" hspace="20">
 </p>
 
 ####Setting a default map location
-- Already, our you can use your fingers to zoom in/out, rotate, and scroll around the map. The next iteration of our map will center the map on a specific location when the page loads.
-- We will tell the view controller where to load the map by giving a latitude and longitude. There is a class in Swift called [CLLocation](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocation_Class/index.html) that lets us create an object that holds both of these values in one instance. Find the [coordinates](http://www.latlong.net/) of your home (or somewhere else cool) and create a CLLocation constant beneath your mapView outlet.
+- Test out the map by running your app on the simulator. Already, our you can use your fingers to zoom in/out, rotate, and scroll around the map. The next iteration of our map will center the map on a specific location when the page loads.
+- We will tell the view controller where to load the map by supplying a latitude and longitude. There is a class in Swift called [CLLocation](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocation_Class/index.html) that lets us create an object that bundles both of these values in one instance. Find the [coordinates](http://www.latlong.net/) of your home (or somewhere else cool) and create a CLLocation constant beneath your mapView outlet. Remember that, by placing our constant at the top of the class outside of any methods, it will be available to use in any of the view controller's methods.
 ```Swift
 class ViewController: UIViewController {
 
-    @IBOutlet weak var mapvView: MKMapView!
+    @IBOutlet weak var mapView: MKMapView!
     let homeLocation = CLLocation(latitude: 38.897676, longitude: -77.036483)
   
   ...
 }
 ```
 - Next, we're going to add a function that will tell the map to center on a specific point on the map. This function can be called when the view loads as well as in an action connected to a button. Let's call the function centerOnLocation.
-  - this method will take two parameters: a location, which will allow us to use the function to go to any location we pass in, and the mapView itself.
+  - this method will have two parameters: a location, which will allow us to use the function to go to any location we pass in, and the mapView itself. 
   - there is a MapKit function called [MKCoordinateRegionMakeWithDistance](https://developer.apple.com/library/ios/documentation/MapKit/Reference/MapKitFunctionsReference/index.html#//apple_ref/c/func/MKCoordinateRegionMakeWithDistance) that will use the CLLocation object to create a region to center on. It takes three arguments: the location object, the latitudinal meters to fit in the view, and the longitudinal meters to fit in the view.
+  - MKMapView objects such as the one currently in our app have a built-in method called setRegion that will center the map on a specific region. The first argument it takes is the region around which the map should center. For this, just pass in the region we created with the MKCoordinateRegionMakeWithDistance class. The second argument is a boolean value controlling whether or not the tranistion to the new region will happen instantaneously. Try it with both possible values (true and false) and see which you prefer.
 ```Swift
 class ViewController: UIViewController {
 
@@ -66,7 +67,10 @@ class ViewController: UIViewController {
       centerOnLocation(homeLocation, mapView: mapView)
   }
 ```
-
+- We also want to connect this functionality to a button so that we can easily center the map back on the home region whenever we want. Right click on the "Find my house" button that we added earlier and drag the mouse to the bottom of the view controller class. Fill out the form to generate the IBAction that will connect this button to the centerOnLocation method.
+<p align="center">
+  <img src="images/findMyHouse.png" height="300px" hspace="20">
+</p>
 ```Swift
 class ViewController: UIViewController {
 
@@ -77,7 +81,9 @@ class ViewController: UIViewController {
   }
 }
 ```
+- Test it out! At this point, the app should load on a specified region and always return to that region when the "Find my house button is pressed.
 Completed map app [here]()
+
 ####Bonus Tasks
 
 
