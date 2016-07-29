@@ -7,8 +7,7 @@
              |  10:00 - 11:00  | User Input: UIPickerView <br> [Background Color Wheel Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/background-color-wheel-walkthrough.md) <br> [Background Color Wheel Project](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/BackgroundColorWheel)
              |  11:00 - 11:30   | [Tip Calculator Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/tip-calculator-walkthrough.md) <br> [Tip Calculator Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/TipCalculator)
  Lunch       |  11:30 - 12:30 | 
- Afternoon   |  12:30 - 1:30  | User Input: UIPickerView <br> [Background Color Wheel Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/background-color-wheel-walkthrough.md) <br> [Background Color Wheel Project](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/BackgroundColorWheel)
-             |  1:30 - 2:50   | [Tip Calculator Walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/tip-calculator-walkthrough.md) <br> [Tip Calculator Project](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/TipCalculator)
+ Afternoon   |  12:30 - 3:50  | Breakout sessions (Command Line, More Delegates & Protocols), Independent work time, Lab work time
        	     |  2:50 - 3:00   | Debrief
 
 
