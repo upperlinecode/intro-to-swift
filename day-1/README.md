@@ -8,10 +8,10 @@
 |9:45 - 10:00  	| Trello and Slack Setup and [Playgrounds walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/xcode-setup.md)
 |10:00 - 10:45| [constants, variables, and data types](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/intro-constants-variables.md)<br>[calculator mini-lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/lab-calculator.md)<br>[calculator mini-lab playground](https://github.com/upperlinecode/ios-swift-calculator-lab/)
 |10:45 - 11:30	   | [strings walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/intro-string-methods.md)<br>[strings practice](https://github.com/upperlinecode/ios-swift-strings-practice)
-Lunch 		            |   11:30 - 12:30      |
-Afternoon                   |   12:30 - 1:30       | [conditionals walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/conditionals-intro.md)<br>[conditionals-practice-1](https://github.com/upperlinecode/ios-swift-conditionals-practice-1)<br>[conditionals-practice-2](https://github.com/upperlinecode/ios-swift-conditionals-practice-2)
-		            |   1:30 - 2:45        | Work on Labs
-		            |                      | [calculator - level 2 - directions](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/calculator-level-2.md)<br>[calculator - level 2 - playground](https://github.com/upperlinecode/ios-swift-calculator-lab-level2)
+|   11:30 - 12:30      | Lunch 		            
+|   12:30 - 1:30       | [conditionals walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/conditionals-intro.md)<br>[conditionals-practice-1](https://github.com/upperlinecode/ios-swift-conditionals-practice-1)<br>[conditionals-practice-2](https://github.com/upperlinecode/ios-swift-conditionals-practice-2)
+|   1:30 - 2:45        | Work on Labs |
+| [calculator - level 2 - directions](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/calculator-level-2.md)<br>[calculator - level 2 - playground](https://github.com/upperlinecode/ios-swift-calculator-lab-level2)
 		            |                      | [cash register - directions](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/lab-cash-register.md)<br>[cash register - playground](https://github.com/upperlinecode/ios-swift-cash-register-lab)
 		            |                      | [about page lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/about-page-lab.md)<br>[about page project](https://github.com/upperlinecode/ios-swift-about-page-lab)
 		            |   2:45 - 3:00        | Debrief
