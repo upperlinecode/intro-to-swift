@@ -1,8 +1,9 @@
 # [Intro to Swift](https://github.com/upperlinecode/intro-to-swift)
 ## Day One Schedule
 
-|	Time        | Activity       |
-|   9:00 - 9:30  | [Day One Slides](https://docs.google.com/a/upperlinecode.com/presentation/d/1gP5NZGm-_YRQTVAapUnB0ZUgJp3FsL0MI8wLbjzC97k/edit?usp=sharing) and Welcome
+| Time        | Activity      |
+|-------------|---------------|
+|9:00 - 9:30  | [Day One Slides](https://docs.google.com/a/upperlinecode.com/presentation/d/1gP5NZGm-_YRQTVAapUnB0ZUgJp3FsL0MI8wLbjzC97k/edit?usp=sharing) and Welcome
 |9:30 - 9:45    | Improv, something with names (e.g. name/rhyme/motion)	     
  		            |   9:45 - 10:00  	   | Trello and Slack Setup and [Playgrounds walkthrough](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/xcode-setup.md)
  		            |   10:00 - 10:45	   | [constants, variables, and data types](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/intro-constants-variables.md)<br>[calculator mini-lab](https://github.com/upperlinecode/intro-to-swift/blob/master/day-1/lab-calculator.md)<br>[calculator mini-lab playground](https://github.com/upperlinecode/ios-swift-calculator-lab/)
