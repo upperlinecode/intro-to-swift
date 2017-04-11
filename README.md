@@ -1,6 +1,6 @@
-#Introduction to Swift
+# Introduction to Swift
 
-###Week 1
+### Week 1
 
 Day 	    |	Topic           
 ----------|:----------------:
@@ -11,7 +11,8 @@ Day 	    |	Topic
 [Friday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5)     | Optionals <br> More OO Design Patterns <br> **Second Independent Project**
 
 
-###Week 2
+### Week 2
+
 Day 	    |	Topic           
 ----------|:----------------:
 [Monday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6) 	  | Text Field Input <br> UIPickerView Input
