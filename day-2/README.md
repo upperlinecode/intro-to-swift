@@ -14,7 +14,7 @@
 |       	     |  2:45 - 3:00  | Debrief
 
 
-##General Goals:
+## General Goals:
 - Students will learn what arrays are and how to utilize them
 - Students will learn how to build functions and incorporate them in applications
 - Students will learn to create an application using MVC.
