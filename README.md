@@ -1,5 +1,7 @@
 #Introduction to Swift
+
 ###Week 1
+
 Day 	    |	Topic           
 ----------|:----------------:
 [Monday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1) 	  | Working with Xcode <br> Data Types <br> Conditionals
