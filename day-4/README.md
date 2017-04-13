@@ -15,13 +15,13 @@
   |     	     |                | [Constraints: Photo Gallery](https://github.com/upperlinecode/intro-to-swift/blob/master/day-4/photo-gallery-lab.md)
  |      	     |  2:50 - 3:00   | Debrief
 
-##Goals:
+## Goals:
 - Introduce dictionaries as another type of collection
 - What is Object Orientation?
 - Introduce classes and structures
 - Introduce Constraints
 
-##SWBATS:
+## SWBATS:
 - determine when a dictionary is more beneficial over an array
 - create a new dictionary
 - edit/add to existing dictionaries
