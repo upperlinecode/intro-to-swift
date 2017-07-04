@@ -81,6 +81,7 @@ if temperature < 32 {
 //because temperature < 32 and temperature > 70 are both false
 ```
 <br>
+
 ###### Break for Conditional Practice
 
 [conditionals-practice-1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice1.playground)
@@ -111,7 +112,8 @@ if chanceOfPrecipitation == 0 && temperature > 70{
 }
 //prints "You can never believe the weatherman anyways."
 ```
-<br>
+<br> 
+
 ###### Continue on to Contionals practice 2
 
 [conditionals-practice-2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice2.playground)
