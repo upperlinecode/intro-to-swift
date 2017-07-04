@@ -1,15 +1,15 @@
-##Introduction to Conditionals
+## Introduction to Conditionals
 
-##Students Will Be Able To
+## Students Will Be Able To
 - Use boolean operators to test a statement's boolean value
 - Explain the need for if/else statements in code
 - Implement an if statement, an if/else statement, and an if/else-if/else statement in their code
 
-##Motivation
+## Motivation
 Up until this point our code has executed line by line, from top to bottom. Every line of code always ran, no matter what. It can be useful to write code that will only execute if certain conditions are true. This kind of code is called conditional.
 
-##Walkthrough
-####Conditional Statements with Comparison Operators
+## Walkthrough
+#### Conditional Statements with Comparison Operators
 - A well written conditional statement reads a lot like a normal sentence.
 ```Swift
 if somethingIsTrue {
@@ -47,7 +47,7 @@ if cold {
 
 - Usually though, we want to make a comparison when deciding whether or not to execute a particular block of code. For that, we use comparison operators:
 
-######Comparison Operators
+###### Comparison Operators
 symbol|description|example
 :------: | :------: | :-----:
 ==|equal to|1 == 1   //true
@@ -81,11 +81,11 @@ if temperature < 32 {
 //because temperature < 32 and temperature > 70 are both false
 ```
 <br>
-######Break for [conditionals-practice-1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice1.playground)
+###### Break for [conditionals-practice-1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice1.playground)
 <br>
-####Conditional Statements with Logical Operators
+#### Conditional Statements with Logical Operators
 When one branch of a conditional statement depends on more than one factore, we can use logical operators to find the truth value of the combined statement.
-######Logical Operators
+###### Logical Operators
 symbol|description|example
 :------: | :------: | :-----:
 !|not|!(7 == 7)   //false
@@ -110,4 +110,4 @@ if chanceOfPrecipitation == 0 && temperature > 70{
 //prints "You can never believe the weatherman anyways."
 ```
 <br>
-######Continue on to [conditionals-practice-2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice2.playground)
+###### Continue on to [conditionals-practice-2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice2.playground)
