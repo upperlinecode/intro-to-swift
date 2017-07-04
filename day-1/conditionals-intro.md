@@ -84,8 +84,10 @@ if temperature < 32 {
 
 ###### Break for Conditional Practice
 
-[conditionals-practice-1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice1.playground)
+[conditionals-practice-1](https://github.com/upperlinecode/ios-swift-conditionals-practice-1)
+
 <br>
+
 #### Conditional Statements with Logical Operators
 When one branch of a conditional statement depends on more than one factore, we can use logical operators to find the truth value of the combined statement.
 ###### Logical Operators
@@ -116,4 +118,4 @@ if chanceOfPrecipitation == 0 && temperature > 70{
 
 ###### Continue on to Contionals practice 2
 
-[conditionals-practice-2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1/ConditionalsPractice2.playground)
+[conditionals-practice-2](https://github.com/upperlinecode/ios-swift-conditionals-practice-2)
