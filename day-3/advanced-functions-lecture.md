@@ -1,21 +1,21 @@
-##Advanced Functions
+## Advanced Functions
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Define a function with multiple parameters
 - Assign a default value to a parameter
 - Define a function with multiple return values
 
 
-###Motivation
+### Motivation
 There is no way that we could properly master all of the intricacies of writing functions in one day. And the more we learn about them, the more powerful they become. More advanced function techniques allow our code to be more readable and more concise. As a developer you will also read a lot of functions written by other developers. The more familiar with functions you become, the easier it will be to understand other people's code.  
 
-###Anticipated Pain Points
+### Anticipated Pain Points
 - Make sure students know to add default parameters to the end of the list of parameters. This ensures that non-default parameters will always be called in the correct order.
 - Adding multiple return values requires using tuples, which is a new data type for the students.
 
 
-###Walkthrough
-####Multiple Parameters
+### Walkthrough
+#### Multiple Parameters
 - Remember that a parameter is a special kind of variable that can be passed into a function. They are defined within the function's parentheses, and their definition includes both the parameter's name and the type.
 ```Swift
 func pet(species: String) {
@@ -42,7 +42,7 @@ func medalStand(firstPlace: String, secondPlace: String, thirdPlace: String) {
 medalStand("Allison", secondPlace: "Melanie", thirdPlace"George")
 ```
 
-####Default Parameters
+#### Default Parameters
 - We can define parameters so that they take on a default value if we don't give them a value in the method call. Simply assign a value to the parameter after the parameter's type.
 ```Swift
 func pets(count: Int, species: String = "parakeet") {
@@ -54,7 +54,7 @@ pets(3) //prints "I love animals. I just 3 new parakeets!"
 
 Break for [advanced functions - practice 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3/AdvancedFunctionsPractice1.playground)
 
-####Multiple Return Values
+#### Multiple Return Values
 - So far we've only returned single values, like this:
 ```Swift
 func squared(number: Double)->Double {
@@ -84,12 +84,12 @@ print("I like a lot of different foods. My favorite is \(foodPreferences.favorit
 ```
 
 Break for [advanced functions - practice 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3/AdvancedFunctionsPractice2.playground)
-###Conclusion
+### Conclusion
 We just saw that we can make our functions more versatile and complex with multiple parameters, default parameters, and multiple return values. The fundamentals of what a parameter or return value is has not changed, but we're gaining an appreciation for Swift and the many things we can do with it.
 There are many more topics in function writing to explore: external parameter names, variadic parameters, function types, and more. For now, what's important is to practice what you know, look up things that you come across and don't understand, and keep writing cool programs.
 <br>
 <br>
-###Optional Add-On: Variadic Parameters
+### Optional Add-On: Variadic Parameters
 - Swift has a type of parameter called a variadic parameter. It's used to pass in a variable number of arguments into a function. This is what the syntax looks like:
 ```Swift
 func average(numbers: Double...) -> Double {
