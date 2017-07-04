@@ -1,5 +1,5 @@
-##Strings
-###Practice with a partner
+## Strings
+### Practice with a partner
 1. Create a string that contains your favorite word. It can be in any language!
 
 2. Now let's make all the characters uppercase in the string "hey! can you hear me?"
