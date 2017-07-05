@@ -16,7 +16,7 @@ We've learned to store strings, numbers, and booleans in variables. But think wi
 ### Walkthrough
 Prompt students to think of things that they would organize in a list. Have them discuss drawbacks to having all of these items in a list stored in a different variable or constant. What sort of problems could that cause as the list gets really big?
 - Think of a column in an excel spreadsheet. Each cell contains data, and that data corresponds to a row number. The position in an array is referred to as the 'index number' and starts at 0.
-![Array indexes](http://www.cs.grinnell.edu/~walker/courses/152.sp01/n-sqr-sort-1.gif)
+(https://en.wikipedia.org/wiki/Zero-based_numbering "Zero Based Index")
 - Pick one of the classes ideas and use it for the walkthrough. To start, build an array and fill it with a few pieces of data:
 ```Swift
 var shoppingList = ["milk", "eggs", "bread", "turkey", "olive oil"]
@@ -49,18 +49,18 @@ shoppingList.count => 6
 ```
 Break for [twitter arrays mini-lab](https://github.com/jrectenwald/intro-to-swift/blob/master/day-1/twitter-arrays-mini-lab.md)
 - Show the students the [swift documentation about arrays](https://developer.apple.com/library/ios/documentation/Swift/Reference/Swift_Array_Structure/index.html#//apple_ref/doc/uid/TP40015178-CH1-DontLinkElementID_16) and look at the instance properties and instance methods. Look at the descriptions for some of these while trying them out in the xcode playground.
-- shoppingList.insert("celery", atIndex: 0) inserts celery in the first position in the array and pushes all of the other elements back.
+- shoppingList.insert("celery", at: 0) inserts celery in the first position in the array and pushes all of the other elements back.
 ```Swift
-shoppingList.insert("apples", atIndex: 2)
+shoppingList.insert("apples", at: 2)
 ```
-- removeLast() vs. popLast(): both of these methods will delete the last element in the array and return the value of the deleted item. The difference is that removeLast() will throw an error if the array is empty, and popLast() will return nil when called upon an empty array.
+- remove() vs. popLast(): both of these methods will delete the last element in the array and return the value of the deleted item. The difference is that removeLast() will throw a runtime error if the array is empty, and popLast() will return nil when called upon an empty array.
   - Use this as an opportunity to talk about what "returned" means. Look at the values of deletedItem after the following line of code.
 ```Swift
 var deletedItem = shoppingList.popLast()
 ```
-- We can also delete items from any index using the removeAtIndex(_:atIndex:) method:
+- We can also delete items from any index using the remove(at:) method:
 ```Swift
-shoppingList.removeAtIndex(4)
+shoppingList.remove(at: 4)
 ```
 - If we need to check to see if an array contains a certain item, you can use the contains() method. This returns either true or false.
 ```Swift
