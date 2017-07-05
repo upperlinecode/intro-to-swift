@@ -1,19 +1,19 @@
-##Arrays
+## Arrays
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Create an array of any type and store it as a variable or constant
 - Access any value in the array using square brackets
 - Use multiple methods to add new data to an array
 - Consult the Swift documentation to look up built-in array methods and properties
 
-###Why
+### Why
 We've learned to store strings, numbers, and booleans in variables. But think with the class about cases in which this would be impractical. E.g. It would be difficult for Facebook if they had to create a new variable for each friend that you add. Instead, it would be much simpler for them to create something called "friends" that acted like a box to hold all of this data.
 
-###Anticipated Pain Points
+### Anticipated Pain Points
 - returning values from a range of indices (array[2...5])
 - what does it mean when a function returns a value? Store return values in variables and print lots of examples to the console with the whole class.
 
-###Walkthrough
+### Walkthrough
 Prompt students to think of things that they would organize in a list. Have them discuss drawbacks to having all of these items in a list stored in a different variable or constant. What sort of problems could that cause as the list gets really big?
 - Think of a column in an excel spreadsheet. Each cell contains data, and that data corresponds to a row number. The position in an array is referred to as the 'index number' and starts at 0.
 ![Array indexes](http://www.cs.grinnell.edu/~walker/courses/152.sp01/n-sqr-sort-1.gif)
@@ -72,5 +72,5 @@ if shoppingList.contains("pizza") {
 ```
 Break for [array methods practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2/ArrayMethodsPractice.playground)
 
-###Conclusion
+### Conclusion
 Storing data in an array is similar to storing it in seperate variables. With an array though, we can refer to many pieces of data using the same name, and we get methods from Swift to let us add, access, edit, add delete data in the array. 
