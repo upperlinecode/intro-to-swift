@@ -103,7 +103,7 @@ override func viewDidLoad() {
 ```Swift
  func randomFact()->String {
         let arrayLength = facts.count
-        let randomIndex = rand(4)
+        let randomIndex = Int(arc4random_uniform(4))
         return facts[randomIndex]
     }
 ```
