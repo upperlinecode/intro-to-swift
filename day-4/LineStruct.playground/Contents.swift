@@ -13,14 +13,9 @@ struct Point {
 
 
 
-struct Line {
-    var endPoint1: Point = Point(x: 0.0, y: 0.0)
-    var endPoint2: Point = Point(x: 0.0, y: 0.0)
-    
-    func length()->Double {
-        return sqrt(pow((endPoint2.y - endPoint1.y), 2.0) + pow((endPoint2.x - endPoint1.x), 2.0))
-    }
-}
+
+
+// After your Struct is finished, uncommment the lines below. If you successfully coded the line struct, the lines below will run without error. 
 
 //var point1 = Point(x: 5.0, y: 0.0)
 //var point2 = Point(x: 2.0, y: 4.0)
