@@ -17,9 +17,13 @@ struct Point {
 
 // After your Struct is finished, uncommment the lines below. If you successfully coded the line struct, the lines below will run without error. 
 
+
+// Testing part 1 
 //var point1 = Point(x: 5.0, y: 0.0)
 //var point2 = Point(x: 2.0, y: 4.0)
 
 //var line = Line(endPoint1: point1, endPoint2: point2)
 
+
+//Testing part 2 
 //line.length() // returns 5.0
