@@ -1,13 +1,13 @@
-##Optionals
+## Optionals
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Understand the difference between an optional and a non-optional values
 - Create optional variables and constants
 - Force-unwrap optionals
 - Use optional chaining as an alternative to force unwrapping
 
 
-###Why
+### Why
 We've used values in different data types that seem like they represent nothing: 
 - 0 (Int)
 - 0.0 (Double)
@@ -19,12 +19,12 @@ However, all of these values require the user to at one point assign a value to 
 Sometimes, we want to give a class a property that can or cannot be assigned a value. If it doesn't ever get assigned a value, its value will be nil. A variable with a nil value, when handled correctly, will not cause a build failure. When a value has the option of being nil, it is called an optional value.
 
 
-###Anticipated Pain Points
+### Anticipated Pain Points
 Some students might think they need to start making all of their types optional. For now, the primary reason we are showing them optionals is to help them debug errors in their code. A lot of the classes in Swift built by Apple programmers contain optional values, and they might need to unwrap these values.
 
 
-###Walkthrough
-####What is an Optional?
+### Walkthrough
+### #What is an Optional?
 - Take a look at this Person class. It has one instance property, name, and one instance method, hello(). 
 ```Swift
 class Person {
@@ -72,7 +72,7 @@ person2.hello()
 To protect against this kind of error, we need to _unwrap_ the optional.
 - There are two ways to unwrap an optional: Force Unwrapping and Optional Chaining
 
-####Force Unwrapping
+#### Force Unwrapping
 - If we are positive that an optional is not nil, we can force unwrap it with an exclamation point.
 ```Swift
 class Person {
@@ -98,7 +98,7 @@ person1.hello()
 //prints: fatal error: unexpectedly found nil while unwrapping an Optional value
 ```
 
-####Optional Chaining
+#### Optional Chaining
 - The safer and accepted way of handling optionals is with optional chaining. With optional chaining, we use an if/else statement to handle the two possible situations: the value is nil or the value is not nil. 
 
 Essentially, we try to unwrap the optional with a question mark instead of an exclamation point. If this works, we write some code safely assuming that the optional has a non-nil value. Otherwise, we write an alternative block of code handling the case where the value is nil.
@@ -131,7 +131,7 @@ person2.hello()
 ```
 - With person1, nickName is nil so the else branch is executed. Person2's nickName does not equal nil, so the first branch of the if/else statement is executed.
 
-####Returning an optional value
+#### Returning an optional value
 - Functions can also return optional values. For instance, consider a function that divides two numbers and returns the answer. In most cases, we would want to return a Double.
 ```Swift
 func division(dividend: Double, divisor: Double)->Double {
@@ -172,7 +172,7 @@ if let quotient = division(10.0, divisor: 0.0) {
 //prints: Error: cannot divide by 0
 ```
 
-###Conclusion
+### Conclusion
 - You can make any type an optional type by adding a quotation mark after the type in the type declaration
 ```Swift
 var age: Int?
