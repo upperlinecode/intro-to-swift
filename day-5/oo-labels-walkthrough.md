@@ -60,6 +60,7 @@ Break for a couple of minutes and let students play around with these properties
 <p align="center">
     <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true" height="200px" hspace="20">
 </p>
+
 ```Swift
 import UIKit
 
