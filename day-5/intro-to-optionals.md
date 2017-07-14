@@ -24,7 +24,7 @@ Some students might think they need to start making all of their types optional.
 
 
 ### Walkthrough
-### #What is an Optional?
+#### What is an Optional?
 - Take a look at this Person class. It has one instance property, name, and one instance method, hello(). 
 ```Swift
 class Person {
