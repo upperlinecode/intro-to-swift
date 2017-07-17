@@ -44,6 +44,7 @@ class ViewController: UIViewController {
   <img src="images/ns-date-formatter-playground.png" height="400px" hspace="20">
 </p>
 - This clock class is going to be our app's model, or backend. Make a new file called clock.swift and add the clock class to it.
+
 ```Swift
 //clock.swift
 import Foundation
@@ -53,6 +54,7 @@ class Clock {
     }
 }
 ```
+
 - Give the ViewController access to the model by storing it in a constant. Remember that any classes we add to our model are automatically available in the controller.
 ```Swift
 //ViewController.swift
