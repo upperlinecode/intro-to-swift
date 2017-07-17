@@ -71,6 +71,7 @@ class ViewController: UIViewController {
 <p align="center">
   <img src="images/findMyHouse.png" height="250px" hspace="20">
 </p>
+
 ```Swift
 class ViewController: UIViewController {
 
@@ -81,6 +82,7 @@ class ViewController: UIViewController {
   }
 }
 ```
+
 - Test it out! At this point, the app should load on a specified region and always return to that region when the "Find my house button is pressed.
 Completed map app [here]()
 
