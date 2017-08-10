@@ -3,7 +3,9 @@
 import UIKit
 
 //1. Greeting
-//Create a function called greeting that accepts one parameter, an array of people's names. The function should print a greeting for each name in the array. If there are more than seven people in the array, it should only print "Hi everybody!"
+//Create a function called greeting that accepts one parameter, an array of people's names. The function should print a greeting for each name in the array. 
+//If there are more than seven people in the array, it should only print "Hi everybody!"
+//
 //greeting(["Gerry", "Terry", "Gary"])
 //   prints:
 //   "Hi Gerry!"

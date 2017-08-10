@@ -1,18 +1,18 @@
-##Iteration: For Loops
-###Students Will Be Able To
+## Iteration: For Loops
+### Students Will Be Able To
 - Use a for-in loop to:
   - iterate through an array
   - iterate through a range of integers
 
 
-###Why
+### Why
 Some of the data structures that we've used so far have been made up of clearly defined pieces. For instance, an array has discrete indexes and a string is made up of various characters and symbols. Iteration lets us look at these structures not as a whole, but at each individual piece, one at a time. 
 Iterations are very useful because they shorten what would otherwise be very long tasks. You can iterate through an array and interpolate each element into a string. You could iterate through a range of numbers and perform an operation on each one. The possibilites are endless, and there are a lot of tools available for us. But we're going to start with one: the For-in Loop.
 
-###Anticipated Pain Points
+### Anticipated Pain Points
 - Students are often confused about the variable that holds each value of the iteration. It is never declared with let or var, and they may have trouble understanding where it originates. This is a case where a constant is declared implicitly by adding it to the for loop's declaration. 
 
-###Walkthrough
+### Walkthrough
 - Let's say we are writing a function that will display the first 10 perfect squares. With what we've learned so far, our only option is to write out each individual line:
 ```Swift
 func squares() {
@@ -56,7 +56,7 @@ func jediGoodbye(jediCouncil: [String]) {
         print("Goodbye \(jediMaster), may The Force be with you.")
     }
 }
-jediGoodbye(["Qui Gon", "Obi Wan", "Yoda", "Mace Windu"])
+jediGoodbye(jediCouncil: ["Qui Gon", "Obi Wan", "Yoda", "Mace Windu"])
 //prints
 //Goodbye Qui Gon, may The Force be with you.
 //Goodbye Obi Wan, may The Force be with you.
@@ -65,27 +65,26 @@ jediGoodbye(["Qui Gon", "Obi Wan", "Yoda", "Mace Windu"])
 ```
 - On Monday we looked at a one-page application that displayed a user's information, including a list of his or her favorite movies. In order to pass the list of favorite movies to the view, the following string was interpolated:
 ```Swift
-FavoriteMovies.text = "Favorite Movies:\n1. \(about.favoriteMovies[about.favoriteMovies.startIndex])\n2.
-\(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(1)])\n3.
-\(about.favoriteMovies[about.favoriteMovies.startIndex.advancedBy(2)])"
+favoriteMoviesTextView.text = "Favorite Movies:\n1. \(aboutMe.favoriteMovies[aboutMe.favoriteMovies.startIndex]) \n2. \(aboutMe.favoriteMovies[aboutMe.favoriteMovies.index(after: aboutMe.favoriteMovies.startIndex)]) \n3. \(aboutMe.favoriteMovies[aboutMe.favoriteMovies.index(before: aboutMe.favoriteMovies.endIndex)])"
 ```
 - We could clean this up using a for in loop. We can iterate through a range of index values from 0 to 1 less than the length of the favoriteMovies array.
 ```Swift
+var favoriteMovies = ["Wonder Woman", "Batman", "Black Panther"]
+
 var movieList = ""
 for index in 0..<favoriteMovies.count {
-  movieList += "\(index + 1). \(favoriteMovies[index])\n"
+    movieList += "\(index + 1). \(favoriteMovies[index])\n"
 }
-FavoriteMovies.text = movieList
 ```
 - This looks a little sloppy though. Having to iterate through index values and then use those index values to access items in the array works, but you may prefer to do it this way:
 ```Swift
 var movieList = ""
-for (index, movie) in favoriteMovies.enumerate() {
-  movieList += "\(index + 1). \(movie)\n"
+for (index, movie) in favoriteMovies.enumerated() {
+    movieList += "\(index + 1). \(movie)\n"
 }
-FavoriteMovies.text = movieList
+print(movieList)
 ```
-- The enumerate method lets us access the index value of each element as we iterate through the array.
+- The enumerated method lets us access the index value of each element as we iterate through the array.
 - Finally, it is often useful to be able to iterate through all of the characters of a string. We can't iterate over a string directly, but we can use String's characters method to get an array of a string's characters.
 ```Swift
 let name = "Tim Cook"
@@ -103,5 +102,5 @@ o!
 k!
 ```
 Break for [iteration practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3/IterationPractice.playground)
-###Conclusion
+### Conclusion
 The for loop is only one of many iteration methods available in Ruby. We'll keep introducing more, but if you want to look at some more, a good place to start is the Swift documentation on [while loops](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html#//apple_ref/doc/uid/TP40014097-CH9-ID120).

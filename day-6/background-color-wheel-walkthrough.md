@@ -1,25 +1,25 @@
-##Background Color Wheel
+## Background Color Wheel
 
 Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tree/master/day-6/BackgroundColorWheel)
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Understand how user input fits into the MVC pattern
 - Add a UIPickerView object to their project
 - Link a UIPickerView object to the ViewController using an IBOutlet
 - Submit information from a UIPickerView object and manipulate it in the controller
 
-###Why
+### Why
 - Not all types of user input are as straightforward to implement as a text field. It's important to see these other types of objects, and understand that someone can use them in their application without understanding every line of code that comes along with it.
 
-###Walkthrough
-####Getting Started
+### Walkthrough
+#### Getting Started
 - Create a one-page application in Xcode called BackgroundColorWheel. 
 - The only object in the view will be a Picker View object that displays a spinning wheel of values from which the user can select one choice. Select a Picker View object and drag it to the center of the Main.storyboard scene.
 <p align="center">
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/bgcw-picker-selected.png" height="400px" hspace="20">
 </p>
 
-####Connecting the Picker View to the View Controller
+#### Connecting the Picker View to the View Controller
 - We'll need to be able to reference the picker view in the controller, so make an outlet for it in the controller (click and drag as usual). Call it "colorWheel".
 ```Swift
 class ViewController: UIViewController {
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 }
 ```
 
-####Protocols, and How to Not be Afraid of Them
+#### Protocols, and How to Not be Afraid of Them
 - In order to deal add a picker view to our app, we need to touch some advanced topics in Swift programming. We don't need to get too in depth about any of these topics, and it's ok to be confused about some of what you're seeing. The most important take away from today is that you can use really powerful tools in your app without understanding every level of code that it comes from or being an expert in Object-Oriented Programming or Protocol-Oriented Programming or whatever it might be. Being an expert only comes with time, but you can do a lot of experimenting before then.
 - Do you know how our ViewController class always has this colon followed by UIViewController? What's going on here is something called *inheritance*. This is a more advanced topic that we don't need to worry much about right now. But in a nutshell, there is a big class that the creators of Swift wrote called UIViewController. That class has a lot of methods and properties that our ViewController Class needs. With inheritance, our ViewController class automatically gets all of those methods and properties without us having to write that code.
 ```Swift
@@ -133,10 +133,10 @@ override func viewDidLoad() {
   <img src="https://github.com/upperlinecode/intro-to-swift/blob/master/day-6/images/bgcw-blue.png" height="400px" hspace="20">
 </p>
 
-####Bonus Tasks
+#### Bonus Tasks
 - Add more colors to the data source so there are more options for the background color.
 - Allow the user to input RGB values to create custom colors for the background.
 - Pull some of the logic from the pickerView:didSelectRow:inComponent: method and put it in a model so that your app follows more of an MVC design pattern.
 
-###Conclusion
+### Conclusion
 It may seem like using a UIPickerView, with all of the new methods that it brings to the view controller, would be very hard to use without help. But if you do a little googling, you'll see that there are countless blogs and video tutorials walking you through each step of the process.
