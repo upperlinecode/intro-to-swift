@@ -4,8 +4,8 @@
 
 Day 	    |	Topic           
 ----------|:----------------:
-[Monday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1) 	  | Working with Xcode <br> Data Types <br> Conditionals <br> **Build a Static Page**
-[Tuesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2)    | Arrays <br> Functions <br> MVC <br> **Button Project**
+[Monday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-1) 	  | Working with Xcode <br> Data Types <br> Conditionals <br> [**Build a Static Page**](http://screencast-o-matic.com/u/iUM7/static-profile-walkthrough)
+[Tuesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-2)    | Arrays <br> Functions <br> MVC <br> [**Button Project**](http://screencast-o-matic.com/u/iUM7/bunnypresswalkthrough)
 [Wednesday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-3)  | Advanced Functions <br> Iteration <br> **Fortune Teller**
 [Thursday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4)   | Dictionaries <br> Object Orientation <br>  Programmatic Constraints <br> **Color Projects**
 [Friday](https://github.com/upperlinecode/intro-to-swift/tree/master/day-5)     | Optionals <br> More OO Design Patterns <br> **Calculator Project**
