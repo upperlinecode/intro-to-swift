@@ -101,6 +101,7 @@
 					9B08BA0D1C6D3AC7009485A1 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = QGJXAGKLW7;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -257,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upperlinecode.TriviaAppDayThreeStarter;
 				PRODUCT_NAME = TriviaAppDayThreeFinished;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -268,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upperlinecode.TriviaAppDayThreeStarter;
 				PRODUCT_NAME = TriviaAppDayThreeFinished;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
