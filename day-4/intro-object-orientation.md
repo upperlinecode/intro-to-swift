@@ -1,22 +1,22 @@
-##Object Orientation
+## Object Orientation
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Decide whether a structure or class would be appropriate in a given situation
 - Define a class or a struct
 - Create an instance of a class or a struct
 - Access and set properties of a class or a struct
 - Define instance methods for a class or a struct
 
-###Why
+### Why
 Who knows how many people are on Facebook? Close to a quarter of the world is on Facebook (roughly 2 billion). What do you think the average number of friends a user has? What about the number of photos? How many likes happen in a day? We're talking about trillions of pieces of data that Facebook tracks and stores on huge tracts of land that they bought literally just to store all their data.
 
 Object Orientation is a way to organize, manipulate and store data. It lets you create "factories" for objects, helping you to avoid writing the same code more than one time. This programing concept is used by every app you could think of: Facebook, Twitter, Gmail, or ESPN. Every user on Facebook has a username, age, and a list of friends. Whenever somebody new signs up for Facebook, an new object is created. There doesn't have to be a Facebook developer ready to write the code for this new user because they have a user "factory" that can generate the user automatically. It's one of the most important and pervasive concepts in computer programming and is an essential skill for any programmer.
 
-###Anticipated Pain Points
+### Anticipated Pain Points
 - Understanding the differences between classes and structures will be hard to understand at first, and the students do not need an immediate grasp of this. In Swift, classes and structures are very similar and often either option will work very well. If they are confused reiterate that most custom data constructs will be classes, so a class is a good default choice. 
 
-###Walkthrough
-####Object Orientation with Classes
+### Walkthrough
+#### Object Orientation with Classes
 - Create an instance of a Facebook user with a dictionary.
 ```Swift
 var user1: [String:String] = [
@@ -108,7 +108,7 @@ user1.greeting() //prints "Hi, my name is William."
 
 Break for [Object Oriented Practice - 1](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/OOPractice1.playground)
 
-####Object Orientation with Structures
+#### Object Orientation with Structures
 - Sometimes, the data that we want to group together is much simpler than the properties of a User. For instance, in our trivia app we wanted out model to include an array of trivia facts and a method that returns a random fact. With such a focused group of data, we didn't need to create a new Class. Classes include a lot of abilities (which we haven't talked about yet) that our TriviaModel would never use. For situations like this, we could create a Structure, or struct.
 ```Swift
 struct TriviaModel {
@@ -147,7 +147,7 @@ struct Point {
 
 ```
 Break for [Object Oriented Practice - 2](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/OOPractice2.playground)
-###Conclusion
+### Conclusion
 - Classes and Structures allow us to create the building blocks of our code. They organize our programs and make it easier to increase in scale.
 - Since structs are only used for very simple cases of data encapsulation, in practice most custom data constructs should be classes, not structures.
 - The init method allows for custom initialization. Otherwise, the instance will be instantiated with the default values that you defined.

@@ -1,19 +1,19 @@
-##A Closer Look at Strings
+## A Closer Look at Strings
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Explain the difference between a string's properties and its methods
 - Use a string's properties and methods with the dot operator
 - Retrieve individual characters from a string
 
-###Motivation
+### Motivation
 Strings are common across programming languages, and knowing how to use them is an important fundamental skill. Strings are a special data type because they come with a series of build-in methods and accessible properties. Learning about these will be a good introduction to functions for students before functions are fully introduced tomorrow.
 
-###Anticipated Pain Points
+### Anticipated Pain Points
 - It is very intimidating to look at documentation, so be clear that this is an important skill but it takes time to become comfortable with it. When you see a good opportunity to look something up as a class, look up a method in the documentation on the projector and talk through the process. Check out Stack Overflow with them and show them how to find a reliable answer.
 - Chaining methods, like greeting.startIndex.successor() can be confusing. Experiment with this as a class, and encourage them to experiment as much as possible.
 - You cannot change a string unless it is stored as mutable data (a variable).
 
-###Walkthrough
+### Walkthrough
 Strings are a special data type that come with their own properties and methods. This just means that a string is able to tell us information about itself (instance properties), and it also has a set of actions that it can perform on itself (instance methods).
 
 
@@ -29,7 +29,7 @@ uppercaseString     |     removeAtIndex(_:)
 
 - Open up a new sandbox and assign your name to a variable called myName. To use an instance property or method on a string, just attach the property/method to the end of the string or variable with a "." Give it a try! What happens when you type in myName.uppercaseString on the next line?
 
-####More tools: 
+#### More tools: 
 ```Swift 
 var greeting = "Hi! My name is Jim, what's yours?" 
 ```
@@ -57,6 +57,6 @@ greeting[greeting.startIndex.advanceBy(2)]
 
 In programming, there are always multiple ways to do accomplish a task. As you continue learning, trying different methods, and observing how other people solve the same problems, you'll get better at picking the best tool for the job.
 
-###Conclusion
+### Conclusion
 - Strings are sequences of characters
 - You can use special instance methods and properties by adding the method or property to the end of the string, connecting the two with a period.

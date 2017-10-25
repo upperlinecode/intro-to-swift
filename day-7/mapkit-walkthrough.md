@@ -1,18 +1,18 @@
-##MapKit Walkthrough
+## MapKit Walkthrough
 
 Completed map app [here]()
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Embed a map directly in their app with MapKit View
 - Annotate their app's map with MKAnnotationView
 - Find their phone's current location in a MapKit View using CoreLocation
 - Create buttons to control events in the map
 
-###Why
+### Why
 Maps can be a very useful addition to your app. Also, more object-oriented programming! MapKit is a framework that uses the same patterns we've seen for UIKit; more importantly, it uses the same patterns as WebKit, SiriKit, and many more APIs you can use in your iOS apps.
 
-###Walkthrough
-####Getting Started
+### Walkthrough
+#### Getting Started
 - Create a one-page application in Xcode.
 - [MapKit](https://developer.apple.com/maps/) is another framework that isn't automatically included in your Xcode project. At the top of the ViewController file, add this line so that all of MapKit's functionality is available to us.
 ```Swift
@@ -28,7 +28,7 @@ import MapKit
   <img src="images/initial-map-view.png" height="350px" hspace="20">
 </p>
 
-####Setting a default map location
+#### Setting a default map location
 - Test out the map by running your app on the simulator. Already, our you can use your fingers to zoom in/out, rotate, and scroll around the map. The next iteration of our map will center the map on a specific location when the page loads.
 - We will tell the view controller where to load the map by supplying a latitude and longitude. There is a class in Swift called [CLLocation](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocation_Class/index.html) that lets us create an object that bundles both of these values in one instance. Find the [coordinates](http://www.latlong.net/) of your home (or somewhere else cool) and create a CLLocation constant beneath your mapView outlet. Remember that, by placing our constant at the top of the class outside of any methods, it will be available to use in any of the view controller's methods.
 ```Swift
@@ -71,6 +71,7 @@ class ViewController: UIViewController {
 <p align="center">
   <img src="images/findMyHouse.png" height="250px" hspace="20">
 </p>
+
 ```Swift
 class ViewController: UIViewController {
 
@@ -81,10 +82,11 @@ class ViewController: UIViewController {
   }
 }
 ```
+
 - Test it out! At this point, the app should load on a specified region and always return to that region when the "Find my house button is pressed.
 Completed map app [here]()
 
-####Bonus Tasks
+#### Bonus Tasks
 
 
 

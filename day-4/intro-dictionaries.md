@@ -1,6 +1,6 @@
-##Dictionaries
+## Dictionaries
 
-###Students Will Be Able To
+### Students Will Be Able To
 - Determine when a dicitonary would be more beneficial than an array
 - Create a new dictionary
 - Edit and add to existing dictionaries
@@ -8,14 +8,14 @@
 - Use common instance properties and methods of the Dictionary type.
 
 
-###Why
+### Why
 Arrays have been very useful to us, and we've managed to use them in a wide variety of applications. But sometimes, organizing data only by an index value isn't enough. Dictionaries increase the amount of information that we can include in a data collection. An array might be sufficient to store a list of names of students in a class. But if we wanted to record a list of test scores in another array, it would be hard to keep track of which score belonged to each student. This is a case when dictionaries would help out.
 
-###Anticipated Pain Points
+### Anticipated Pain Points
 - It's easy to forget when to use [], {}, or (). 
 
-###Walkthrough
-####Creating a new dictionary
+### Walkthrough
+#### Creating a new dictionary
 - In a lab yesterday, we used the following three arrays:
 ```Swift
 var boroughNames = ["Brooklyn", "Queens", "Manhattan", "The Bronx", "Staten Island"] //five boroughs of NYC
@@ -50,7 +50,7 @@ boroughLandArea["Queens"] //returns 109
 ```
 - Now, the populations and land areas will always be connected with the correct corresponding borough name.
 
-####Dictionary properties and methods
+#### Dictionary properties and methods
 - Similar to arrays, dictionaries have a series of previously-defined properties and methods that we can use.
 - Count: returns the number of key-value pairs in a dictionary.
 ```Swift
@@ -81,5 +81,5 @@ for (borough, population) in boroughPopulations {
 
 Break for [dictionaries practice](https://github.com/upperlinecode/intro-to-swift/tree/master/day-4/DictionariesPractice.playground)
 
-###Conclusion
+### Conclusion
 Like arrays, dictionaries are common in both Swift and in other languages as well. You will use them frequently, and soon will be able to quickly discern whether a situation calls for an array or a dictionary.

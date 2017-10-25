@@ -8,7 +8,7 @@ import UIKit
 //1. Min and Max
 // Complete the following function so that it returns two integer values, min and max.
 
-//func minAndMax(num1: Int, num2: Int)->(String, Int) {
+//func minAndMax(num1: Int, num2: Int)->(Int, Int) {
 //
 //}
 

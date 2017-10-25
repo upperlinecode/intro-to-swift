@@ -21,7 +21,7 @@ There is no way that we could properly master all of the intricacies of writing 
 func pet(species: String) {
   print("I love animals. I just got a new pet \(species)!")
 }
-pet("dog") //prints "I love animals. I just got a new pet dog!" 
+pet(species: "dog") //prints "I love animals. I just got a new pet dog!" 
 ```
 - Adding more parameters works the same way. Simply seperate them by commas.
 - When calling the function, there are some extra rules regarding multiple parameters. 
@@ -29,26 +29,26 @@ pet("dog") //prints "I love animals. I just got a new pet dog!"
   - Parameters after the first must have argument labels. This just means the argument is preceded by the parameter's name and a colon.
 ```Swift
 func pets(count: Int, species: String) {
-  print("I love animals. I just got \(count) new \(species)s!")
+    print("I love animals. I just got \(count) new \(species)s!")
 }
-pets(5, species: "dog") //prints "I love animals. I just 5 new dogs!"
+pets(count: 5, species: "dog") //prints "I love animals. I just 5 new dogs!"
 
 
 func medalStand(firstPlace: String, secondPlace: String, thirdPlace: String) {
-  print("Gold Medal Winnder: \(firstPlace)")
-  print("Silver Medal Winnder: \(secondPlace)")
-  print("Bronze Medal Winnder: \(thirdPlace)")
+    print("Gold Medal Winnder: \(firstPlace)")
+    print("Silver Medal Winnder: \(secondPlace)")
+    print("Bronze Medal Winnder: \(thirdPlace)")
 }
-medalStand("Allison", secondPlace: "Melanie", thirdPlace"George")
+medalStand(firstPlace: "Allison", secondPlace: "Melanie", thirdPlace: "George")
 ```
 
 #### Default Parameters
 - We can define parameters so that they take on a default value if we don't give them a value in the method call. Simply assign a value to the parameter after the parameter's type.
 ```Swift
 func pets(count: Int, species: String = "parakeet") {
-  print("I love animals. I just got \(count) new \(species)s!")
+    print("I love animals. I just got \(count) new \(species)s!")
 }
-pets(3) //prints "I love animals. I just 3 new parakeets!"
+pets(count: 3) //prints "I love animals. I just 3 new parakeets!"
 ```
 - Make sure that you list your default parameters last. This won't neccessarily lead to errors, but it's considered good style.
 
@@ -60,13 +60,17 @@ Break for [advanced functions - practice 1](https://github.com/upperlinecode/int
 func squared(number: Double)->Double {
   return pow(number, 2.0)
 }
-squared(4.0) //returns 16.0
+squared(number: 4.0) //returns 16.0
 ```
 - Here is an example of a time we may want to return two values. This function accepts an array of strings. Each food in the array is ordered from favorite to least favorite. How could we return both the favorite and least favorite strings from this array?
 ```Swift
+
 func favoriteFoods(foodRanking: [String])->String {
-  print("I like a lot of different foods. My favorite is \(foodRanking.first) and my least favorite is \(foodRanking.last).")
-  return foodRanking.first
+    if foodRanking.isEmpty == false {
+        print("I like a lot of different foods. My favorite is \(foodRanking.first!) and my least favorite is \(foodRanking.last!).")
+        return foodRanking.first!
+    }
+    return "Empty Array"
 }
 ```
 - For this, we need to learn about a new data type called tuples. Tuples can group multiple values into a single value. The syntax looks a little like listing multiple parameters. Just seperate the values with commas, and surround the list of values with parentheses.
@@ -76,10 +80,13 @@ print(myName.firstName) //prints "Peter"
 ```
 - To return multiple values from a function, just return a tuple.
 ```Swift
-func favoriteFoods(foodRanking: [String])->(favoriteFood: String, leastFavoriteFood: String) {
-  return (foodRanking.first, foodRanking.last)
+func favoriteFoods(foodRanking: [String]) -> (favoriteFood: String, leastFavoriteFood: String) {
+    if foodRanking.isEmpty == false {
+        return (foodRanking.first!, foodRanking.last!)
+    }
+    return("Empty Array", "Put something in the Array")
 }
-let foodPreferences = favoriteFoods["pizza", "salads", "sweet potatoes", "chicken", "corn on the cob", "pasta"]
+let foodPreferences = favoriteFoods(foodRanking: ["pizza", "salads", "sweet potatoes", "chicken", "corn on the cob", "pasta"])
 print("I like a lot of different foods. My favorite is \(foodPreferences.favoriteFood) and my least favorite is \(foodPreferences.leastFavoriteFood).")
 ```
 
@@ -99,9 +106,9 @@ func average(numbers: Double...) -> Double {
     }
     return total / Double(numbers.count)
 }
-average(4.2, 4.6) //returns 4.4
-average(2.5) //returns 2.5
-average(2.5, 7.5, 4.2, 9.8, 4.1) //returns 5.62
+average(numbers: 4.2, 4.6) //returns 4.4
+average(numbers: 2.5) //returns 2.5
+average(numbers: 2.5, 7.5, 4.2, 9.8, 4.1) //returns 5.62
 ```
 - A variadic parameter is desclared by adding three period characters after the parameter type.
 - The arguments are passed into the function as an array with the name specified in the parameter list.

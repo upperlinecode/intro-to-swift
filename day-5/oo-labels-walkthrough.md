@@ -1,3 +1,4 @@
+
 # Object Oriented Labels
 
 Completed project code [here](https://github.com/upperlinecode/intro-to-swift/tree/solution/day-5/ObjectOrientedLabels)
@@ -70,10 +71,9 @@ Break for a couple of minutes and let students play around with these properties
     ![](https://github.com/upperlinecode/intro-to-swift/blob/master/day-5/images/IBAction-form.png?raw=true)
 
      ```Swift import UIKit
+          class ViewController: UIViewController {
 
-class ViewController: UIViewController {
-
-```
+     ```
 override func viewDidLoad() {
     super.viewDidLoad()
 }
@@ -93,7 +93,7 @@ override func viewDidLoad() {
 
 ```
 - Now, pressing the success button will draw a green label with the text "Success"
-####MVC Review
+#### MVC Review
 - While our button is now connected, and it functions how we want, we still aren't finished. Simply having working code isn't always enough. It's important to have code that is clean, concise, and organized according to the MVC design pattern. That means our code should be organized into a model, a view, and a controller. This is what Apple has to say about how a user's actions (like pushing a button) should communicate with your code:
 ```
 
@@ -103,7 +103,7 @@ Communication: User actions in the view layer that create or modify data are com
 
 - In other words, we shouldn't write all of the code for generating a label in the view controller. Instead, we can create a class that can generate labels and then call upon this class in the view controller.
 
-####CustomLabel.swift
+#### CustomLabel.swift
 - Our model is going to be stored in CustomLabel.swift, which now contains an empty class, CustomLabel.
 - This class needs one property, view. When we created a label in ViewController and added it to the view, we did so with this line of code:
 ```Swift
